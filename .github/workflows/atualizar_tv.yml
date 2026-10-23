@@ -51,14 +51,19 @@ jobs:
       - name: Executar scraper
         run: python scraper.py
 
+      
       - name: Publicar JSON atualizado
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add dados_tv.json
+
           if git diff --cached --quiet; then
             echo "Sem alterações no JSON."
           else
             git commit -m "chore: atualizar dados da TV corporativa"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
+
