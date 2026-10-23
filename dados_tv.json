@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "gerado_em": "2026-10-23T20:26:22.299789+00:00",
+  "gerado_em": "2026-10-23T20:29:50.568121+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -43,7 +43,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "anastacio": {
       "nome": "Anastácio",
@@ -64,7 +64,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "anaurilandia": {
       "nome": "Anaurilândia",
@@ -93,7 +93,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "antonio-joao": {
       "nome": "Antônio João",
@@ -134,7 +134,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "aquidauana": {
       "nome": "Aquidauana",
@@ -155,7 +155,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "aral-moreira": {
       "nome": "Aral Moreira",
@@ -268,7 +268,7 @@
       ],
       "praca_graos": "Campo Grande",
       "regiao_pecuaria": "Região Centro",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "caracol": {
       "nome": "Caracol",
@@ -345,7 +345,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Norte",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "deodapolis": {
       "nome": "Deodápolis",
@@ -366,7 +366,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "dois-irmaos-do-buriti": {
       "nome": "Dois Irmãos do Buriti",
@@ -403,7 +403,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "eldorado": {
       "nome": "Eldorado",
@@ -468,7 +468,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "iguatemi": {
       "nome": "Iguatemi",
@@ -593,7 +593,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "mundo-novo": {
       "nome": "Mundo Novo",
@@ -638,7 +638,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "nova-andradina": {
       "nome": "Nova Andradina",
@@ -683,7 +683,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "paranhos": {
       "nome": "Paranhos",
@@ -712,7 +712,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "ponta-pora": {
       "nome": "Ponta Porã",
@@ -741,7 +741,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "ribas-do-rio-pardo": {
       "nome": "Ribas do Rio Pardo",
@@ -814,7 +814,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
+      "atualizado_em": "2026-10-23T20:29:50.568121+00:00"
     },
     "sao-gabriel-do-oeste": {
       "nome": "São Gabriel do Oeste",
