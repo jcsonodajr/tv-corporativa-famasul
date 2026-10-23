@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>TV Corporativa | Sistema FAMASUL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#03140c;--green:#0a3d24;--gold:#d97706;--gold2:#f59e0b;--glass:rgba(7,41,24,.78);--line:rgba(255,255,255,.12);--white:#f5f7f3;--muted:#b9c8bf}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:radial-gradient(ellipse at 15% 10%,#0b4528 0%,#03140c 58%,#020a06 100%);color:var(--white);font-family:Montserrat,Arial,sans-serif}
+body{display:grid;grid-template-rows:115px minmax(0,1fr) 65px;padding:0 24px;gap:12px}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);min-width:0}
+.brand{display:flex;align-items:center;gap:20px;min-width:0}.logo-pill{background:#fff;border-radius:10px;padding:10px 14px;box-shadow:0 5px 22px #0005;display:flex;align-items:center;justify-content:center;min-width:190px;height:70px}.logo-pill img{max-width:185px;max-height:50px;object-fit:contain}.divider{height:55px;width:2px;background:var(--gold);flex-shrink:0}.syndicate{font-size:clamp(18px,1.45vw,28px);font-weight:800;letter-spacing:.04em;line-height:1.2;text-transform:uppercase;max-width:700px}.syndicate span{color:var(--gold2)}
+.weather-clock{display:flex;align-items:center;gap:26px;flex-shrink:0}.weather{display:flex;align-items:center;gap:12px}.weather-icon{font-size:38px}.temp{font:600 34px Oswald,sans-serif}.condition{font-size:12px;color:var(--muted);max-width:125px}.clock{text-align:right;border-left:1px solid var(--line);padding-left:22px}.time{font:600 36px Oswald,sans-serif;letter-spacing:.04em}.date{font-size:11px;color:var(--muted);text-transform:capitalize}
+main{display:grid;grid-template-columns:minmax(0,1fr) 470px;gap:18px;min-height:0}.stage{position:relative;min-width:0;min-height:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--glass);box-shadow:0 12px 42px #0003}.slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease;pointer-events:none;display:flex}.slide.active{opacity:1;pointer-events:auto}.news-media,.banner-media{position:relative;overflow:hidden;background:#071b10;display:flex;align-items:center;justify-content:center}.news-media{width:55%}.news-media:before,.banner-media:before{content:"";position:absolute;inset:-18px;background-image:var(--backdrop);background-position:center;background-size:cover;filter:blur(24px) brightness(.38);transform:scale(1.12)}.news-media img,.banner-media img{position:relative;z-index:1;max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain}.news-copy{width:45%;padding:clamp(28px,3vw,58px);display:flex;flex-direction:column;justify-content:center;gap:22px;background:linear-gradient(135deg,rgba(4,26,15,.95),rgba(7,41,24,.72))}.eyebrow{color:var(--gold2);font-weight:800;letter-spacing:.16em;font-size:12px;text-transform:uppercase}.news-copy h1{font-size:clamp(27px,2.5vw,48px);line-height:1.18;margin:0;font-weight:800}.news-copy p{font-size:clamp(14px,1.1vw,20px);line-height:1.55;color:#d4dfd7;margin:0}.read-more{margin-top:8px;color:var(--gold2);font-weight:700;font-size:13px}.banner-media{width:100%;height:100%;padding:18px}.banner-media img{object-fit:contain;width:95%;height:95%}
+.courses-slide{padding:30px;display:flex;flex-direction:column;gap:20px;width:100%;background:linear-gradient(135deg,#062416,#03140c)}.courses-heading{display:flex;justify-content:space-between;align-items:center}.courses-heading h2{font-size:28px;margin:0}.courses-heading span{font-size:12px;color:var(--gold2);font-weight:800}.course-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;flex:1;min-height:0}.course{border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:20px;background:rgba(255,255,255,.035);display:flex;flex-direction:column;gap:10px;overflow:hidden}.course h3{font-size:clamp(16px,1.3vw,23px);line-height:1.25;margin:0}.course p{font-size:12px;line-height:1.4;color:var(--muted);margin:0}.course .period{font:500 17px Oswald,sans-serif;color:var(--gold2)}.empty-courses{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:18px}
+.sidebar{display:flex;flex-direction:column;gap:12px;min-height:0}.market-title{display:flex;justify-content:space-between;align-items:center;padding:4px 2px}.market-title h2{font-size:22px;letter-spacing:.1em;margin:0}.city-badge{font-size:10px;max-width:150px;text-align:right;color:var(--gold2);border:1px solid #d9770666;border-radius:30px;padding:7px 10px;font-weight:800;text-transform:uppercase}.quote-card{flex:1;min-height:0;background:var(--glass);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;justify-content:center;gap:4px;position:relative;overflow:hidden}.quote-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--gold)}.quote-name{font-size:12px;letter-spacing:.12em;font-weight:800;color:#d2ded5;text-transform:uppercase}.quote-value{font:600 clamp(27px,2.4vw,42px) Oswald,sans-serif;letter-spacing:.02em}.quote-meta{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:10px}.variation{color:#a7e0b7;font-weight:700}.variation.down{color:#ffb4a8}.quote-date{font-size:9px;color:#91a69a;margin-top:4px}.source-note{text-align:center;font-size:10px;color:var(--muted);padding:0 8px 2px}
+footer{display:flex;align-items:center;overflow:hidden;border-top:1px solid var(--line);gap:0;min-width:0}.ticker-label{background:var(--gold2);color:#1b170d;font-size:12px;font-weight:900;letter-spacing:.06em;padding:13px 18px;white-space:nowrap;height:100%;display:flex;align-items:center}.ticker-window{overflow:hidden;flex:1;white-space:nowrap}.ticker-text{display:inline-block;padding-left:100%;animation:ticker 42s linear infinite;font-size:14px;font-weight:600;color:#e4ede6}.ticker-text span{margin-right:70px}.status{position:absolute;right:16px;bottom:12px;font-size:9px;color:#91a69a;z-index:5}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+@media(max-width:1200px){body{padding:0 12px;grid-template-rows:90px minmax(0,1fr) 50px;gap:8px}header{gap:10px}.logo-pill{min-width:130px;height:58px;padding:6px}.logo-pill img{max-width:125px}.brand{gap:10px}.syndicate{font-size:16px}.weather-clock{gap:10px}.temp,.time{font-size:25px}.weather-icon{font-size:26px}.clock{padding-left:10px}main{grid-template-columns:minmax(0,1fr) 330px;gap:10px}.quote-card{padding:10px 12px}.quote-value{font-size:27px}.market-title h2{font-size:17px}.news-copy{padding:22px}.news-copy h1{font-size:27px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo-pill"><img src="https://portal.sistemafamasul.com.br/sites/default/files/logo-site-novaa.png" alt="Sistema FAMASUL" onerror="this.style.display='none'"></div>
+    <div class="divider"></div>
+    <div class="syndicate">SINDICATO RURAL DE <span id="cityName">CAMPO GRANDE</span></div>
+  </div>
+  <div class="weather-clock">
+    <div class="weather"><div class="weather-icon" id="weatherIcon">🌤️</div><div><div class="temp" id="temperature">--°</div><div class="condition" id="condition">Consultando clima...</div></div></div>
+    <div class="clock"><div class="time" id="clock">--:--</div><div class="date" id="date">Carregando data...</div></div>
+  </div>
+</header>
+<main>
+  <section class="stage" id="stage" aria-label="Notícias, banners e cursos">
+    <div class="slide active"><div class="banner-media"><img src="https://portal.sistemafamasul.com.br/sites/default/files/logo-site-novaa.png" alt="Sistema FAMASUL"></div></div>
+    <div class="status" id="status">Inicializando painel...</div>
+  </section>
+  <aside class="sidebar">
+    <div class="market-title"><h2>MERCADO AGRO</h2><div class="city-badge" id="marketCity">CAMPO GRANDE</div></div>
+    <div class="quote-card" id="quote-soja"><div class="quote-name">Soja · saca 60 kg</div><div class="quote-value">--</div><div class="quote-meta"><span class="place">Praça: --</span><span class="variation">Variação: --</span></div><div class="quote-date">Aguardando cotação oficial</div></div>
+    <div class="quote-card" id="quote-milho"><div class="quote-name">Milho · saca 60 kg</div><div class="quote-value">--</div><div class="quote-meta"><span class="place">Praça: --</span><span class="variation">Variação: --</span></div><div class="quote-date">Aguardando cotação oficial</div></div>
+    <div class="quote-card" id="quote-boi"><div class="quote-name">Boi gordo · arroba</div><div class="quote-value">--</div><div class="quote-meta"><span class="place">Região: --</span><span class="variation">Variação: --</span></div><div class="quote-date">Aguardando cotação oficial</div></div>
+    <div class="quote-card" id="quote-vaca"><div class="quote-name">Vaca gorda · arroba</div><div class="quote-value">--</div><div class="quote-meta"><span class="place">Região: --</span><span class="variation">Variação: --</span></div><div class="quote-date">Aguardando cotação oficial</div></div>
+    <div class="source-note">Fonte: Sistema FAMASUL / Granos Corretora</div>
+  </aside>
+</main>
+<footer><div class="ticker-label">AVISOS &amp; NOTÍCIAS</div><div class="ticker-window"><div class="ticker-text" id="ticker"><span>Bem-vindo ao painel institucional do Sistema FAMASUL e SENAR-MS.</span><span>Acompanhe os cursos e as notícias do setor agropecuário.</span></div></div></footer>
+<script>
+"use strict";
+const FAMASUL = "https://portal.sistemafamasul.com.br/";
+const DEFAULT_CITY = "campo-grande";
+const MUNICIPIOS = [
+"Água Clara","Alcinópolis","Amambai","Anastácio","Anaurilândia","Angélica","Antônio João","Aparecida do Taboado","Aquidauana","Aral Moreira","Bandeirantes","Bataguassu","Batayporã","Bela Vista","Bodoquena","Bonito","Brasilândia","Caarapó","Camapuã","Campo Grande","Caracol","Cassilândia","Chapadão do Sul","Corguinho","Coronel Sapucaia","Corumbá","Costa Rica","Coxim","Deodápolis","Dois Irmãos do Buriti","Douradina","Dourados","Eldorado","Fátima do Sul","Figueirão","Glória de Dourados","Guia Lopes da Laguna","Iguatemi","Inocência","Itaporã","Itaquiraí","Ivinhema","Japorã","Jaraguari","Jardim","Jateí","Juti","Ladário","Laguna Carapã","Maracaju","Miranda","Mundo Novo","Naviraí","Nioaque","Nova Alvorada do Sul","Nova Andradina","Novo Horizonte do Sul","Paraíso das Águas","Paranaíba","Paranhos","Pedro Gomes","Ponta Porã","Porto Murtinho","Ribas do Rio Pardo","Rio Brilhante","Rio Negro","Rio Verde de Mato Grosso","Rochedo","Santa Rita do Pardo","São Gabriel do Oeste","Selvíria","Sete Quedas","Sidrolândia","Sonora","Tacuru","Taquarussu","Terenos","Três Lagoas","Vicentina"
+];
+function slugify(s){return s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
+const slugToName = Object.fromEntries(MUNICIPIOS.map(n=>[slugify(n),n]));
+const params = new URLSearchParams(location.search);
+const requested = slugify(params.get("sindicato") || DEFAULT_CITY);
+const citySlug = slugToName[requested] ? requested : DEFAULT_CITY;
+const cityName = slugToName[citySlug] || "Campo Grande";
+document.getElementById("cityName").textContent = cityName;
+document.getElementById("marketCity").textContent = cityName;
+const $ = id => document.getElementById(id);
+const state = {data:null, slides:[], index:0, ticker:[]};
+const safe = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function formatDate(d){return new Intl.DateTimeFormat("pt-BR",{weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(d)}
+function tickClock(){const d=new Date();$("clock").textContent=new Intl.DateTimeFormat("pt-BR",{hour:"2-digit",minute:"2-digit",hour12:false}).format(d);$("date").textContent=formatDate(d)}
+tickClock();setInterval(tickClock,1000);
+function weatherText(code){if(code===0)return ["Céu limpo","☀️"];if([1,2,3].includes(code))return ["Parcialmente nublado","🌤️"];if([45,48].includes(code))return ["Neblina","🌫️"];if([51,53,55,56,57].includes(code))return ["Garoa","🌦️"];if([61,63,65,66,67,80,81,82].includes(code))return ["Chuva / pancadas","🌧️"];if([71,73,75,77,85,86].includes(code))return ["Neve","🌨️"];if([95,96,99].includes(code))return ["Trovoadas","⛈️"];return ["Condição variável","🌥️"]}
+async function loadWeather(){
+ try{
+  const g=await fetch("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(cityName)+"&count=10&language=pt&format=json",{cache:"no-store"});
+  if(!g.ok)throw Error("geocoding HTTP "+g.status);
+  const gj=await g.json();const match=(gj.results||[]).find(x=>x.country_code==="BR" && (x.admin1||"").toLowerCase().includes("mato grosso do sul")) || (gj.results||[])[0];
+  if(!match)throw Error("Município não localizado");
+  const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${match.latitude}&longitude=${match.longitude}&current=temperature_2m,weather_code&timezone=America%2FCampo_Grande`,{cache:"no-store"});
+  if(!r.ok)throw Error("weather HTTP "+r.status);
+  const j=await r.json(), current=j.current||{}, info=weatherText(current.weather_code);
+  $("temperature").textContent=Math.round(current.temperature_2m)+"°";
+  $("condition").textContent=info[0];$("weatherIcon").textContent=info[1];
+ }catch(e){$("condition").textContent="Clima indisponível";console.warn(e)}
+}
+function buildSlide(type, item){
+ const el=document.createElement("div");el.className="slide";
+ if(type==="banner"){
+  const media=document.createElement("div");media.className="banner-media";
+  const img=document.createElement("img");img.src=item.imagem||item.image||FAMASUL;img.alt=item.titulo||"Banner institucional";img.onerror=()=>{img.src=FAMASUL};
+  media.style.setProperty("--backdrop",`url("${(item.imagem||FAMASUL).replace(/"/g,"%22")}")`);media.append(img);el.append(media);
+ }else if(type==="news"){
+  const media=document.createElement("div");media.className="news-media";
+  const img=document.createElement("img");img.src=item.imagem||item.image||FAMASUL;img.alt=item.titulo||"Notícia";img.onerror=()=>{img.style.display="none"};
+  media.style.setProperty("--backdrop",`url("${(item.imagem||FAMASUL).replace(/"/g,"%22")}")`);media.append(img);
+  const copy=document.createElement("div");copy.className="news-copy";
+  copy.innerHTML=`<div class="eyebrow">${safe(item.fonte||"Sistema FAMASUL")} · NOTÍCIAS</div><h1>${safe(item.titulo||"Notícias do setor agropecuário")}</h1><p>${safe(item.resumo||"Acesse o portal oficial para consultar a notícia completa e outras atualizações do Sistema FAMASUL.")}</p><div class="read-more">portal.sistemafamasul.com.br ↗</div>`;
+  el.append(media,copy);
+ }else{
+  el.classList.add("courses-slide");
+  const courses=(item||[]).slice(0,4);
+  let html=`<div class="courses-heading"><h2>PRÓXIMOS CURSOS</h2><span>SENAR-MS · ${safe(cityName)}</span></div>`;
+  if(!courses.length)html+='<div class="empty-courses">Consulte o portal SENAR-MS para a programação atualizada.</div>';
+  else {html+='<div class="course-grid">'+courses.map(c=>`<article class="course"><div class="eyebrow">CAPACITAÇÃO SENAR-MS</div><h3>${safe(c.titulo)}</h3><div class="period">${safe(c.periodo||"Data a confirmar")}</div><p>${c.carga_horaria?safe(c.carga_horaria)+" horas · ":""}${safe(c.local||"Local a confirmar")}</p><p>${safe(c.status||"Consulte disponibilidade")}</p></article>`).join("")+'</div>'}
+  el.innerHTML=html;
+ }
+ return el;
+}
+function rebuildSlides(data){
+ const stage=$("stage");stage.querySelectorAll(".slide").forEach(n=>n.remove());
+ const slides=[], news=(data?.famasul?.noticias||[]).filter(n=>n.titulo), banners=(data?.famasul?.banners||[]).filter(b=>b.imagem);
+ const courses=data?.municipios?.[citySlug]?.cursos||[];
+ let ni=0,bi=0;
+ // Sequência repetida: 3 notícias, cursos, 1 banner; depois recomeça.
+ // Assim, a tela de cursos aparece após cada grupo de três notícias.
+ const sequence=["news","news","news","courses","banner","news","news","news","courses","banner"];
+ for(const type of sequence){
+  let item;
+  if(type==="news"&&news.length)item=news[ni++%news.length];
+  else if(type==="banner"&&banners.length)item=banners[bi++%banners.length];
+  else if(type==="courses")item=courses;
+  else if(type==="news")item={titulo:"Notícias do Sistema FAMASUL",resumo:"As notícias oficiais serão exibidas assim que a fonte estiver disponível.",imagem:"",fonte:"Sistema FAMASUL"};
+  else item={titulo:"Sistema FAMASUL",imagem:"https://portal.sistemafamasul.com.br/sites/default/files/logo-site-novaa.png"};
+  const el=buildSlide(type,item);stage.append(el);slides.push(el);
+ }
+ slides[0].classList.add("active");state.slides=slides;state.index=0;
+}
+function updateQuotes(data){
+ const q=data?.cotacoes||{}, cityData=data?.municipios?.[citySlug]||{};
+ const grainPlace=cityData.praca_graos||"Mato Grosso do Sul";
+ const region=cityData.regiao_pecuaria||"Mato Grosso do Sul";
+ function latest(items,place){
+  const matching=(items||[]).filter(x=>x.praca&&x.valor!=null);
+  const exact=matching.filter(x=>norm(x.praca)===norm(place));
+  const pool=exact.length?exact:matching.filter(x=>norm(x.praca)==="mato grosso do sul");
+  pool.sort((a,b)=>parseDate(b.data)-parseDate(a.data));return pool[0]||null;
+ }
+ function norm(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
+ function parseDate(s){const m=String(s||"").match(/(\d{2})\/(\d{2})\/(\d{4})/);return m?new Date(+m[3],+m[2]-1,+m[1]).getTime():0}
+ const map=[["soja",q.soja,grainPlace,"Praça: "],["milho",q.milho,grainPlace,"Praça: "],["boi",q.boi,region,"Região: "],["vaca",q.vaca,region,"Região: "]];
+ for(const [key,items,place,label] of map){
+  const el=$("quote-"+key), found=latest(items,place);
+  if(found){
+   el.querySelector(".quote-value").textContent=Number(found.valor).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+   el.querySelector(".place").textContent=label+(found.praca||place);
+   el.querySelector(".variation").textContent="Variação: n/d";
+   el.querySelector(".quote-date").textContent="Atualizado em "+(found.data||"data não informada")+" · fonte oficial";
+  }else{
+   el.querySelector(".place").textContent=label+place;
+   el.querySelector(".quote-date").textContent="Cotação não disponível na coleta atual";
+  }
+ }
+}
+function updateTicker(data){
+ const headlines=(data?.famasul?.noticias||[]).map(n=>n.titulo).filter(Boolean);
+ const courses=(data?.municipios?.[citySlug]?.cursos||[]).slice(0,3).map(c=>"Curso SENAR-MS: "+c.titulo+" — "+(c.periodo||"data a confirmar"));
+ const notices=[...headlines,...courses,"Confira a programação no portal oficial do SENAR-MS."];
+ $("ticker").innerHTML=notices.map(t=>`<span>${safe(t)}</span>`).join("");
+}
+async function loadData(){
+ const candidates=["./dados_tv.json","dados_tv.json"];
+ let data=null,lastError=null;
+ for(const url of candidates){
+  try{const r=await fetch(url+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);const j=await r.json();if(!j||typeof j!=="object")throw Error("JSON inválido");data=j;break}
+  catch(e){lastError=e}
+ }
+ if(data){
+  state.data=data;rebuildSlides(data);updateQuotes(data);updateTicker(data);
+  const when=data.gerado_em?new Date(data.gerado_em).toLocaleString("pt-BR"):"horário não informado";
+  $("status").textContent="Dados coletados em "+when;
+ }else{
+  $("status").textContent="Sem dados_tv.json; publique o arquivo junto ao index.html.";
+  if(!state.slides.length)rebuildSlides({famasul:{noticias:[],banners:[]},municipios:{},cotacoes:{}});
+  console.warn("Falha ao carregar dados_tv.json",lastError);
+ }
+}
+function nextSlide(){if(!state.slides.length)return;state.slides[state.index].classList.remove("active");state.index=(state.index+1)%state.slides.length;state.slides[state.index].classList.add("active")}
+loadData();loadWeather();
+setInterval(nextSlide,12000);
+setInterval(loadData,5*60*1000);
+setInterval(loadWeather,15*60*1000);
+window.addEventListener("online",loadData);
+</script>
+</body>
+</html>
