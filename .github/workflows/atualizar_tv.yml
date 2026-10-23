@@ -49,9 +49,7 @@ jobs:
           test -f scraper.py
 
       - name: Executar scraper
-        run: python scraper.py
-
-      
+        run: python scraper.py      
       
       - name: Publicar JSON atualizado
         run: |
@@ -69,5 +67,6 @@ jobs:
             git commit -m "chore: atualizar dados da TV corporativa"
             git push origin HEAD:main
           fi
+
 
 
