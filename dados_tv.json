@@ -1,0 +1,1002 @@
+{
+  "schema_version": 1,
+  "gerado_em": "2026-10-23T19:28:07.381502+00:00",
+  "fontes": {
+    "famasul": "https://portal.sistemafamasul.com.br/",
+    "cotacoes": "https://portal.sistemafamasul.com.br/cotacoes-online",
+    "senar": "https://senarms.org.br/municipios"
+  },
+  "municipios": {
+    "agua-clara": {
+      "nome": "Água Clara",
+      "slug": "agua-clara",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "alcinopolis": {
+      "nome": "Alcinópolis",
+      "slug": "alcinopolis",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "amambai": {
+      "nome": "Amambai",
+      "slug": "amambai",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "anastacio": {
+      "nome": "Anastácio",
+      "slug": "anastacio",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "anaurilandia": {
+      "nome": "Anaurilândia",
+      "slug": "anaurilandia",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "angelica": {
+      "nome": "Angélica",
+      "slug": "angelica",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "antonio-joao": {
+      "nome": "Antônio João",
+      "slug": "antonio-joao",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "aparecida-do-taboado": {
+      "nome": "Aparecida do Taboado",
+      "slug": "aparecida-do-taboado",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "aquidauana": {
+      "nome": "Aquidauana",
+      "slug": "aquidauana",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Oeste",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "aral-moreira": {
+      "nome": "Aral Moreira",
+      "slug": "aral-moreira",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "bandeirantes": {
+      "nome": "Bandeirantes",
+      "slug": "bandeirantes",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "bataguassu": {
+      "nome": "Bataguassu",
+      "slug": "bataguassu",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "bataypora": {
+      "nome": "Batayporã",
+      "slug": "bataypora",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "bela-vista": {
+      "nome": "Bela Vista",
+      "slug": "bela-vista",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "bodoquena": {
+      "nome": "Bodoquena",
+      "slug": "bodoquena",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "bonito": {
+      "nome": "Bonito",
+      "slug": "bonito",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Oeste",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "brasilandia": {
+      "nome": "Brasilândia",
+      "slug": "brasilandia",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "caarapo": {
+      "nome": "Caarapó",
+      "slug": "caarapo",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "camapua": {
+      "nome": "Camapuã",
+      "slug": "camapua",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "campo-grande": {
+      "nome": "Campo Grande",
+      "slug": "campo-grande",
+      "cursos": [],
+      "praca_graos": "Campo Grande",
+      "regiao_pecuaria": "Região Centro",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "caracol": {
+      "nome": "Caracol",
+      "slug": "caracol",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "cassilandia": {
+      "nome": "Cassilândia",
+      "slug": "cassilandia",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "chapadao-do-sul": {
+      "nome": "Chapadão do Sul",
+      "slug": "chapadao-do-sul",
+      "cursos": [],
+      "praca_graos": "Chapadão do Sul",
+      "regiao_pecuaria": "Região Norte",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "corguinho": {
+      "nome": "Corguinho",
+      "slug": "corguinho",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "coronel-sapucaia": {
+      "nome": "Coronel Sapucaia",
+      "slug": "coronel-sapucaia",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "corumba": {
+      "nome": "Corumbá",
+      "slug": "corumba",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Oeste",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "costa-rica": {
+      "nome": "Costa Rica",
+      "slug": "costa-rica",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Norte",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "coxim": {
+      "nome": "Coxim",
+      "slug": "coxim",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Norte",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "deodapolis": {
+      "nome": "Deodápolis",
+      "slug": "deodapolis",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "dois-irmaos-do-buriti": {
+      "nome": "Dois Irmãos do Buriti",
+      "slug": "dois-irmaos-do-buriti",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "douradina": {
+      "nome": "Douradina",
+      "slug": "douradina",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "dourados": {
+      "nome": "Dourados",
+      "slug": "dourados",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "eldorado": {
+      "nome": "Eldorado",
+      "slug": "eldorado",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "fatima-do-sul": {
+      "nome": "Fátima do Sul",
+      "slug": "fatima-do-sul",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "figueirao": {
+      "nome": "Figueirão",
+      "slug": "figueirao",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "gloria-de-dourados": {
+      "nome": "Glória de Dourados",
+      "slug": "gloria-de-dourados",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "guia-lopes-da-laguna": {
+      "nome": "Guia Lopes da Laguna",
+      "slug": "guia-lopes-da-laguna",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "iguatemi": {
+      "nome": "Iguatemi",
+      "slug": "iguatemi",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "inocencia": {
+      "nome": "Inocência",
+      "slug": "inocencia",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "itapora": {
+      "nome": "Itaporã",
+      "slug": "itapora",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "itaquirai": {
+      "nome": "Itaquiraí",
+      "slug": "itaquirai",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "ivinhema": {
+      "nome": "Ivinhema",
+      "slug": "ivinhema",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "japora": {
+      "nome": "Japorã",
+      "slug": "japora",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "jaraguari": {
+      "nome": "Jaraguari",
+      "slug": "jaraguari",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "jardim": {
+      "nome": "Jardim",
+      "slug": "jardim",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "jatei": {
+      "nome": "Jateí",
+      "slug": "jatei",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "juti": {
+      "nome": "Juti",
+      "slug": "juti",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "ladario": {
+      "nome": "Ladário",
+      "slug": "ladario",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Oeste",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "laguna-carapa": {
+      "nome": "Laguna Carapã",
+      "slug": "laguna-carapa",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "maracaju": {
+      "nome": "Maracaju",
+      "slug": "maracaju",
+      "cursos": [],
+      "praca_graos": "Maracaju",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "miranda": {
+      "nome": "Miranda",
+      "slug": "miranda",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Oeste",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "mundo-novo": {
+      "nome": "Mundo Novo",
+      "slug": "mundo-novo",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "navirai": {
+      "nome": "Naviraí",
+      "slug": "navirai",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "nioaque": {
+      "nome": "Nioaque",
+      "slug": "nioaque",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "nova-alvorada-do-sul": {
+      "nome": "Nova Alvorada do Sul",
+      "slug": "nova-alvorada-do-sul",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "nova-andradina": {
+      "nome": "Nova Andradina",
+      "slug": "nova-andradina",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "novo-horizonte-do-sul": {
+      "nome": "Novo Horizonte do Sul",
+      "slug": "novo-horizonte-do-sul",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "paraiso-das-aguas": {
+      "nome": "Paraíso das Águas",
+      "slug": "paraiso-das-aguas",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "paranaiba": {
+      "nome": "Paranaíba",
+      "slug": "paranaiba",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "paranhos": {
+      "nome": "Paranhos",
+      "slug": "paranhos",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "pedro-gomes": {
+      "nome": "Pedro Gomes",
+      "slug": "pedro-gomes",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "ponta-pora": {
+      "nome": "Ponta Porã",
+      "slug": "ponta-pora",
+      "cursos": [],
+      "praca_graos": "Ponta Porã",
+      "regiao_pecuaria": "Região Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "porto-murtinho": {
+      "nome": "Porto Murtinho",
+      "slug": "porto-murtinho",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Oeste",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "ribas-do-rio-pardo": {
+      "nome": "Ribas do Rio Pardo",
+      "slug": "ribas-do-rio-pardo",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "rio-brilhante": {
+      "nome": "Rio Brilhante",
+      "slug": "rio-brilhante",
+      "cursos": [],
+      "praca_graos": "Dourados",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "rio-negro": {
+      "nome": "Rio Negro",
+      "slug": "rio-negro",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "rio-verde-de-mato-grosso": {
+      "nome": "Rio Verde de Mato Grosso",
+      "slug": "rio-verde-de-mato-grosso",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "rochedo": {
+      "nome": "Rochedo",
+      "slug": "rochedo",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "santa-rita-do-pardo": {
+      "nome": "Santa Rita do Pardo",
+      "slug": "santa-rita-do-pardo",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "sao-gabriel-do-oeste": {
+      "nome": "São Gabriel do Oeste",
+      "slug": "sao-gabriel-do-oeste",
+      "cursos": [],
+      "praca_graos": "São Gabriel do Oeste",
+      "regiao_pecuaria": "Região Norte",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "selviria": {
+      "nome": "Selvíria",
+      "slug": "selviria",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "sete-quedas": {
+      "nome": "Sete Quedas",
+      "slug": "sete-quedas",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "sidrolandia": {
+      "nome": "Sidrolândia",
+      "slug": "sidrolandia",
+      "cursos": [],
+      "praca_graos": "Sidrolândia",
+      "regiao_pecuaria": "Região Centro",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "sonora": {
+      "nome": "Sonora",
+      "slug": "sonora",
+      "cursos": [],
+      "praca_graos": "Sonora",
+      "regiao_pecuaria": "Região Norte",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "tacuru": {
+      "nome": "Tacuru",
+      "slug": "tacuru",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "taquarussu": {
+      "nome": "Taquarussu",
+      "slug": "taquarussu",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "terenos": {
+      "nome": "Terenos",
+      "slug": "terenos",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Região Centro",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "tres-lagoas": {
+      "nome": "Três Lagoas",
+      "slug": "tres-lagoas",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    },
+    "vicentina": {
+      "nome": "Vicentina",
+      "slug": "vicentina",
+      "cursos": [],
+      "praca_graos": "Mato Grosso do Sul",
+      "regiao_pecuaria": "Mato Grosso do Sul",
+      "atualizado_em": "2026-10-23T19:28:07.381502+00:00"
+    }
+  },
+  "famasul": {
+    "banners": [
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/BANNER%20SITE%20-%20INSTITUCIONAL%20c_0.jpg",
+        "titulo": "",
+        "link": "https://etec.senar.org.br/processo-seletivo"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/bannersite%20senar_1.jpg",
+        "titulo": "",
+        "link": "https://youtu.be/5dBM6l-brLk?si=Pbm5P7P3sW480LL_"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/BANNER%20SITE%20-%20INSTITUCIONAL_0.jpg",
+        "titulo": "",
+        "link": "https://www.instagram.com/sistemafamasul/"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/Novo_Banner%20Site%20Famasul_0.png",
+        "titulo": "",
+        "link": "http://famasulvantagens.com.br/"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/BANNER%20SITE_15%20EDI%C3%87%C3%83O%20REVISTA%20FAMASUL_0.png",
+        "titulo": "",
+        "link": "https://mla.bs/eb0077c7f6"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/Banner%20Site%20Agroci%C3%AAncia%2020262_0.png",
+        "titulo": "",
+        "link": "https://portal.sistemafamasul.com.br/premioagrociencia"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/banner%20site%20agrinho%202026_0.jpg",
+        "titulo": "",
+        "link": "https://agrinhoms.com.br/"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/banner-site-famasul-vantagens.gif",
+        "titulo": "",
+        "link": "http://famasulvantagens.com.br/"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/gif%20agrodados%20famasul_0.gif",
+        "titulo": "",
+        "link": "http://extranet.senarms.org.br/agrodados/Account/login"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/SITE%20SENAR%20E%20FAMASUL_0.png",
+        "titulo": "",
+        "link": "https://mla.bs/0831f21e"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/funar-estagio.gif",
+        "titulo": "",
+        "link": "https://portal.sistemafamasul.com.br/agencia-de-estagios"
+      },
+      {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/banner_web_ateg_paisagens_rurais_senar_761x160.gif",
+        "titulo": "",
+        "link": "https://portal.sistemafamasul.com.br/"
+      }
+    ],
+    "noticias": [
+      {
+        "titulo": "Aprender a ler virou realidade e levou Edileusa a conquistar muito mais com o Senar/MS",
+        "link": "https://portal.sistemafamasul.com.br/noticias/aprender-ler-virou-realidade-e-levou-edileusa-conquistar-muito-mais-com-o-senarms",
+        "imagem": "",
+        "resumo": "",
+        "fonte": "Sistema FAMASUL"
+      },
+      {
+        "titulo": "Diretora da Famasul, Stéphanie Gobato está entre as 100 mulheres mais poderosas do agro, segundo a Forbes",
+        "link": "https://portal.sistemafamasul.com.br/noticias/diretora-da-famasul-st%C3%A9phanie-gobato-est%C3%A1-entre-100-mulheres-mais-poderosas-do-agro-segundo",
+        "imagem": "",
+        "resumo": "",
+        "fonte": "Sistema FAMASUL"
+      },
+      {
+        "titulo": "Em dez anos, programa de saúde do Senar/MS amplia de uma para seis especialidades médicas",
+        "link": "https://portal.sistemafamasul.com.br/noticias/em-dez-anos-programa-de-sa%C3%BAde-do-senarms-amplia-de-uma-para-seis-especialidades-m%C3%A9dicas",
+        "imagem": "",
+        "resumo": "",
+        "fonte": "Sistema FAMASUL"
+      },
+      {
+        "titulo": "Agroindústria atendida pelo Senar/MS conquista 3º lugar em prêmio nacional da CNA",
+        "link": "https://portal.sistemafamasul.com.br/noticias/agroind%C3%BAstria-atendida-pelo-senarms-conquista-3%C2%BA-lugar-em-pr%C3%AAmio-nacional-da-cna",
+        "imagem": "",
+        "resumo": "",
+        "fonte": "Sistema FAMASUL"
+      },
+      {
+        "titulo": "Senar/MS ajuda casal de produtores a abandonar o fiado e recuperar a renda da horta",
+        "link": "https://portal.sistemafamasul.com.br/noticias/senarms-ajuda-casal-de-produtores-abandonar-o-fiado-e-recuperar-renda-da-horta",
+        "imagem": "",
+        "resumo": "",
+        "fonte": "Sistema FAMASUL"
+      }
+    ]
+  },
+  "cotacoes": {
+    "soja": [
+      {
+        "data": "22/10/2026",
+        "praca": "Região Norte",
+        "valor": 349.21
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 140.56
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Oeste",
+        "valor": 350.85
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Centro",
+        "valor": 349.21
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Sul",
+        "valor": 354.13
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 334.46
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 354.13
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 354.13
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 334.46
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Oeste",
+        "valor": 350.85
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Norte",
+        "valor": 346.76
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 140.44
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Centro",
+        "valor": 349.21
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Sul",
+        "valor": 349.21
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Norte",
+        "valor": 346.76
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Oeste",
+        "valor": 345.94
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 140.64
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 349.21
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Sul",
+        "valor": 349.21
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Centro",
+        "valor": 349.21
+      },
+      {
+        "data": "19/10/2026",
+        "praca": "Região Centro",
+        "valor": 363.97
+      },
+      {
+        "data": "19/10/2026",
+        "praca": "Região Oeste",
+        "valor": 345.94
+      },
+      {
+        "data": "19/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 349.21
+      },
+      {
+        "data": "19/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 348.39
+      },
+      {
+        "data": "19/10/2026",
+        "praca": "Região Sul",
+        "valor": 349.21
+      },
+      {
+        "data": "19/10/2026",
+        "praca": "Região Norte",
+        "valor": 349.21
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 138.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Sonora",
+        "valor": 137.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Campo Grande",
+        "valor": 147.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Maracaju",
+        "valor": 141.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Sidrolândia",
+        "valor": 141.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 138.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Ponta Porã",
+        "valor": 140.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Dourados",
+        "valor": 142.5
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Campo Grande",
+        "valor": 144.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Ponta Porã",
+        "valor": 140.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Sidrolândia",
+        "valor": 141.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 139.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Sonora",
+        "valor": 137.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Dourados",
+        "valor": 142.5
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 139.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Maracaju",
+        "valor": 141.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Maracaju",
+        "valor": 141.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 139.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Dourados",
+        "valor": 142.5
+      },
+      {
+        "data": "19/10/2026",
+        "praca": "Dourados",
+        "valor": 52.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Sonora",
+        "valor": 137.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Ponta Porã",
+        "valor": 140.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Campo Grande",
+        "valor": 144.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Sidrolândia",
+        "valor": 141.0
+      }
+    ],
+    "milho": [],
+    "boi": [],
+    "vaca": []
+  },
+  "avisos": []
+}
