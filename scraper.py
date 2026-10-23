@@ -1,54 +1,31 @@
-    for element in soup.find_all(True):
-        label = text_of(element)
-        if not label or len(label) > 320:
-            continue
-        match = DATE_RANGE.match(label)
-        if not match:
-            continue
-        start, end, title = match.groups()
-        title = clean(title).strip(" -–—:")
-        # Descarta contêineres maiores cujo texto também começa pela data do curso;
-        # o título válido deve ser o texto do botão/link, não o cartão inteiro.
-        if re.search(r"\b(CONFIRMADO|ABERTO|INSCRIÇÕES ABERTAS|CARGA HORÁRIA|LOCALIZAÇÃO|PARCEIRO|TELEFONE|E-MAIL)\b", title, re.I):
-            continue
-        if len(title) < 4 or title.lower() in {"mais informações", "leia mais"}:
-            continue
-        # Escolhe o menor ancestral que contenha os metadados do curso.
-        card = element
-        for ancestor in element.parents:
-            blob = text_of(ancestor)
-            if len(blob) > 3500:
-                break
-            if "Carga horária:" in blob and ("Localização:" in blob or "Local:" in blob):
-                card = ancestor
-                break
-        blob = text_of(card)
-        hours = re.search(r"Carga\s+horária\s*:\s*(\d+)", blob, re.I)
-        local = re.search(r"Localização\s*:\s*(.+?)(?=\s+(?:Parceiro|Telefone|E-mail)\s*:|\s+MAIS INFORMAÇÕES\b|$)", blob, re.I)
-        status = re.search(r"\b(CONFIRMADO|ABERTO|INSCRIÇÕES ABERTAS)\b", blob, re.I)
-        more_link = ""
-        for a in card.select("a[href]"):
-            if "mais informações" in text_of(a).lower():
-                more_link = urljoin(url, a.get("href", ""))
-                break
-        key = (slugify(title), start, end)
-        if key in seen:
-            continue
-        seen.add(key)
-        courses.append({
-            "titulo": title[:180],
-            "periodo": f"{start} até {end}",
-            "data_inicio": start,
-            "data_fim": end,
-            "carga_horaria": int(hours.group(1)) if hours else None,
-            "local": clean(local.group(1)) if local else "",
-            "status": status.group(1).upper() if status else "",
-            "municipio_slug": slug,
-            "link": more_link or url,
-            "fonte": url,
-        })
-    logging.info("SENAR %s: %d cursos identificados", slug, len(courses))
-    return courses
+            status = re.search(r"\b(CONFIRMADO|ABERTO|INSCRIÇÕES ABERTAS)\b", blob, re.I)
+            more_link = ""
+            for a in card.select("a[href]"):
+                if "mais informações" in text_of(a).lower():
+                    more_link = urljoin(url, a.get("href", ""))
+                    break
+            key = (matched_slug, slugify(course_title), start, end)
+            if key in seen:
+                continue
+            seen.add(key)
+            all_courses.append({
+                "titulo": course_title[:180],
+                "periodo": f"{start} até {end}",
+                "data_inicio": start,
+                "data_fim": end,
+                "carga_horaria": int(hours.group(1)) if hours else None,
+                "local": clean(local.group(1)) if local else "",
+                "status": status.group(1).upper() if status else "",
+                "municipio_slug": matched_slug,
+                "link": more_link or url,
+                "fonte": url,
+            })
+        _COURSES_CACHE = all_courses
+        logging.info("SENAR: %d cursos identificados na listagem pública", len(all_courses))
+
+    result = [course for course in _COURSES_CACHE if course["municipio_slug"] == slug]
+    logging.info("SENAR %s: %d cursos identificados", slug, len(result))
+    return result
 
 
 def main() -> None:
@@ -125,3 +102,7 @@ def main() -> None:
     logging.info("Arquivo atualizado: %s", OUTPUT)
     logging.info("Resumo: noticias=%d, soja=%d, milho=%d, boi=%d, vaca=%d", len(payload["famasul"].get("noticias", [])), *(len(payload["cotacoes"].get(k, [])) for k in ("soja", "milho", "boi", "vaca")))
     logging.info("Avisos gerados: %d", len(payload["avisos"]))
+
+
+if __name__ == "__main__":
+    main()
