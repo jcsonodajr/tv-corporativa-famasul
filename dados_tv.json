@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
-  "gerado_em": "2026-10-23T19:54:03.814914+00:00",
+  "gerado_em": "2026-10-23T20:26:22.299789+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
+    "noticias": "https://portal.sistemafamasul.com.br/noticias",
     "cotacoes": "https://portal.sistemafamasul.com.br/cotacoes-online",
     "senar": "https://senarms.org.br/municipios"
   },
@@ -26,18 +27,44 @@
     "amambai": {
       "nome": "Amambai",
       "slug": "amambai",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "amambai",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "anastacio": {
       "nome": "Anastácio",
       "slug": "anastacio",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "CORTE E COSTURA - MODELAGEM E CONFECÇÃO DE PEÇAS",
+          "periodo": "03/11 até 13/11",
+          "data_inicio": "03/11",
+          "data_fim": "13/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "anastacio",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "anaurilandia": {
       "nome": "Anaurilândia",
@@ -50,10 +77,23 @@
     "angelica": {
       "nome": "Angélica",
       "slug": "angelica",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "PREPARAÇÕES ARTESANAIS DE PRATOS SEM GLÚTEN E LACTOSE",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "angelica",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "antonio-joao": {
       "nome": "Antônio João",
@@ -66,18 +106,56 @@
     "aparecida-do-taboado": {
       "nome": "Aparecida do Taboado",
       "slug": "aparecida-do-taboado",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "QUALIDADE DA SANGRIA",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "aparecida-do-taboado",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        },
+        {
+          "titulo": "NR 31.15 - CAPACITAÇÃO PARA TRABALHO EM ALTURA",
+          "periodo": "03/11 até 04/11",
+          "data_inicio": "03/11",
+          "data_fim": "04/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "aparecida-do-taboado",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "aquidauana": {
       "nome": "Aquidauana",
       "slug": "aquidauana",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "PRODUÇÃO DE ADUBOS ORGÂNICOS",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "aquidauana",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "aral-moreira": {
       "nome": "Aral Moreira",
@@ -162,10 +240,35 @@
     "campo-grande": {
       "nome": "Campo Grande",
       "slug": "campo-grande",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "PROCESSAMENTO DO TOMATE",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        },
+        {
+          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
+          "periodo": "30/10 até 30/10",
+          "data_inicio": "30/10",
+          "data_fim": "30/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Campo Grande",
       "regiao_pecuaria": "Região Centro",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "caracol": {
       "nome": "Caracol",
@@ -226,18 +329,44 @@
     "coxim": {
       "nome": "Coxim",
       "slug": "coxim",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
+          "periodo": "26/10 até 26/10",
+          "data_inicio": "26/10",
+          "data_fim": "26/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "coxim",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Norte",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "deodapolis": {
       "nome": "Deodápolis",
       "slug": "deodapolis",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "BOAS PRÁTICAS PARA SERVIÇOS DE ALIMENTAÇÃO",
+          "periodo": "30/10 até 30/10",
+          "data_inicio": "30/10",
+          "data_fim": "30/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "deodapolis",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "dois-irmaos-do-buriti": {
       "nome": "Dois Irmãos do Buriti",
@@ -258,10 +387,23 @@
     "dourados": {
       "nome": "Dourados",
       "slug": "dourados",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "ARTESANATO DE BORDADO EM PONTO CRUZ",
+          "periodo": "03/11 até 06/11",
+          "data_inicio": "03/11",
+          "data_fim": "06/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "dourados",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "eldorado": {
       "nome": "Eldorado",
@@ -298,10 +440,35 @@
     "guia-lopes-da-laguna": {
       "nome": "Guia Lopes da Laguna",
       "slug": "guia-lopes-da-laguna",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "MANEJO DE PASTAGEM - MÓDULO 1",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "guia-lopes-da-laguna",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        },
+        {
+          "titulo": "INFORMÁTICA BÁSICA",
+          "periodo": "03/11 até 06/11",
+          "data_inicio": "03/11",
+          "data_fim": "06/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "guia-lopes-da-laguna",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "iguatemi": {
       "nome": "Iguatemi",
@@ -410,10 +577,23 @@
     "miranda": {
       "nome": "Miranda",
       "slug": "miranda",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "CULTIVO DE MORANGO",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "miranda",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "mundo-novo": {
       "nome": "Mundo Novo",
@@ -442,10 +622,23 @@
     "nova-alvorada-do-sul": {
       "nome": "Nova Alvorada do Sul",
       "slug": "nova-alvorada-do-sul",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "ARTESANATO DE BORDADO EM PONTO CRUZ",
+          "periodo": "03/11 até 06/11",
+          "data_inicio": "03/11",
+          "data_fim": "06/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "nova-alvorada-do-sul",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "nova-andradina": {
       "nome": "Nova Andradina",
@@ -474,10 +667,23 @@
     "paranaiba": {
       "nome": "Paranaíba",
       "slug": "paranaiba",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "CORTE E COSTURA - MODELAGEM E CONFECÇÃO DE PEÇAS",
+          "periodo": "03/11 até 13/11",
+          "data_inicio": "03/11",
+          "data_fim": "13/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "paranaiba",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "paranhos": {
       "nome": "Paranhos",
@@ -490,10 +696,23 @@
     "pedro-gomes": {
       "nome": "Pedro Gomes",
       "slug": "pedro-gomes",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "IMPLEMENTO - ENSILADEIRA",
+          "periodo": "30/10 até 30/10",
+          "data_inicio": "30/10",
+          "data_fim": "30/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "pedro-gomes",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "ponta-pora": {
       "nome": "Ponta Porã",
@@ -506,10 +725,23 @@
     "porto-murtinho": {
       "nome": "Porto Murtinho",
       "slug": "porto-murtinho",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "PREVENÇÃO E COMBATE A INCÊNDIOS NAS ÁREAS RURAIS",
+          "periodo": "30/10 até 31/10",
+          "data_inicio": "30/10",
+          "data_fim": "31/10",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "porto-murtinho",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "ribas-do-rio-pardo": {
       "nome": "Ribas do Rio Pardo",
@@ -554,10 +786,35 @@
     "santa-rita-do-pardo": {
       "nome": "Santa Rita do Pardo",
       "slug": "santa-rita-do-pardo",
-      "cursos": [],
+      "cursos": [
+        {
+          "titulo": "QUALIDADE AGRO 5S NA PROPRIEDADE RURAL",
+          "periodo": "03/11 até 05/11",
+          "data_inicio": "03/11",
+          "data_fim": "05/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "santa-rita-do-pardo",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        },
+        {
+          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
+          "periodo": "03/11 até 03/11",
+          "data_inicio": "03/11",
+          "data_fim": "03/11",
+          "carga_horaria": null,
+          "local": "",
+          "status": "",
+          "municipio_slug": "santa-rita-do-pardo",
+          "link": "https://senarms.org.br/cursos",
+          "fonte": "https://senarms.org.br/cursos"
+        }
+      ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-23T19:54:03.814914+00:00"
+      "atualizado_em": "2026-10-23T20:26:22.299789+00:00"
     },
     "sao-gabriel-do-oeste": {
       "nome": "São Gabriel do Oeste",
@@ -707,36 +964,57 @@
       {
         "titulo": "Aprender a ler virou realidade e levou Edileusa a conquistar muito mais com o Senar/MS",
         "link": "https://portal.sistemafamasul.com.br/noticias/aprender-ler-virou-realidade-e-levou-edileusa-conquistar-muito-mais-com-o-senarms",
-        "imagem": "",
-        "resumo": "",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/CAPA%20DA%20MAT%C3%89RIA%2001_0.png",
+        "resumo": "(Foto: Adelino Vargas)Edileusa passou boa parte da vida sem frequentar à escola. Impedida de estudar na infância e, mais tarde, pelo marido, ela encontrou no Programa Despertando, do Senar/MS, por meio do Sindicato Rural de Coxim, a oportunidade que tanto esperava. Aprendeu a ler e escrever, conquistou a certificação do ensino fundamental pelo Exame Nacional para Certificação de Competências de Jovens e Adultos (Encc",
         "fonte": "Sistema FAMASUL"
       },
       {
         "titulo": "Diretora da Famasul, Stéphanie Gobato está entre as 100 mulheres mais poderosas do agro, segundo a Forbes",
         "link": "https://portal.sistemafamasul.com.br/noticias/diretora-da-famasul-st%C3%A9phanie-gobato-est%C3%A1-entre-100-mulheres-mais-poderosas-do-agro-segundo",
-        "imagem": "",
-        "resumo": "",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/St%C3%A9phanie_0.jpg",
+        "resumo": "A engenheira agrônoma e integrante da diretoria da Famasul, Stéphanie Ferreira Gobato, está entre as 100 mulheres mais poderosas do agronegócio brasileiro, segundo levantamento divulgado pela revista Forbes. Natural de Três Lagoas, a liderança sul-mato-grossense integra a segunda edição da lista, publicada em outubro, que reconhece a atuação feminina em diferentes segmentos do setor.",
         "fonte": "Sistema FAMASUL"
       },
       {
         "titulo": "Em dez anos, programa de saúde do Senar/MS amplia de uma para seis especialidades médicas",
         "link": "https://portal.sistemafamasul.com.br/noticias/em-dez-anos-programa-de-sa%C3%BAde-do-senarms-amplia-de-uma-para-seis-especialidades-m%C3%A9dicas",
-        "imagem": "",
-        "resumo": "",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/imagem%20mat%C3%A9ria%20reduzida_1.jpg",
+        "resumo": "De consultas em urologia a atendimentos em seis especialidades médicas. Essa é uma das principais transformações do Programa Saúde do Homem e da Mulher Rural, desenvolvido pelo Senar/MS, que completa dez anos em 2026.",
         "fonte": "Sistema FAMASUL"
       },
       {
         "titulo": "Agroindústria atendida pelo Senar/MS conquista 3º lugar em prêmio nacional da CNA",
         "link": "https://portal.sistemafamasul.com.br/noticias/agroind%C3%BAstria-atendida-pelo-senarms-conquista-3%C2%BA-lugar-em-pr%C3%AAmio-nacional-da-cna",
-        "imagem": "",
-        "resumo": "",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/Di%20Bonito%20capa_0.jpg",
+        "resumo": "A qualidade da produção sul-mato-grossense ganhou mais um reconhecimento nacional. A Cachaça Três Madeiras, produzida pela DiBonito, conquistou o terceiro lugar na categoria Cachaça Amarela do Prêmio CNA Brasil Artesanal 2026, promovido pela Confederação da Agricultura e Pecuária do Brasil (CNA). A cachaçaria é acompanhada pelo Senar/MS, por meio da Assistência Técnica e Gerencial (ATeG) Agroindústria.A premiação rec",
         "fonte": "Sistema FAMASUL"
       },
       {
         "titulo": "Senar/MS ajuda casal de produtores a abandonar o fiado e recuperar a renda da horta",
         "link": "https://portal.sistemafamasul.com.br/noticias/senarms-ajuda-casal-de-produtores-abandonar-o-fiado-e-recuperar-renda-da-horta",
-        "imagem": "",
-        "resumo": "",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/imagem%20reduzida_3.jpg",
+        "resumo": "Após muito tempo sofrendo com dívidas e dificuldades para investir na própria horta, o casal de Cassilândia, Antônio Chaves e Lourdes da Silva, encontrou uma forma de transformar os prejuízos e melhorar a produtividade da plantação com o apoio da Assistência Técnica e Gerencial (ATeG) Prepara do Senar/MS. Com o atendimento da instituição, os produtores reorganizaram as finanças, diversificaram a produção e implementa",
+        "fonte": "Sistema FAMASUL"
+      },
+      {
+        "titulo": "MS Agro debate impactos do cenário global na economia e no agronegócio brasileiro",
+        "link": "https://portal.sistemafamasul.com.br/noticias/ms-agro-debate-impactos-do-cen%C3%A1rio-global-na-economia-e-no-agroneg%C3%B3cio-brasileiro",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/Capa_MS%20AGRO26.jpg",
+        "resumo": "As transformações no cenário internacional, os desafios da economia brasileira e seus impactos sobre o setor produtivo estarão em debate no MS Agro 2026, promovido pela Famasul, no dia 12 de novembro, em Campo Grande.",
+        "fonte": "Sistema FAMASUL"
+      },
+      {
+        "titulo": "Após uma década sem exame preventivo, pescadora retoma cuidados com a saúde em ação do Senar/MS",
+        "link": "https://portal.sistemafamasul.com.br/noticias/ap%C3%B3s-uma-d%C3%A9cada-sem-exame-preventivo-pescadora-retoma-cuidados-com-sa%C3%BAde-em-a%C3%A7%C3%A3o-do-senarms",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/Sa%C3%BAde%20Corumb%C3%A1%20-%20Nhecol%C3%A2ndia%20%20%28214%29_0.jpg",
+        "resumo": "Moradora do Porto Esperança, em Corumbá, Cleonice de Amorim Pessoa, de 44 anos, conhece de perto os desafios de quem vive distante dos centros urbanos e precisa percorrer longas distâncias para ter acesso a serviços de saúde. A pescadora precisou adiar consultas e exames diante das dificuldades de deslocamento e dos custos para sair da comunidade onde vive.O último exame preventivo de Cleonice havia sido realizado em",
+        "fonte": "Sistema FAMASUL"
+      },
+      {
+        "titulo": "Casal pioneiro na produção de pitaya e se torna referência em Bonito com apoio do Senar/MS",
+        "link": "https://portal.sistemafamasul.com.br/noticias/casal-pioneiro-na-produ%C3%A7%C3%A3o-de-pitaya-e-se-torna-refer%C3%AAncia-em-bonito-com-apoio-do-senarms",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/capa%20reduzida_2.jpg",
+        "resumo": "Após anos trabalhando com a produção de alfaces, Adão e Creuza decidiram investir no ramo de pitayas e se tornaram os pioneiros no cultivo da fruta na região de Bonito.",
         "fonte": "Sistema FAMASUL"
       }
     ]
@@ -744,9 +1022,151 @@
   "cotacoes": {
     "soja": [
       {
+        "data": "23/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 373.81
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Sul",
+        "valor": 373.81
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 369.38
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Oeste",
+        "valor": 368.89
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 363.97
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Norte",
+        "valor": 366.43
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 373.81
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Oeste",
+        "valor": 368.89
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 368.89
+      },
+      {
         "data": "22/10/2026",
         "praca": "Região Norte",
-        "valor": 349.21
+        "valor": 363.97
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Sul",
+        "valor": 373.81
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 363.97
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Centro",
+        "valor": 368.89
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Sul",
+        "valor": 368.89
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Centro",
+        "valor": 366.43
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 373.81
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 363.97
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Oeste",
+        "valor": 368.89
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Norte",
+        "valor": 363.97
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 367.66
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Centro",
+        "valor": 366.43
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 366.76
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Sul",
+        "valor": 368.89
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Oeste",
+        "valor": 365.61
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 368.89
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Norte",
+        "valor": 363.97
+      }
+    ],
+    "milho": [
+      {
+        "data": "22/10/2026",
+        "praca": "Sonora",
+        "valor": 137.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Dourados",
+        "valor": 142.5
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 138.0
       },
       {
         "data": "22/10/2026",
@@ -755,133 +1175,13 @@
       },
       {
         "data": "22/10/2026",
-        "praca": "Região Oeste",
-        "valor": 350.85
-      },
-      {
-        "data": "22/10/2026",
-        "praca": "Região Centro",
-        "valor": 349.21
-      },
-      {
-        "data": "22/10/2026",
-        "praca": "Região Sul",
-        "valor": 354.13
-      },
-      {
-        "data": "22/10/2026",
-        "praca": "Região Nordeste",
-        "valor": 334.46
-      },
-      {
-        "data": "22/10/2026",
-        "praca": "Região Sudeste",
-        "valor": 354.13
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Região Sudeste",
-        "valor": 354.13
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Região Nordeste",
-        "valor": 334.46
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Região Oeste",
-        "valor": 350.85
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Região Norte",
-        "valor": 346.76
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 140.44
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Região Centro",
-        "valor": 349.21
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Região Sul",
-        "valor": 349.21
-      },
-      {
-        "data": "20/10/2026",
-        "praca": "Região Norte",
-        "valor": 346.76
-      },
-      {
-        "data": "20/10/2026",
-        "praca": "Região Oeste",
-        "valor": 345.94
-      },
-      {
-        "data": "20/10/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 140.64
-      },
-      {
-        "data": "20/10/2026",
-        "praca": "Região Sudeste",
-        "valor": 349.21
-      },
-      {
-        "data": "20/10/2026",
-        "praca": "Região Sul",
-        "valor": 349.21
-      },
-      {
-        "data": "20/10/2026",
-        "praca": "Região Centro",
-        "valor": 349.21
-      },
-      {
-        "data": "19/10/2026",
-        "praca": "Região Centro",
-        "valor": 363.97
-      },
-      {
-        "data": "19/10/2026",
-        "praca": "Região Oeste",
-        "valor": 345.94
-      },
-      {
-        "data": "19/10/2026",
-        "praca": "Região Sudeste",
-        "valor": 349.21
-      },
-      {
-        "data": "19/10/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 348.39
-      },
-      {
-        "data": "19/10/2026",
-        "praca": "Região Sul",
-        "valor": 349.21
-      },
-      {
-        "data": "19/10/2026",
-        "praca": "Região Norte",
-        "valor": 349.21
-      },
-      {
-        "data": "22/10/2026",
-        "praca": "Chapadão do Sul",
+        "praca": "São Gabriel do Oeste",
         "valor": 138.0
       },
       {
         "data": "22/10/2026",
-        "praca": "Sonora",
-        "valor": 137.0
+        "praca": "Ponta Porã",
+        "valor": 140.0
       },
       {
         "data": "22/10/2026",
@@ -890,26 +1190,41 @@
       },
       {
         "data": "22/10/2026",
-        "praca": "Maracaju",
-        "valor": 141.0
-      },
-      {
-        "data": "22/10/2026",
         "praca": "Sidrolândia",
         "valor": 141.0
       },
       {
         "data": "22/10/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 138.0
+        "praca": "Maracaju",
+        "valor": 141.0
       },
       {
-        "data": "22/10/2026",
+        "data": "21/10/2026",
         "praca": "Ponta Porã",
         "valor": 140.0
       },
       {
-        "data": "22/10/2026",
+        "data": "21/10/2026",
+        "praca": "Sidrolândia",
+        "valor": 141.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Sonora",
+        "valor": 137.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Maracaju",
+        "valor": 141.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 139.0
+      },
+      {
+        "data": "21/10/2026",
         "praca": "Dourados",
         "valor": 142.5
       },
@@ -920,28 +1235,8 @@
       },
       {
         "data": "21/10/2026",
-        "praca": "Ponta Porã",
-        "valor": 140.0
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Sidrolândia",
-        "valor": 141.0
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 139.0
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Sonora",
-        "valor": 137.0
-      },
-      {
-        "data": "21/10/2026",
-        "praca": "Dourados",
-        "valor": 142.5
+        "praca": "Mato Grosso do Sul",
+        "valor": 140.44
       },
       {
         "data": "21/10/2026",
@@ -949,29 +1244,14 @@
         "valor": 139.0
       },
       {
-        "data": "21/10/2026",
-        "praca": "Maracaju",
-        "valor": 141.0
-      },
-      {
         "data": "20/10/2026",
         "praca": "Maracaju",
         "valor": 141.0
       },
       {
         "data": "20/10/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 139.0
-      },
-      {
-        "data": "20/10/2026",
-        "praca": "Dourados",
-        "valor": 142.5
-      },
-      {
-        "data": "19/10/2026",
-        "praca": "Dourados",
-        "valor": 52.0
+        "praca": "Sidrolândia",
+        "valor": 141.0
       },
       {
         "data": "20/10/2026",
@@ -980,23 +1260,338 @@
       },
       {
         "data": "20/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 140.64
+      },
+      {
+        "data": "20/10/2026",
         "praca": "Ponta Porã",
         "valor": 140.0
       },
       {
         "data": "20/10/2026",
-        "praca": "Campo Grande",
-        "valor": 144.0
+        "praca": "Dourados",
+        "valor": 142.5
       },
       {
         "data": "20/10/2026",
-        "praca": "Sidrolândia",
-        "valor": 141.0
+        "praca": "São Gabriel do Oeste",
+        "valor": 139.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Campo Grande",
+        "valor": 144.0
       }
     ],
-    "milho": [],
-    "boi": [],
-    "vaca": []
+    "boi": [
+      {
+        "data": "23/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 334.46
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Norte",
+        "valor": 349.22
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 354.13
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 347.9
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Oeste",
+        "valor": 347.57
+      },
+      {
+        "data": "23/10/2026",
+        "praca": "Região Sul",
+        "valor": 354.13
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Oeste",
+        "valor": 350.85
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 334.46
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 354.13
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 348.67
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Sul",
+        "valor": 354.13
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Centro",
+        "valor": 349.21
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Região Norte",
+        "valor": 349.21
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Sul",
+        "valor": 349.21
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 354.13
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Centro",
+        "valor": 349.21
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 347.44
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Norte",
+        "valor": 346.76
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Nordeste",
+        "valor": 334.46
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Região Oeste",
+        "valor": 350.85
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Sul",
+        "valor": 349.21
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Sudeste",
+        "valor": 349.21
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 348.07
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Oeste",
+        "valor": 345.94
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Centro",
+        "valor": 349.21
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Região Norte",
+        "valor": 346.76
+      }
+    ],
+    "vaca": [
+      {
+        "data": "22/10/2026",
+        "praca": "Sidrolândia",
+        "valor": 51.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Dourados",
+        "valor": 53.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Sonora",
+        "valor": 50.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Ponta Porã",
+        "valor": 52.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Campo Grande",
+        "valor": 51.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 51.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Maracaju",
+        "valor": 53.0
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 52.5
+      },
+      {
+        "data": "22/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 51.69
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 50.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Ponta Porã",
+        "valor": 52.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Campo Grande",
+        "valor": 51.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Maracaju",
+        "valor": 53.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Dourados",
+        "valor": 53.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Sidrolândia",
+        "valor": 51.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 51.56
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Sonora",
+        "valor": 50.0
+      },
+      {
+        "data": "21/10/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 52.5
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Dourados",
+        "valor": 51.5
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 51.5
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "Maracaju",
+        "valor": 51.0
+      },
+      {
+        "data": "20/10/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 52.0
+      }
+    ]
   },
-  "avisos": []
+  "avisos": [
+    "Nenhum curso identificado para Água Clara; preservada a lista anterior.",
+    "Nenhum curso identificado para Alcinópolis; preservada a lista anterior.",
+    "Nenhum curso identificado para Anaurilândia; preservada a lista anterior.",
+    "Nenhum curso identificado para Antônio João; preservada a lista anterior.",
+    "Nenhum curso identificado para Aral Moreira; preservada a lista anterior.",
+    "Nenhum curso identificado para Bandeirantes; preservada a lista anterior.",
+    "Nenhum curso identificado para Bataguassu; preservada a lista anterior.",
+    "Nenhum curso identificado para Batayporã; preservada a lista anterior.",
+    "Nenhum curso identificado para Bela Vista; preservada a lista anterior.",
+    "Nenhum curso identificado para Bodoquena; preservada a lista anterior.",
+    "Nenhum curso identificado para Bonito; preservada a lista anterior.",
+    "Nenhum curso identificado para Brasilândia; preservada a lista anterior.",
+    "Nenhum curso identificado para Caarapó; preservada a lista anterior.",
+    "Nenhum curso identificado para Camapuã; preservada a lista anterior.",
+    "Nenhum curso identificado para Caracol; preservada a lista anterior.",
+    "Nenhum curso identificado para Cassilândia; preservada a lista anterior.",
+    "Nenhum curso identificado para Chapadão do Sul; preservada a lista anterior.",
+    "Nenhum curso identificado para Corguinho; preservada a lista anterior.",
+    "Nenhum curso identificado para Coronel Sapucaia; preservada a lista anterior.",
+    "Nenhum curso identificado para Corumbá; preservada a lista anterior.",
+    "Nenhum curso identificado para Costa Rica; preservada a lista anterior.",
+    "Nenhum curso identificado para Dois Irmãos do Buriti; preservada a lista anterior.",
+    "Nenhum curso identificado para Douradina; preservada a lista anterior.",
+    "Nenhum curso identificado para Eldorado; preservada a lista anterior.",
+    "Nenhum curso identificado para Fátima do Sul; preservada a lista anterior.",
+    "Nenhum curso identificado para Figueirão; preservada a lista anterior.",
+    "Nenhum curso identificado para Glória de Dourados; preservada a lista anterior.",
+    "Nenhum curso identificado para Iguatemi; preservada a lista anterior.",
+    "Nenhum curso identificado para Inocência; preservada a lista anterior.",
+    "Nenhum curso identificado para Itaporã; preservada a lista anterior.",
+    "Nenhum curso identificado para Itaquiraí; preservada a lista anterior.",
+    "Nenhum curso identificado para Ivinhema; preservada a lista anterior.",
+    "Nenhum curso identificado para Japorã; preservada a lista anterior.",
+    "Nenhum curso identificado para Jaraguari; preservada a lista anterior.",
+    "Nenhum curso identificado para Jardim; preservada a lista anterior.",
+    "Nenhum curso identificado para Jateí; preservada a lista anterior.",
+    "Nenhum curso identificado para Juti; preservada a lista anterior.",
+    "Nenhum curso identificado para Ladário; preservada a lista anterior.",
+    "Nenhum curso identificado para Laguna Carapã; preservada a lista anterior.",
+    "Nenhum curso identificado para Maracaju; preservada a lista anterior.",
+    "Nenhum curso identificado para Mundo Novo; preservada a lista anterior.",
+    "Nenhum curso identificado para Naviraí; preservada a lista anterior.",
+    "Nenhum curso identificado para Nioaque; preservada a lista anterior.",
+    "Nenhum curso identificado para Nova Andradina; preservada a lista anterior.",
+    "Nenhum curso identificado para Novo Horizonte do Sul; preservada a lista anterior.",
+    "Nenhum curso identificado para Paraíso das Águas; preservada a lista anterior.",
+    "Nenhum curso identificado para Paranhos; preservada a lista anterior.",
+    "Nenhum curso identificado para Ponta Porã; preservada a lista anterior.",
+    "Nenhum curso identificado para Ribas do Rio Pardo; preservada a lista anterior.",
+    "Nenhum curso identificado para Rio Brilhante; preservada a lista anterior.",
+    "Nenhum curso identificado para Rio Negro; preservada a lista anterior.",
+    "Nenhum curso identificado para Rio Verde de Mato Grosso; preservada a lista anterior.",
+    "Nenhum curso identificado para Rochedo; preservada a lista anterior.",
+    "Nenhum curso identificado para São Gabriel do Oeste; preservada a lista anterior.",
+    "Nenhum curso identificado para Selvíria; preservada a lista anterior.",
+    "Nenhum curso identificado para Sete Quedas; preservada a lista anterior.",
+    "Nenhum curso identificado para Sidrolândia; preservada a lista anterior.",
+    "Nenhum curso identificado para Sonora; preservada a lista anterior.",
+    "Nenhum curso identificado para Tacuru; preservada a lista anterior.",
+    "Nenhum curso identificado para Taquarussu; preservada a lista anterior.",
+    "Nenhum curso identificado para Terenos; preservada a lista anterior.",
+    "Nenhum curso identificado para Três Lagoas; preservada a lista anterior.",
+    "Nenhum curso identificado para Vicentina; preservada a lista anterior."
+  ]
 }
