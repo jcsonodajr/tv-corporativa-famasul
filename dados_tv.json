@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "gerado_em": "2026-10-30T02:46:11.461759+00:00",
+  "gerado_em": "2026-10-30T03:45:05.298410+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -80,7 +80,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "alcinopolis": {
       "nome": "Alcinópolis",
@@ -115,7 +115,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "amambai": {
       "nome": "Amambai",
@@ -189,7 +189,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "anastacio": {
       "nome": "Anastácio",
@@ -263,7 +263,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "anaurilandia": {
       "nome": "Anaurilândia",
@@ -311,25 +311,12 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "angelica": {
       "nome": "Angélica",
       "slug": "angelica",
       "cursos": [
-        {
-          "titulo": "PREPARAÇÕES ARTESANAIS DE PRATOS SEM GLÚTEN E LACTOSE",
-          "periodo": "30/10 até 31/10",
-          "data_inicio": "30/10",
-          "data_fim": "31/10",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE ANGÉLICA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "angelica",
-          "link": "http://senarms.org.br/curso?curso=802",
-          "fonte": "https://senarms.org.br/municipios?municipio=ANG%C3%89LICA"
-        },
         {
           "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
           "periodo": "03/11 até 03/11",
@@ -381,11 +368,24 @@
           "municipio_slug": "angelica",
           "link": "http://senarms.org.br/curso?curso=663",
           "fonte": "https://senarms.org.br/municipios?municipio=ANG%C3%89LICA"
+        },
+        {
+          "titulo": "FLORICULTURA - CULTIVO DE ORQUÍDEAS",
+          "periodo": "05/11 até 06/11",
+          "data_inicio": "05/11",
+          "data_fim": "06/11",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "APAE DE ANGÉLICA MS",
+          "status": "CONFIRMADO",
+          "municipio_slug": "angelica",
+          "link": "http://senarms.org.br/curso?curso=689",
+          "fonte": "https://senarms.org.br/municipios?municipio=ANG%C3%89LICA"
         }
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "antonio-joao": {
       "nome": "Antônio João",
@@ -459,25 +459,12 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "aparecida-do-taboado": {
       "nome": "Aparecida do Taboado",
       "slug": "aparecida-do-taboado",
       "cursos": [
-        {
-          "titulo": "QUALIDADE DA SANGRIA",
-          "periodo": "30/10 até 31/10",
-          "data_inicio": "30/10",
-          "data_fim": "31/10",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE APARECIDA DO TABOADO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "aparecida-do-taboado",
-          "link": "http://senarms.org.br/curso?curso=669",
-          "fonte": "https://senarms.org.br/municipios?municipio=APARECIDA+DO+TABOADO"
-        },
         {
           "titulo": "NR 31.15 - CAPACITAÇÃO PARA TRABALHO EM ALTURA",
           "periodo": "03/11 até 04/11",
@@ -529,29 +516,29 @@
           "municipio_slug": "aparecida-do-taboado",
           "link": "http://senarms.org.br/curso?curso=527",
           "fonte": "https://senarms.org.br/municipios?municipio=APARECIDA+DO+TABOADO"
+        },
+        {
+          "titulo": "QUALIDADE DA SANGRIA",
+          "periodo": "10/11 até 11/11",
+          "data_inicio": "10/11",
+          "data_fim": "11/11",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE APARECIDA DO TABOADO",
+          "status": "CONFIRMADO",
+          "municipio_slug": "aparecida-do-taboado",
+          "link": "http://senarms.org.br/curso?curso=669",
+          "fonte": "https://senarms.org.br/municipios?municipio=APARECIDA+DO+TABOADO"
         }
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "aquidauana": {
       "nome": "Aquidauana",
       "slug": "aquidauana",
       "cursos": [
-        {
-          "titulo": "PRODUÇÃO DE ADUBOS ORGÂNICOS",
-          "periodo": "30/10 até 31/10",
-          "data_inicio": "30/10",
-          "data_fim": "31/10",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE AQUIDAUANA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "aquidauana",
-          "link": "http://senarms.org.br/curso?curso=837",
-          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
-        },
         {
           "titulo": "ARTESANATO DE BORDADO VAGONITE",
           "periodo": "03/11 até 06/11",
@@ -603,11 +590,24 @@
           "municipio_slug": "aquidauana",
           "link": "http://senarms.org.br/curso?curso=866",
           "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
+        },
+        {
+          "titulo": "ARTES EM TECIDOS: BONECAS E BICHINHOS DE PANO",
+          "periodo": "10/11 até 13/11",
+          "data_inicio": "10/11",
+          "data_fim": "13/11",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "CAPS II CENTRO DE ATENÇÃO PSICOSSOCIAL DE AQUIDAUANA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "aquidauana",
+          "link": "http://senarms.org.br/curso?curso=824",
+          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
         }
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "aral-moreira": {
       "nome": "Aral Moreira",
@@ -681,7 +681,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "bandeirantes": {
       "nome": "Bandeirantes",
@@ -755,7 +755,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "bataguassu": {
       "nome": "Bataguassu",
@@ -829,7 +829,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "bataypora": {
       "nome": "Batayporã",
@@ -877,7 +877,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "bela-vista": {
       "nome": "Bela Vista",
@@ -951,7 +951,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "bodoquena": {
       "nome": "Bodoquena",
@@ -959,7 +959,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "bonito": {
       "nome": "Bonito",
@@ -1033,7 +1033,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "brasilandia": {
       "nome": "Brasilândia",
@@ -1041,7 +1041,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "caarapo": {
       "nome": "Caarapó",
@@ -1063,7 +1063,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "camapua": {
       "nome": "Camapuã",
@@ -1137,25 +1137,12 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "campo-grande": {
       "nome": "Campo Grande",
       "slug": "campo-grande",
       "cursos": [
-        {
-          "titulo": "PROCESSAMENTO DO TOMATE",
-          "periodo": "30/10 até 31/10",
-          "data_inicio": "30/10",
-          "data_fim": "31/10",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "COMANDO MILITAR DO OESTE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "campo-grande",
-          "link": "http://senarms.org.br/curso?curso=722",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
-        },
         {
           "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
           "periodo": "03/11 até 04/11",
@@ -1207,11 +1194,24 @@
           "municipio_slug": "campo-grande",
           "link": "http://senarms.org.br/curso?curso=771",
           "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
+        },
+        {
+          "titulo": "CONSERVA DE FRUTAS",
+          "periodo": "03/11 até 05/11",
+          "data_inicio": "03/11",
+          "data_fim": "05/11",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "FEDERAÇÃO DOS TRABALHADORES E TRABALHADORAS ASSALARIADOS RURAIS DO MS",
+          "status": "CONFIRMADO",
+          "municipio_slug": "campo-grande",
+          "link": "http://senarms.org.br/curso?curso=725",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
         }
       ],
       "praca_graos": "Campo Grande",
       "regiao_pecuaria": "Região Centro",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "caracol": {
       "nome": "Caracol",
@@ -1233,7 +1233,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "cassilandia": {
       "nome": "Cassilândia",
@@ -1307,7 +1307,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "chapadao-do-sul": {
       "nome": "Chapadão do Sul",
@@ -1381,7 +1381,7 @@
       ],
       "praca_graos": "Chapadão do Sul",
       "regiao_pecuaria": "Região Norte",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "corguinho": {
       "nome": "Corguinho",
@@ -1389,7 +1389,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "coronel-sapucaia": {
       "nome": "Coronel Sapucaia",
@@ -1397,7 +1397,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "corumba": {
       "nome": "Corumbá",
@@ -1471,7 +1471,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "costa-rica": {
       "nome": "Costa Rica",
@@ -1545,7 +1545,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Norte",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "coxim": {
       "nome": "Coxim",
@@ -1619,25 +1619,12 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Norte",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "deodapolis": {
       "nome": "Deodápolis",
       "slug": "deodapolis",
       "cursos": [
-        {
-          "titulo": "BOAS PRÁTICAS PARA SERVIÇOS DE ALIMENTAÇÃO",
-          "periodo": "30/10 até 30/10",
-          "data_inicio": "30/10",
-          "data_fim": "30/10",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE DEODÁPOLIS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "deodapolis",
-          "link": "http://senarms.org.br/curso?curso=818",
-          "fonte": "https://senarms.org.br/municipios?municipio=DEOD%C3%81POLIS"
-        },
         {
           "titulo": "FUNDAMENTOS DA UTILIZAÇÃO DE DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - MÓDULO II",
           "periodo": "03/11 até 04/11",
@@ -1689,11 +1676,24 @@
           "municipio_slug": "deodapolis",
           "link": "http://senarms.org.br/curso?curso=809",
           "fonte": "https://senarms.org.br/municipios?municipio=DEOD%C3%81POLIS"
+        },
+        {
+          "titulo": "PROGRAMA CONEXÃO AGRO",
+          "periodo": "08/04 até 07/05",
+          "data_inicio": "08/04",
+          "data_fim": "07/05",
+          "carga_horaria": 12,
+          "vagas": 35,
+          "local": "SINDICATO RURAL DE DEODÁPOLIS",
+          "status": "CONFIRMADO",
+          "municipio_slug": "deodapolis",
+          "link": "http://senarms.org.br/curso?curso=544",
+          "fonte": "https://senarms.org.br/municipios?municipio=DEOD%C3%81POLIS"
         }
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "dois-irmaos-do-buriti": {
       "nome": "Dois Irmãos do Buriti",
@@ -1767,7 +1767,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "douradina": {
       "nome": "Douradina",
@@ -1789,7 +1789,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "dourados": {
       "nome": "Dourados",
@@ -1863,7 +1863,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "eldorado": {
       "nome": "Eldorado",
@@ -1937,7 +1937,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "fatima-do-sul": {
       "nome": "Fátima do Sul",
@@ -2011,7 +2011,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "figueirao": {
       "nome": "Figueirão",
@@ -2085,7 +2085,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "gloria-de-dourados": {
       "nome": "Glória de Dourados",
@@ -2093,25 +2093,12 @@
       "cursos": [],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "guia-lopes-da-laguna": {
       "nome": "Guia Lopes da Laguna",
       "slug": "guia-lopes-da-laguna",
       "cursos": [
-        {
-          "titulo": "MANEJO DE PASTAGEM - MÓDULO 1",
-          "periodo": "30/10 até 31/10",
-          "data_inicio": "30/10",
-          "data_fim": "31/10",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "FAZENDA ESTÂNCIA MONTANA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "guia-lopes-da-laguna",
-          "link": "http://senarms.org.br/curso?curso=854",
-          "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
-        },
         {
           "titulo": "INFORMÁTICA BÁSICA",
           "periodo": "03/11 até 06/11",
@@ -2163,11 +2150,24 @@
           "municipio_slug": "guia-lopes-da-laguna",
           "link": "http://senarms.org.br/curso?curso=570",
           "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
+        },
+        {
+          "titulo": "PROCESSAMENTO DA CARNE DE PEIXE",
+          "periodo": "12/11 até 13/11",
+          "data_inicio": "12/11",
+          "data_fim": "13/11",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE GUIA LOPES DA LAGUNA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "guia-lopes-da-laguna",
+          "link": "http://senarms.org.br/curso?curso=720",
+          "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
         }
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "iguatemi": {
       "nome": "Iguatemi",
@@ -2228,7 +2228,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "inocencia": {
       "nome": "Inocência",
@@ -2302,7 +2302,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "itapora": {
       "nome": "Itaporã",
@@ -2324,7 +2324,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "itaquirai": {
       "nome": "Itaquiraí",
@@ -2346,7 +2346,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "ivinhema": {
       "nome": "Ivinhema",
@@ -2420,7 +2420,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "japora": {
       "nome": "Japorã",
@@ -2442,7 +2442,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "jaraguari": {
       "nome": "Jaraguari",
@@ -2503,7 +2503,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "jardim": {
       "nome": "Jardim",
@@ -2577,7 +2577,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "jatei": {
       "nome": "Jateí",
@@ -2612,7 +2612,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "juti": {
       "nome": "Juti",
@@ -2673,7 +2673,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "ladario": {
       "nome": "Ladário",
@@ -2681,7 +2681,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "laguna-carapa": {
       "nome": "Laguna Carapã",
@@ -2755,7 +2755,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "maracaju": {
       "nome": "Maracaju",
@@ -2829,7 +2829,7 @@
       ],
       "praca_graos": "Maracaju",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "miranda": {
       "nome": "Miranda",
@@ -2903,7 +2903,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "mundo-novo": {
       "nome": "Mundo Novo",
@@ -2964,7 +2964,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "navirai": {
       "nome": "Naviraí",
@@ -3038,7 +3038,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "nioaque": {
       "nome": "Nioaque",
@@ -3112,7 +3112,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "nova-alvorada-do-sul": {
       "nome": "Nova Alvorada do Sul",
@@ -3186,7 +3186,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "nova-andradina": {
       "nome": "Nova Andradina",
@@ -3260,7 +3260,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "novo-horizonte-do-sul": {
       "nome": "Novo Horizonte do Sul",
@@ -3268,7 +3268,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "paraiso-das-aguas": {
       "nome": "Paraíso das Águas",
@@ -3276,7 +3276,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "paranaiba": {
       "nome": "Paranaíba",
@@ -3350,7 +3350,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "paranhos": {
       "nome": "Paranhos",
@@ -3424,7 +3424,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "pedro-gomes": {
       "nome": "Pedro Gomes",
@@ -3472,7 +3472,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "ponta-pora": {
       "nome": "Ponta Porã",
@@ -3546,7 +3546,7 @@
       ],
       "praca_graos": "Ponta Porã",
       "regiao_pecuaria": "Região Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "porto-murtinho": {
       "nome": "Porto Murtinho",
@@ -3620,7 +3620,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Oeste",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "ribas-do-rio-pardo": {
       "nome": "Ribas do Rio Pardo",
@@ -3668,7 +3668,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "rio-brilhante": {
       "nome": "Rio Brilhante",
@@ -3742,7 +3742,7 @@
       ],
       "praca_graos": "Dourados",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "rio-negro": {
       "nome": "Rio Negro",
@@ -3816,7 +3816,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "rio-verde-de-mato-grosso": {
       "nome": "Rio Verde de Mato Grosso",
@@ -3890,7 +3890,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "rochedo": {
       "nome": "Rochedo",
@@ -3898,7 +3898,7 @@
       "cursos": [],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "santa-rita-do-pardo": {
       "nome": "Santa Rita do Pardo",
@@ -3972,7 +3972,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "sao-gabriel-do-oeste": {
       "nome": "São Gabriel do Oeste",
@@ -3994,7 +3994,7 @@
       ],
       "praca_graos": "São Gabriel do Oeste",
       "regiao_pecuaria": "Região Norte",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "selviria": {
       "nome": "Selvíria",
@@ -4068,7 +4068,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "sete-quedas": {
       "nome": "Sete Quedas",
@@ -4142,7 +4142,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "sidrolandia": {
       "nome": "Sidrolândia",
@@ -4216,7 +4216,7 @@
       ],
       "praca_graos": "Sidrolândia",
       "regiao_pecuaria": "Região Centro",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "sonora": {
       "nome": "Sonora",
@@ -4290,7 +4290,7 @@
       ],
       "praca_graos": "Sonora",
       "regiao_pecuaria": "Região Norte",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "tacuru": {
       "nome": "Tacuru",
@@ -4312,7 +4312,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "taquarussu": {
       "nome": "Taquarussu",
@@ -4373,7 +4373,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "terenos": {
       "nome": "Terenos",
@@ -4447,7 +4447,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Região Centro",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "tres-lagoas": {
       "nome": "Três Lagoas",
@@ -4521,7 +4521,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     },
     "vicentina": {
       "nome": "Vicentina",
@@ -4582,7 +4582,7 @@
       ],
       "praca_graos": "Mato Grosso do Sul",
       "regiao_pecuaria": "Mato Grosso do Sul",
-      "atualizado_em": "2026-10-30T02:46:11.461759+00:00"
+      "atualizado_em": "2026-10-30T03:45:05.298410+00:00"
     }
   },
   "famasul": {
