@@ -2,35 +2,44 @@
 # -*- coding: utf-8 -*-
 """Coletor da TV Corporativa FAMASUL / SENAR-MS.
 
-- Cotações: identifica cada tabela pelo marcador imediatamente anterior (@Boi, @Vaca,
-  Saca - Milho, Saca - Soja), evitando classificar todas como soja.
-- Notícias: coleta a listagem e consulta os metadados da página individual para
-  recuperar imagem e resumo.
-- Cursos: identifica os títulos dos eventos pelo texto de data + nome e extrai
-  metadados do cartão correspondente.
-- Se uma fonte falhar ou retornar vazia inesperadamente, preserva os dados anteriores.
+Novidades desta versão:
+- Retry automático e pausa entre requisições.
+- Resumos de notícia cortados em fim de frase, sem legenda "(Foto: ...)".
+- Cursos: resolve o ano, descarta encerrados, ordena por data e só então limita a 5.
+- Praça/região de soja, milho, boi e vaca validadas contra o que o portal publica.
+- Trava de segurança: se a coleta do SENAR vier suspeitamente vazia, mantém o anterior.
+- Gera dados_tv.json (completo) e dados/<slug>.json (leve, um por município).
 """
 from __future__ import annotations
 
 import json
 import logging
 import re
+import time
 import unicodedata
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode, urljoin
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / "dados_tv.json"
+DADOS_DIR = ROOT / "dados"
 FAMASUL = "https://portal.sistemafamasul.com.br/"
 NEWS_URL = urljoin(FAMASUL, "noticias")
 COTACOES = urljoin(FAMASUL, "cotacoes-online")
 SENAR = "https://senarms.org.br/municipios"
 TIMEOUT = 20
 MAX_NEWS = 8
+MAX_COURSES = 5
+HORIZON_DAYS = 45
+TZ = ZoneInfo("America/Campo_Grande")
+MS = "Mato Grosso do Sul"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36",
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.7",
@@ -38,6 +47,9 @@ HEADERS = {
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 session = requests.Session()
 session.headers.update(HEADERS)
+_retry = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+session.mount("https://", HTTPAdapter(max_retries=_retry))
+session.mount("http://", HTTPAdapter(max_retries=_retry))
 
 MUNICIPIOS = [
     "Água Clara", "Alcinópolis", "Amambai", "Anastácio", "Anaurilândia", "Angélica", "Antônio João",
@@ -55,6 +67,7 @@ MUNICIPIOS = [
     "Taquarussu", "Terenos", "Três Lagoas", "Vicentina"
 ]
 
+# Praças de cidade (milho e vaca).
 PRACAS = {
     "dourados": "Dourados", "douradina": "Dourados", "itapora": "Dourados", "caarapo": "Dourados",
     "fatima-do-sul": "Dourados", "gloria-de-dourados": "Dourados", "deodapolis": "Dourados",
@@ -62,6 +75,7 @@ PRACAS = {
     "campo-grande": "Campo Grande", "chapadao-do-sul": "Chapadão do Sul",
     "sao-gabriel-do-oeste": "São Gabriel do Oeste", "sonora": "Sonora", "ponta-pora": "Ponta Porã"
 }
+# Regiões (soja e boi). Confirme a divisão oficial do portal e complete os municípios que faltam.
 REGIOES = {
     "dourados": "Região Sul", "douradina": "Região Sul", "itapora": "Região Sul", "caarapo": "Região Sul",
     "fatima-do-sul": "Região Sul", "gloria-de-dourados": "Região Sul", "maracaju": "Região Sul",
@@ -95,11 +109,29 @@ def text_of(node) -> str:
     return clean(node.get_text(" ", strip=True)) if node else ""
 
 
+def shorten(text: str, limit: int = 320) -> str:
+    """Remove legenda de foto, conserta frases coladas e corta em fim de frase."""
+    text = clean(text)
+    text = re.sub(r"^\(Foto:[^)]*\)\s*", "", text)
+    text = re.sub(r"([a-zà-ú])([.!?])([A-ZÀ-Ú])", r"\1\2 \3", text)
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    end = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
+    if end > limit * 0.5:
+        return cut[: end + 1]
+    return cut.rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
+def https(url: str) -> str:
+    return url.replace("http://", "https://", 1) if url.startswith("http://") else url
+
+
 def fetch_soup(url: str) -> BeautifulSoup:
     response = session.get(url, timeout=TIMEOUT)
     response.raise_for_status()
-    response.encoding = response.apparent_encoding or "utf-8"
-    return BeautifulSoup(response.text, "html.parser")
+    # bytes: o BeautifulSoup lê o charset declarado no HTML (mais rápido e confiável).
+    return BeautifulSoup(response.content, "html.parser")
 
 
 def abs_img(img_or_url, base_url: str) -> str:
@@ -116,7 +148,7 @@ def abs_img(img_or_url, base_url: str) -> str:
         src = "https:" + src
     if src.startswith("data:"):
         return ""
-    return urljoin(base_url, src) if src else ""
+    return https(urljoin(base_url, src)) if src else ""
 
 
 def scrape_banners(soup: BeautifulSoup) -> list[dict]:
@@ -141,21 +173,19 @@ def scrape_news() -> list[dict]:
     for a in listing.select('a[href*="/noticias/"]'):
         href = urljoin(NEWS_URL, a.get("href", ""))
         title = text_of(a)
-        if not title or title.lower() in {"leia mais", "mais informações"}:
+        if not title or title.lower() in {"leia mais", "mais informações"} or len(title) < 18:
             continue
         if href.rstrip("/") == NEWS_URL.rstrip("/") or href in seen:
-            continue
-        # Prefere o link que contém o título completo, não o botão LEIA MAIS.
-        if len(title) < 18:
             continue
         seen.add(href)
         links.append((title, href))
     news = []
     for listing_title, link in links[:MAX_NEWS]:
         item = {"titulo": listing_title, "link": link, "imagem": "", "resumo": "", "fonte": "Sistema FAMASUL"}
-        # Primeiro tenta a imagem do cartão na listagem (incluindo lazy-loading).
         try:
-            anchor = listing.select_one(f'a[href="{link}"]')
+            # Compara pelo href absoluto (o href original costuma ser relativo).
+            anchor = next((a for a in listing.select('a[href*="/noticias/"]')
+                           if urljoin(NEWS_URL, a.get("href", "")) == link), None)
             if anchor:
                 card = anchor
                 for ancestor in anchor.parents:
@@ -174,10 +204,7 @@ def scrape_news() -> list[dict]:
             h1 = detail.select_one("main h1, article h1, h1.page-title, h1")
             if h1 and text_of(h1):
                 item["titulo"] = text_of(h1)
-            for selector in [
-                'meta[property="og:image"]', 'meta[name="twitter:image"]',
-                'meta[property="og:image:url"]'
-            ]:
+            for selector in ['meta[property="og:image"]', 'meta[name="twitter:image"]', 'meta[property="og:image:url"]']:
                 meta = detail.select_one(selector)
                 if meta and meta.get("content"):
                     item["imagem"] = abs_img(meta.get("content"), link)
@@ -187,8 +214,7 @@ def scrape_news() -> list[dict]:
                                  "main .node__content img", "main img", ".field--name-body img"]:
                     for img in detail.select(selector):
                         src = abs_img(img, link)
-                        low = src.lower()
-                        if src and not any(x in low for x in ["logo", "icon", "avatar", "banner", "placeholder"]):
+                        if src and not any(x in src.lower() for x in ["logo", "icon", "avatar", "banner", "placeholder"]):
                             item["imagem"] = src
                             break
                     if item["imagem"]:
@@ -196,32 +222,33 @@ def scrape_news() -> list[dict]:
             for selector in ['meta[property="og:description"]', 'meta[name="description"]', 'meta[name="twitter:description"]']:
                 meta = detail.select_one(selector)
                 if meta and meta.get("content"):
-                    item["resumo"] = clean(meta.get("content"))[:420]
+                    item["resumo"] = shorten(meta.get("content"))
                     break
             if not item["resumo"]:
                 for selector in ["article .field--name-body p", "article .field-name-body p", "main article p", "main p"]:
-                    p = detail.select_one(selector)
-                    if p and len(text_of(p)) > 60:
-                        item["resumo"] = text_of(p)[:420]
+                    for p in detail.select(selector):
+                        candidate = shorten(text_of(p))
+                        if len(candidate) > 60:
+                            item["resumo"] = candidate
+                            break
+                    if item["resumo"]:
                         break
         except Exception as exc:
             logging.warning("Não foi possível abrir notícia %s: %s", link, exc)
         news.append(item)
+        time.sleep(0.3)
     return news
 
 
 def scrape_famasul() -> dict:
     home = fetch_soup(FAMASUL)
-    banners = scrape_banners(home)
-    news = scrape_news()
-    return {"banners": banners, "noticias": news}
+    return {"banners": scrape_banners(home), "noticias": scrape_news()}
 
 
 def parse_brl(value: str):
     value = clean(value).replace("R$", "").replace(" ", "")
     if not value:
         return None
-    # No portal os preços aparecem em formato 363.97. Também aceita 1.234,56.
     if "," in value:
         value = value.replace(".", "").replace(",", ".")
     try:
@@ -243,7 +270,6 @@ def marker_for_table(table) -> str | None:
         for pattern, key in marker_patterns:
             if pattern.search(value):
                 return key
-    # Fallback contextual local: nunca usa o texto da página inteira para classificar a tabela.
     parent = table.parent
     local = text_of(parent)[:500].lower() if parent else ""
     for term, key in [("boi", "boi"), ("vaca", "vaca"), ("milho", "milho"), ("soja", "soja")]:
@@ -263,10 +289,10 @@ def scrape_cotacoes() -> dict:
             cells = [text_of(c) for c in row.select("th,td")]
             if len(cells) < 3:
                 continue
-            date = next((c for c in cells if DATE_RE.search(c)), "")
-            if not date:
+            date_s = next((c for c in cells if DATE_RE.search(c)), "")
+            if not date_s:
                 continue
-            # A coluna de preço da tabela é a primeira célula numérica de valor; ignora Funrural.
+            # Primeira célula numérica = valor divulgado. Confirme no portal se é "com" ou "sem" Funrural.
             price = None
             for cell in cells:
                 if "R$" in cell or re.fullmatch(r"\d{2,3}(?:\.\d{2}|,\d{2})", cell.strip()):
@@ -278,7 +304,7 @@ def scrape_cotacoes() -> dict:
                 continue
             place = ""
             for cell in cells:
-                if cell == date or DATE_RE.search(cell) or "R$" in cell or parse_brl(cell) is not None:
+                if cell == date_s or DATE_RE.search(cell) or "R$" in cell or parse_brl(cell) is not None:
                     continue
                 if clean(cell).lower() in {"data", "praça", "praca", "valor", "com funrural"}:
                     continue
@@ -286,7 +312,7 @@ def scrape_cotacoes() -> dict:
                     place = clean(cell)
                     break
             if place:
-                data[key].append({"data": date, "praca": place, "valor": price})
+                data[key].append({"data": date_s, "praca": place, "valor": price})
     for key, rows in data.items():
         dedup = {}
         for item in rows:
@@ -296,13 +322,33 @@ def scrape_cotacoes() -> dict:
     return data
 
 
-def scrape_cursos(slug: str) -> list[dict]:
-    """Coleta até os cinco primeiros cursos da página específica do município.
+def pick(items: list[dict], preferred: str) -> str:
+    """Usa a praça/região preferida só se o portal realmente a publica; senão, média do estado."""
+    available = {slugify(i["praca"]) for i in items}
+    return preferred if slugify(preferred) in available else MS
 
-    O portal SENAR-MS filtra a programação pela query string ?municipio=NOME.
-    Cada curso é apresentado em um button.accordion e seus detalhes aparecem
-    no conteúdo de expansão antes do próximo botão de curso.
-    """
+
+def _dmy(value: str, year: int) -> date:
+    p = value.split("/")
+    return date(int(p[2]) if len(p) > 2 else year, int(p[1]), int(p[0]))
+
+
+def resolve_dates(start_s: str, end_s: str, today: date):
+    """Infere o ano das datas (o portal publica só dd/mm)."""
+    try:
+        start, end = _dmy(start_s, today.year), _dmy(end_s, today.year)
+    except ValueError:
+        return None
+    if end < start:  # ex.: 24/11 até 05/11 -> termina no ano seguinte
+        end = end.replace(year=end.year + 1)
+    if end < today - timedelta(days=60):  # ex.: 08/04 até 07/05 -> ciclo do ano seguinte
+        start = start.replace(year=start.year + 1)
+        end = end.replace(year=end.year + 1)
+    return start, end
+
+
+def scrape_cursos(slug: str, today: date) -> list[dict]:
+    """Coleta todos os cursos do município, filtra encerrados/distantes e limita a 5."""
     municipality_by_slug = {slugify(name): name for name in MUNICIPIOS}
     city = municipality_by_slug.get(slug)
     if not city:
@@ -311,27 +357,22 @@ def scrape_cursos(slug: str) -> list[dict]:
 
     url = f"{SENAR}?{urlencode({'municipio': city.upper()})}"
     soup = fetch_soup(url)
-    heading = soup.select_one("h1.interno")
-    page_city = text_of(heading) if heading else city.upper()
-    logging.info("SENAR município solicitado=%s; cabeçalho da página=%s", city, page_city)
-
     courses: list[dict] = []
     seen: set[tuple[str, str, str]] = set()
-    buttons = soup.select("button.accordion")
 
-    for button in buttons:
-        label = text_of(button)
-        match = DATE_RANGE.match(label)
+    for button in soup.select("button.accordion"):
+        match = DATE_RANGE.match(text_of(button))
         if not match:
             continue
-
         start, end, title = match.groups()
         title = clean(title).strip(" -–—:")
         if len(title) < 4 or title.lower() in {"mais informações", "leia mais"}:
             continue
+        dates = resolve_dates(start, end, today)
+        if not dates:
+            continue
+        d_start, d_end = dates
 
-        # Reúne o conteúdo que vem após este botão até o próximo curso.
-        # No site, normalmente os metadados e o link ficam no painel seguinte.
         detail_nodes = []
         sibling = button.find_next_sibling()
         while sibling is not None:
@@ -339,12 +380,9 @@ def scrape_cursos(slug: str) -> list[dict]:
                 break
             detail_nodes.append(sibling)
             sibling = sibling.find_next_sibling()
-
         blob = clean(" ".join(text_of(node) for node in detail_nodes))
 
-        # Fallback para pequenas mudanças no HTML: procura o painel logo depois
-        # do botão no fluxo do documento, sem avançar para o próximo curso.
-        if not blob or not any(term in blob.casefold() for term in ("carga horária", "localização", "confirmado", "aberto")):
+        if not blob or not any(t in blob.casefold() for t in ("carga horária", "localização", "confirmado", "aberto")):
             pieces = []
             for node in button.find_all_next(True):
                 if node.name == "button" and "accordion" in (node.get("class") or []):
@@ -359,11 +397,7 @@ def scrape_cursos(slug: str) -> list[dict]:
 
         hours = re.search(r"Carga\s+horária\s*:\s*(\d+)", blob, re.I)
         vacancies = re.search(r"Total\s+de\s+vagas\s*:\s*(\d+)", blob, re.I)
-        local = re.search(
-            r"Localização\s*:\s*(.+?)(?=\s+(?:Parceiro|Telefone|E-mail)\s*:|$)",
-            blob,
-            re.I,
-        )
+        local = re.search(r"Localização\s*:\s*(.+?)(?=\s+(?:Parceiro|Telefone|E-mail)\s*:|$)", blob, re.I)
         status = re.search(r"\b(CONFIRMADO|INSCRIÇÕES ABERTAS|ABERTO)\b", blob, re.I)
 
         more_link = ""
@@ -379,28 +413,34 @@ def scrape_cursos(slug: str) -> list[dict]:
             if anchor:
                 more_link = urljoin(url, anchor.get("href", ""))
 
-        key = (slug, start, end + "|" + slugify(title))
+        key = (slug, d_start.isoformat(), slugify(title))
         if key in seen:
             continue
         seen.add(key)
+        periodo = f"{start} até {end}"
+        if d_end.year != d_start.year:
+            periodo = f"{start} até {d_end:%d/%m/%Y}"
         courses.append({
             "titulo": title[:180],
-            "periodo": f"{start} até {end}",
+            "periodo": periodo,
             "data_inicio": start,
             "data_fim": end,
+            "data_inicio_iso": d_start.isoformat(),
+            "data_fim_iso": d_end.isoformat(),
             "carga_horaria": int(hours.group(1)) if hours else None,
             "vagas": int(vacancies.group(1)) if vacancies else None,
             "local": clean(local.group(1)) if local else "",
             "status": status.group(1).upper() if status else "",
             "municipio_slug": slug,
-            "link": more_link or url,
+            "link": https(more_link or url),
             "fonte": url,
         })
-        if len(courses) >= 5:
-            break
 
-    logging.info("SENAR %s: %d dos até 5 cursos coletados", city, len(courses))
-    return courses
+    horizon = (today + timedelta(days=HORIZON_DAYS)).isoformat()
+    courses = [c for c in courses if c["data_fim_iso"] >= today.isoformat() and c["data_inicio_iso"] <= horizon]
+    courses.sort(key=lambda c: c["data_inicio_iso"])
+    logging.info("SENAR %s: %d cursos válidos (máx. %d exibidos)", city, len(courses), MAX_COURSES)
+    return courses[:MAX_COURSES]
 
 
 def main() -> None:
@@ -411,10 +451,11 @@ def main() -> None:
         except Exception:
             logging.warning("JSON anterior inválido; será reconstruído.")
     now = datetime.now(timezone.utc).isoformat()
+    today = datetime.now(TZ).date()
     old_famasul = previous.get("famasul", {"banners": [], "noticias": []})
     old_quotes = previous.get("cotacoes", {"soja": [], "milho": [], "boi": [], "vaca": []})
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "gerado_em": now,
         "fontes": {"famasul": FAMASUL, "noticias": NEWS_URL, "cotacoes": COTACOES, "senar": SENAR},
         "municipios": {},
@@ -425,7 +466,6 @@ def main() -> None:
     try:
         collected = scrape_famasul()
         if collected.get("banners") or collected.get("noticias"):
-            # Se uma das duas partes vier vazia, preserva o último conjunto válido daquela parte.
             payload["famasul"] = {
                 "banners": collected.get("banners") or old_famasul.get("banners", []),
                 "noticias": collected.get("noticias") or old_famasul.get("noticias", []),
@@ -445,39 +485,58 @@ def main() -> None:
     except Exception:
         logging.exception("Falha ao coletar cotações")
         payload["avisos"].append("Cotações indisponíveis; preservados dados anteriores.")
+
+    quotes = payload["cotacoes"]
     old_municipios = previous.get("municipios", {})
     for name in MUNICIPIOS:
         slug = slugify(name)
-        old = old_municipios.get(slug, {})
+        regiao = REGIOES.get(slug, MS)
+        praca = PRACAS.get(slug, MS)
+        base = {
+            "nome": name,
+            "slug": slug,
+            "praca_milho": pick(quotes.get("milho", []), praca),
+            "praca_vaca": pick(quotes.get("vaca", []), praca),
+            "regiao_soja": pick(quotes.get("soja", []), regiao),
+            "regiao_boi": pick(quotes.get("boi", []), regiao),
+        }
         try:
-            fresh_courses = scrape_cursos(slug)
-            # A página individual do município é a fonte oficial. Exibe até cinco
-            # cursos; se a consulta funcionar e retornar menos, usa somente os encontrados.
-            courses = fresh_courses
-            if not fresh_courses:
-                payload["avisos"].append(f"Nenhum curso encontrado na página do SENAR para {name}.")
-            payload["municipios"][slug] = {
-                "nome": name,
-                "slug": slug,
-                "cursos": courses,
-                "praca_graos": PRACAS.get(slug, "Mato Grosso do Sul"),
-                "regiao_pecuaria": REGIOES.get(slug, "Mato Grosso do Sul"),
-                "atualizado_em": now,
-            }
+            courses = scrape_cursos(slug, today)
+            if not courses:
+                payload["avisos"].append(f"Nenhum curso vigente na página do SENAR para {name}.")
+            payload["municipios"][slug] = {**base, "cursos": courses}
         except Exception as exc:
             logging.warning("Falha SENAR %s: %s", name, exc)
-            payload["municipios"][slug] = old or {
-                "nome": name, "slug": slug, "cursos": [],
-                "praca_graos": PRACAS.get(slug, "Mato Grosso do Sul"),
-                "regiao_pecuaria": REGIOES.get(slug, "Mato Grosso do Sul"), "atualizado_em": None,
-            }
+            old = old_municipios.get(slug, {})
+            payload["municipios"][slug] = {**base, "cursos": old.get("cursos", [])}
             payload["avisos"].append(f"Falha ao atualizar cursos de {name}; preservada a lista anterior.")
+        time.sleep(0.3)
+
+    # Trava: estrutura do SENAR mudou e zerou tudo?
+    total = sum(len(m["cursos"]) for m in payload["municipios"].values())
+    old_total = sum(len(m.get("cursos", [])) for m in old_municipios.values())
+    if old_total and total < old_total * 0.3:
+        for slug, m in payload["municipios"].items():
+            m["cursos"] = old_municipios.get(slug, {}).get("cursos", [])
+        payload["avisos"].append("Coleta do SENAR suspeita (queda brusca); preservados cursos anteriores.")
+        logging.warning("Coleta do SENAR suspeita: %d cursos contra %d antes.", total, old_total)
+
     tmp = OUTPUT.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     tmp.replace(OUTPUT)
-    logging.info("Arquivo atualizado: %s", OUTPUT)
-    logging.info("Resumo: noticias=%d, soja=%d, milho=%d, boi=%d, vaca=%d", len(payload["famasul"].get("noticias", [])), *(len(payload["cotacoes"].get(k, [])) for k in ("soja", "milho", "boi", "vaca")))
-    logging.info("Avisos gerados: %d", len(payload["avisos"]))
+
+    DADOS_DIR.mkdir(exist_ok=True)
+    for slug, m in payload["municipios"].items():
+        slim = {
+            "schema_version": 2, "gerado_em": now, "municipio": m,
+            "famasul": payload["famasul"], "cotacoes": payload["cotacoes"],
+        }
+        (DADOS_DIR / f"{slug}.json").write_text(json.dumps(slim, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    logging.info("Arquivos atualizados: %s e %s/", OUTPUT, DADOS_DIR)
+    logging.info("Resumo: noticias=%d, soja=%d, milho=%d, boi=%d, vaca=%d, avisos=%d",
+                 len(payload["famasul"].get("noticias", [])),
+                 *(len(quotes.get(k, [])) for k in ("soja", "milho", "boi", "vaca")), len(payload["avisos"]))
 
 
 if __name__ == "__main__":
