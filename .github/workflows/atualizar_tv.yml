@@ -59,7 +59,7 @@ jobs:
           git fetch origin main
           git reset --soft origin/main
 
-          git add dados_tv.json
+          git add dados_tv.json dados
 
           if git diff --cached --quiet; then
             echo "Sem alterações no JSON."
