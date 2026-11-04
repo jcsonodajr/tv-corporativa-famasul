@@ -82,7 +82,7 @@ footer{display:flex;align-items:center;overflow:hidden;border-top:1px solid var(
 <script>
 "use strict";
 const FAMASUL="https://portal.sistemafamasul.com.br/", LOGO=FAMASUL+"sites/default/files/logo-site-novaa.png";
-const DEFAULT_CITY="campo-grande", CACHE_KEY="tv_famasul_", STALE_HOURS=12, RELOAD_HOURS=6, MS="mato grosso do sul", VAGAS_CURSO=10, PAGINAS_COMPLETAS=true;
+const DEFAULT_CITY="campo-grande", CACHE_KEY="tv_famasul_", STALE_HOURS=12, RELOAD_HOURS=6, MS="mato grosso do sul", VAGAS_CURSO=10;
 const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const $=id=>document.getElementById(id);
 const norm=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
@@ -175,10 +175,8 @@ function buildSlide(type,item){
 function courseSlides(courses){
  const todayIso=new Date().toLocaleDateString("sv-SE",{timeZone:TZ});
  const valid=(courses||[]).filter(c=>!c.data_fim_iso||c.data_fim_iso>=todayIso);
- // Com mais de 4 cursos, mostra só páginas completas de 4 (ex.: 5 a 7 cursos -> 4; 8 -> 4+4).
- const list=PAGINAS_COMPLETAS&&valid.length>4?valid.slice(0,Math.floor(valid.length/4)*4):valid;
- const pages=Math.ceil(list.length/4);
- return Array.from({length:pages},(_,i)=>({courses:list.slice(i*4,i*4+4),page:i+1,pages}));
+ const pages=Math.ceil(valid.length/4);
+ return Array.from({length:pages},(_,i)=>({courses:valid.slice(i*4,i*4+4),page:i+1,pages}));
 }
 function rebuildSlides(d){
  const stage=$("stage");stage.querySelectorAll(".slide").forEach(n=>n.remove());
