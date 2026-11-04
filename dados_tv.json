@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-04T13:07:34.906724+00:00",
+  "gerado_em": "2026-11-04T14:18:37.775932+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -7204,6 +7204,10 @@
     ]
   },
   "avisos": [
+    "Cotação de soja não identificada; preservados dados anteriores.",
+    "Cotação de milho não identificada; preservados dados anteriores.",
+    "Cotação de boi não identificada; preservados dados anteriores.",
+    "Cotação de vaca não identificada; preservados dados anteriores.",
     "Nenhum curso vigente na página do SENAR para Bodoquena.",
     "Nenhum curso vigente na página do SENAR para Brasilândia.",
     "Nenhum curso vigente na página do SENAR para Corguinho.",
