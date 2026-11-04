@@ -40,7 +40,7 @@ COTACOES = urljoin(FAMASUL, "cotacoes-online")
 SENAR = "https://senarms.org.br/municipios"
 TIMEOUT = 20
 MAX_NEWS = 8
-MAX_COURSES = 5
+MAX_COURSES = 8
 HORIZON_DAYS = 45
 TZ = ZoneInfo("America/Campo_Grande")
 MS = "Mato Grosso do Sul"
@@ -101,7 +101,12 @@ DATE_FULL = re.compile(r"^\d{2}/\d{2}/\d{4}$")
 
 def make_qr(url: str) -> str:
     """QR code como imagem SVG embutida (data URI). Vazio se a biblioteca não estiver instalada."""
-    if not segno or not url:
+    if not segno:
+        if not getattr(make_qr, "_avisou", False):
+            logging.warning("Biblioteca 'segno' não instalada: QR codes desativados. Adicione 'segno' ao requirements.txt.")
+            make_qr._avisou = True
+        return ""
+    if not url:
         return ""
     try:
         return segno.make(url, error="m", micro=False).svg_data_uri(
