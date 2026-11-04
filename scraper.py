@@ -24,6 +24,10 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+try:
+    import segno  # gera o QR code das notícias (pip install segno)
+except ImportError:  # sem a biblioteca, a TV só não mostra o QR
+    segno = None
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -92,6 +96,19 @@ DATE_RANGE = re.compile(
     r"(\d{1,2}/\d{1,2}(?:/\d{4})?)\s*[-–—:]\s*(.+?)\s*$", re.I
 )
 DATE_RE = re.compile(r"\d{1,2}/\d{1,2}/\d{4}")
+DATE_FULL = re.compile(r"^\d{2}/\d{2}/\d{4}$")
+
+
+def make_qr(url: str) -> str:
+    """QR code como imagem SVG embutida (data URI). Vazio se a biblioteca não estiver instalada."""
+    if not segno or not url:
+        return ""
+    try:
+        return segno.make(url, error="m", micro=False).svg_data_uri(
+            scale=5, border=2, dark="#000000", light="#ffffff")
+    except Exception as exc:
+        logging.warning("Falha ao gerar QR de %s: %s", url, exc)
+        return ""
 
 
 def slugify(value: str) -> str:
@@ -181,7 +198,18 @@ def scrape_news() -> list[dict]:
         links.append((title, href))
     news = []
     for listing_title, link in links[:MAX_NEWS]:
-        item = {"titulo": listing_title, "link": link, "imagem": "", "resumo": "", "fonte": "Sistema FAMASUL"}
+        item = {"titulo": listing_title, "link": link, "imagem": "", "resumo": "", "fonte": "Sistema FAMASUL", "data": "", "qr": ""}
+        try:
+            # Data: texto dd/mm/aaaa imediatamente antes do link do título na listagem.
+            title_a = next((a for a in listing.select('a[href*="/noticias/"]')
+                            if urljoin(NEWS_URL, a.get("href", "")) == link and text_of(a) == listing_title), None)
+            if title_a:
+                for s in title_a.find_all_previous(string=True, limit=8):
+                    if DATE_FULL.match(clean(s)):
+                        item["data"] = clean(s)
+                        break
+        except Exception:
+            pass
         try:
             # Compara pelo href absoluto (o href original costuma ser relativo).
             anchor = next((a for a in listing.select('a[href*="/noticias/"]')
@@ -204,6 +232,11 @@ def scrape_news() -> list[dict]:
             h1 = detail.select_one("main h1, article h1, h1.page-title, h1")
             if h1 and text_of(h1):
                 item["titulo"] = text_of(h1)
+            if not item["data"]:
+                meta = detail.select_one('meta[property="article:published_time"]')
+                iso = re.match(r"(\d{4})-(\d{2})-(\d{2})", meta.get("content", "")) if meta else None
+                if iso:
+                    item["data"] = f"{iso.group(3)}/{iso.group(2)}/{iso.group(1)}"
             for selector in ['meta[property="og:image"]', 'meta[name="twitter:image"]', 'meta[property="og:image:url"]']:
                 meta = detail.select_one(selector)
                 if meta and meta.get("content"):
@@ -235,6 +268,7 @@ def scrape_news() -> list[dict]:
                         break
         except Exception as exc:
             logging.warning("Não foi possível abrir notícia %s: %s", link, exc)
+        item["qr"] = make_qr(link)
         news.append(item)
         time.sleep(0.3)
     return news
