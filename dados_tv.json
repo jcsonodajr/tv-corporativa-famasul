@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-04T21:14:10.966877+00:00",
+  "gerado_em": "2026-11-05T02:13:50.677356+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -16,21 +16,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "CULTIVO DE FRUTÍFERAS EM VASOS",
-          "periodo": "05/11 até 07/11",
-          "data_inicio": "05/11",
-          "data_fim": "07/11",
-          "data_inicio_iso": "2026-11-05",
-          "data_fim_iso": "2026-11-07",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE ÁGUA CLARA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "agua-clara",
-          "link": "https://senarms.org.br/curso?curso=645",
-          "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
-        },
         {
           "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
           "periodo": "06/11 até 07/11",
@@ -92,6 +77,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
         },
         {
+          "titulo": "SAÚDE DO IDOSO",
+          "periodo": "26/11 até 28/11",
+          "data_inicio": "26/11",
+          "data_fim": "28/11",
+          "data_inicio_iso": "2026-11-26",
+          "data_fim_iso": "2026-11-28",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE ÁGUA CLARA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "agua-clara",
+          "link": "https://senarms.org.br/curso?curso=813",
+          "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
+        },
+        {
           "titulo": "OPERADOR DE PÁ CARREGADEIRA (LINHA AMARELA)",
           "periodo": "03/12 até 05/12",
           "data_inicio": "03/12",
@@ -104,6 +104,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "agua-clara",
           "link": "https://senarms.org.br/curso?curso=38",
+          "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
+        },
+        {
+          "titulo": "CULTIVO DE FRUTÍFERAS EM VASOS",
+          "periodo": "17/12 até 19/12",
+          "data_inicio": "17/12",
+          "data_fim": "19/12",
+          "data_inicio_iso": "2026-12-17",
+          "data_fim_iso": "2026-12-19",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE ÁGUA CLARA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "agua-clara",
+          "link": "https://senarms.org.br/curso?curso=645",
           "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
         }
       ]
@@ -870,7 +885,7 @@
           "data_fim_iso": "2026-11-05",
           "carga_horaria": 8,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE AQUIDAUANA",
+          "local": "ASSOCIAÇÃO BOM SAMARITANO - LAR BETÂNIA MASCULINO",
           "status": "CONFIRMADO",
           "municipio_slug": "aquidauana",
           "link": "https://senarms.org.br/curso?curso=805",
@@ -945,7 +960,7 @@
           "data_fim_iso": "2026-11-19",
           "carga_horaria": 32,
           "vagas": 10,
-          "local": "ALDEIA LIMÃO VERDE",
+          "local": "CAPS II CENTRO DE ATENÇÃO PSICOSSOCIAL DE AQUIDAUANA",
           "status": "CONFIRMADO",
           "municipio_slug": "aquidauana",
           "link": "https://senarms.org.br/curso?curso=529",
@@ -3428,14 +3443,14 @@
       "cursos": [
         {
           "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
-          "periodo": "12/11 até 13/11",
-          "data_inicio": "12/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-12",
-          "data_fim_iso": "2026-11-13",
+          "periodo": "11/11 até 12/11",
+          "data_inicio": "11/11",
+          "data_fim": "12/11",
+          "data_inicio_iso": "2026-11-11",
+          "data_fim_iso": "2026-11-12",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "GERÊNCIA DE DESENVOLVIMENTO ECONÔMICO DE ITAQUIRAÍ/COORDENADORIA DA MULHER",
+          "local": "ESCOLA - AGRINHO",
           "status": "CONFIRMADO",
           "municipio_slug": "itaquirai",
           "link": "https://senarms.org.br/curso?curso=503",
@@ -3662,6 +3677,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
         },
         {
+          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
+          "periodo": "11/11 até 11/11",
+          "data_inicio": "11/11",
+          "data_fim": "11/11",
+          "data_inicio_iso": "2026-11-11",
+          "data_fim_iso": "2026-11-11",
+          "carga_horaria": 8,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE JARDIM",
+          "status": "CONFIRMADO",
+          "municipio_slug": "jardim",
+          "link": "https://senarms.org.br/curso?curso=805",
+          "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
+        },
+        {
           "titulo": "CULTIVO DE HORTALIÇAS FOLHOSAS",
           "periodo": "12/11 até 14/11",
           "data_inicio": "12/11",
@@ -3674,6 +3704,36 @@
           "status": "CONFIRMADO",
           "municipio_slug": "jardim",
           "link": "https://senarms.org.br/curso?curso=675",
+          "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
+        },
+        {
+          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
+          "periodo": "12/11 até 12/11",
+          "data_inicio": "12/11",
+          "data_fim": "12/11",
+          "data_inicio_iso": "2026-11-12",
+          "data_fim_iso": "2026-11-12",
+          "carga_horaria": 8,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE JARDIM",
+          "status": "CONFIRMADO",
+          "municipio_slug": "jardim",
+          "link": "https://senarms.org.br/curso?curso=805",
+          "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
+        },
+        {
+          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
+          "periodo": "13/11 até 13/11",
+          "data_inicio": "13/11",
+          "data_fim": "13/11",
+          "data_inicio_iso": "2026-11-13",
+          "data_fim_iso": "2026-11-13",
+          "carga_horaria": 8,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE JARDIM",
+          "status": "CONFIRMADO",
+          "municipio_slug": "jardim",
+          "link": "https://senarms.org.br/curso?curso=805",
           "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
         },
         {
@@ -3692,33 +3752,18 @@
           "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
         },
         {
-          "titulo": "PREVENÇÃO E COMBATE A INCÊNDIOS NAS ÁREAS RURAIS",
-          "periodo": "26/11 até 27/11",
-          "data_inicio": "26/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-26",
-          "data_fim_iso": "2026-11-27",
+          "titulo": "PRODUÇÃO DE PÃES ARTESANAIS",
+          "periodo": "24/11 até 25/11",
+          "data_inicio": "24/11",
+          "data_fim": "25/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-25",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "4ª CIA DE COMBATE MECANIZADA",
+          "local": "SINDICATO RURAL DE JARDIM",
           "status": "CONFIRMADO",
           "municipio_slug": "jardim",
-          "link": "https://senarms.org.br/curso?curso=706",
-          "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
-        },
-        {
-          "titulo": "CULTIVO DE PLANTAS MEDICINAIS, AROMÁTICAS E CONDIMENTARES",
-          "periodo": "03/12 até 05/12",
-          "data_inicio": "03/12",
-          "data_fim": "05/12",
-          "data_inicio_iso": "2026-12-03",
-          "data_fim_iso": "2026-12-05",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "PESTALOZZI",
-          "status": "CONFIRMADO",
-          "municipio_slug": "jardim",
-          "link": "https://senarms.org.br/curso?curso=696",
+          "link": "https://senarms.org.br/curso?curso=858",
           "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
         }
       ]
@@ -4189,7 +4234,7 @@
           "data_fim_iso": "2026-11-06",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "CENTRO DE QUALIFICAÇÃO",
+          "local": "CENTRO DE QUALIFICAÇÃO DA PREFEITURA MUNICIPAL DE MUNDO NOVO",
           "status": "CONFIRMADO",
           "municipio_slug": "mundo-novo",
           "link": "https://senarms.org.br/curso?curso=798",
@@ -5782,6 +5827,21 @@
       "regiao_soja": "Região Norte",
       "regiao_boi": "Região Norte",
       "cursos": [
+        {
+          "titulo": "NOÇÕES DE PECUÁRIA DE CORTE",
+          "periodo": "18/11 até 19/11",
+          "data_inicio": "18/11",
+          "data_fim": "19/11",
+          "data_inicio_iso": "2026-11-18",
+          "data_fim_iso": "2026-11-19",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE SÃO GABRIEL DO OESTE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "sao-gabriel-do-oeste",
+          "link": "https://senarms.org.br/curso?curso=757",
+          "fonte": "https://senarms.org.br/municipios?municipio=S%C3%83O+GABRIEL+DO+OESTE"
+        },
         {
           "titulo": "ANÁLISE E CLASSIFICAÇÃO DE GRÃOS (SOJA E MILHO)",
           "periodo": "08/12 até 11/12",
