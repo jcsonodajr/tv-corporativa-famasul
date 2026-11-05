@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-05T10:42:19.442263+00:00",
+  "gerado_em": "2026-11-05T18:39:48.302951+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -2108,21 +2108,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         },
         {
-          "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
-          "periodo": "10/11 até 11/11",
-          "data_inicio": "10/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CORUMBÁ",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=796",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
-        {
           "titulo": "CONFEITARIA BOLOS DECORADOS",
           "periodo": "10/11 até 13/11",
           "data_inicio": "10/11",
@@ -2210,6 +2195,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "corumba",
           "link": "https://senarms.org.br/curso?curso=593",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
+          "titulo": "OPERADOR DE CAMINHÃO GUINDAUTO (MUNCK)",
+          "periodo": "17/11 até 19/11",
+          "data_inicio": "17/11",
+          "data_fim": "19/11",
+          "data_inicio_iso": "2026-11-17",
+          "data_fim_iso": "2026-11-19",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "EXERCITO BRASILEIRO",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=413",
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         }
       ]
@@ -3482,21 +3482,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=IVINHEMA"
         },
         {
-          "titulo": "EXCEL INTERMEDIÁRIO",
-          "periodo": "07/12 até 09/12",
-          "data_inicio": "07/12",
-          "data_fim": "09/12",
-          "data_inicio_iso": "2026-12-07",
-          "data_fim_iso": "2026-12-09",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "CASA LILAS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "ivinhema",
-          "link": "https://senarms.org.br/curso?curso=795",
-          "fonte": "https://senarms.org.br/municipios?municipio=IVINHEMA"
-        },
-        {
           "titulo": "NR 31.6 - UTILIZAÇÃO CORRETA DE EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL",
           "periodo": "14/12 até 14/12",
           "data_inicio": "14/12",
@@ -3509,6 +3494,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "ivinhema",
           "link": "https://senarms.org.br/curso?curso=799",
+          "fonte": "https://senarms.org.br/municipios?municipio=IVINHEMA"
+        },
+        {
+          "titulo": "EXCEL INTERMEDIÁRIO",
+          "periodo": "17/12 até 19/12",
+          "data_inicio": "17/12",
+          "data_fim": "19/12",
+          "data_inicio_iso": "2026-12-17",
+          "data_fim_iso": "2026-12-19",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE IVINHEMA E NOVO HORIZONTE DO SUL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "ivinhema",
+          "link": "https://senarms.org.br/curso?curso=795",
           "fonte": "https://senarms.org.br/municipios?municipio=IVINHEMA"
         }
       ]
@@ -4089,7 +4089,7 @@
           "data_fim_iso": "2026-11-14",
           "carga_horaria": 24,
           "vagas": 10,
-          "local": "FAZENDA CARANDAY",
+          "local": "SINDICATO RURAL DE MIRANDA E BODOQUENA",
           "status": "CONFIRMADO",
           "municipio_slug": "miranda",
           "link": "https://senarms.org.br/curso?curso=289",
@@ -4366,21 +4366,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
         },
         {
-          "titulo": "CONSERVA DE HORTALIÇAS",
-          "periodo": "09/11 até 10/11",
-          "data_inicio": "09/11",
-          "data_fim": "10/11",
-          "data_inicio_iso": "2026-11-09",
-          "data_fim_iso": "2026-11-10",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "CEPPEC",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nioaque",
-          "link": "https://senarms.org.br/curso?curso=723",
-          "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
-        },
-        {
           "titulo": "MANEJO DE PASTAGEM - MÓDULO 1",
           "periodo": "09/11 até 10/11",
           "data_inicio": "09/11",
@@ -4468,6 +4453,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "nioaque",
           "link": "https://senarms.org.br/curso?curso=779",
+          "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
+        },
+        {
+          "titulo": "PRODUÇÃO DE ALIMENTOS SAUDÁVEIS",
+          "periodo": "02/12 até 03/12",
+          "data_inicio": "02/12",
+          "data_fim": "03/12",
+          "data_inicio_iso": "2026-12-02",
+          "data_fim_iso": "2026-12-03",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NIOAQUE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nioaque",
+          "link": "https://senarms.org.br/curso?curso=602",
           "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
         }
       ]
@@ -5862,21 +5862,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "SAÚDE DO IDOSO",
-          "periodo": "09/11 até 11/11",
-          "data_inicio": "09/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-09",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "sete-quedas",
-          "link": "https://senarms.org.br/curso?curso=813",
-          "fonte": "https://senarms.org.br/municipios?municipio=SETE+QUEDAS"
-        },
         {
           "titulo": "NR 31.15 - CAPACITAÇÃO PARA TRABALHO EM ALTURA",
           "periodo": "16/11 até 17/11",
