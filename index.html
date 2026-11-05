@@ -9,48 +9,56 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-/* Escala: 1rem = 16px em tela 1920x1080; todo o painel cresce/diminui proporcionalmente (16:9). */
-:root{--gold:#d97706;--gold2:#f59e0b;--glass:rgba(7,41,24,.78);--line:rgba(255,255,255,.12);--white:#f5f7f3;--muted:#c3d1c9}
-*{box-sizing:border-box}
+/* 1rem = 16px em tela 1920x1080; o painel escala proporcionalmente (16:9). */
+:root{--v:#006C4C;--vc:#62B55A;--vd:#004d36;--line:rgba(255,255,255,.16);--white:#f5f7f3;--muted:#cfe3d6;--ink:#1b2a24;--red:#ff6b5e}
+*{box-sizing:border-box}[hidden]{display:none!important}
 html{font-size:min(calc(100vw/120),calc(100vh/67.5))}
-html,body{margin:0;width:100%;height:100%;overflow:hidden;cursor:none;background:radial-gradient(ellipse at 15% 10%,#0b4528 0%,#03140c 58%,#020a06 100%);color:var(--white);font-family:Montserrat,Arial,sans-serif}
-/* Margem de segurança contra overscan da TV */
-body{display:grid;grid-template-rows:6.5rem minmax(0,1fr) 4rem;gap:.75rem;padding:2.5vh 2.5vw}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;cursor:none;background:linear-gradient(160deg,#006C4C 0%,#00573d 55%,#00402e 100%);color:var(--white);font-family:Montserrat,Arial,sans-serif}
+body{display:grid;grid-template-rows:6rem minmax(0,1fr) 3.5rem;gap:.75rem;padding:2.5vh 2.5vw}
 header{display:flex;align-items:center;justify-content:space-between;gap:1.25rem;border-bottom:1px solid var(--line);min-width:0}
-.brand{display:flex;align-items:center;gap:1.25rem;min-width:0}.logo-pill{background:#fff;border-radius:.6rem;padding:.6rem .9rem;box-shadow:0 .3rem 1.4rem #0005;display:flex;align-items:center;justify-content:center;min-width:12rem;height:4.4rem}.logo-pill img{max-width:11.5rem;max-height:3.1rem;object-fit:contain}.divider{height:3.4rem;width:2px;background:var(--gold);flex-shrink:0}.syndicate{font-size:1.7rem;font-weight:800;letter-spacing:.04em;line-height:1.2;text-transform:uppercase;max-width:44rem}.syndicate span{color:var(--gold2)}
-.weather-clock{display:flex;align-items:center;gap:1.6rem;flex-shrink:0}.weather{display:flex;align-items:center;gap:.75rem}.weather-icon{font-size:2.4rem}.temp{font:600 2.1rem Oswald,sans-serif}.condition{font-size:.95rem;color:var(--muted);max-width:9.5rem}.clock{text-align:right;border-left:1px solid var(--line);padding-left:1.4rem}.time{font:600 2.25rem Oswald,sans-serif;letter-spacing:.04em}.date{font-size:1rem;color:var(--muted)}
+.brand{display:flex;align-items:center;gap:1.25rem;min-width:0}.logo-pill{background:#fff;border-radius:.6rem;padding:.6rem .9rem;box-shadow:0 .3rem 1.4rem #0004;display:flex;align-items:center;justify-content:center;min-width:12rem;height:4.4rem}.logo-pill img{max-width:11.5rem;max-height:3.1rem;object-fit:contain}.divider{height:3.4rem;width:2px;background:var(--vc);flex-shrink:0}.syndicate{font-size:1.6rem;font-weight:800;letter-spacing:.04em;line-height:1.2;text-transform:uppercase}.syndicate span{color:var(--vc)}
+.weather-clock{display:flex;align-items:center;gap:1.6rem;flex-shrink:0}.weather{display:flex;align-items:center;gap:.75rem}.weather-icon{font-size:2.6rem}.temp{font:600 2.3rem Oswald,sans-serif;line-height:1}.loc{font-size:1rem;color:var(--muted);margin-top:.2rem}.clock{text-align:right;border-left:1px solid var(--line);padding-left:1.4rem}.time{font:600 2.4rem Oswald,sans-serif;letter-spacing:.04em;line-height:1}.date{font-size:1rem;color:var(--muted);margin-top:.2rem}
 main{display:grid;grid-template-columns:minmax(0,1fr) 29.5rem;gap:1.1rem;min-height:0}
-.stage{position:relative;min-width:0;min-height:0;border:1px solid var(--line);border-radius:1.1rem;overflow:hidden;background:var(--glass);box-shadow:0 .75rem 2.6rem #0003}
-.slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease;pointer-events:none;display:flex}.slide.active{opacity:1}
-.news-media,.banner-media{position:relative;overflow:hidden;background:#071b10;display:flex;align-items:center;justify-content:center}.news-media{width:55%}
-.news-media:before,.banner-media:before{content:"";position:absolute;inset:-1.1rem;background-image:var(--backdrop);background-position:center;background-size:cover;filter:blur(24px) brightness(.38);transform:scale(1.12)}
-.news-media img,.banner-media img{position:relative;z-index:1;max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain}
-.news-copy{width:45%;padding:3rem;display:flex;flex-direction:column;justify-content:center;gap:1.4rem;background:linear-gradient(135deg,rgba(4,26,15,.95),rgba(7,41,24,.72))}
-.eyebrow{color:var(--gold2);font-weight:800;letter-spacing:.16em;font-size:.9rem;text-transform:uppercase}
-.news-copy h1{font-size:2.6rem;line-height:1.18;margin:0;font-weight:800}.news-copy p{font-size:1.3rem;line-height:1.55;color:#d9e4dc;margin:0}.read-more{margin-top:.5rem;color:var(--gold2);font-weight:700;font-size:1rem}
-.qr-card{position:absolute;left:1rem;bottom:1rem;z-index:3;width:9.5rem;background:#fff;color:#0a3d24;border-radius:.6rem;padding:.45rem .45rem .5rem;text-align:center;font-size:.8rem;font-weight:800;line-height:1.2;box-shadow:0 .3rem 1rem #0006}.qr-card img{display:block;width:100%;height:auto;margin-bottom:.3rem}
-.banner-media{width:100%;height:100%;padding:1.1rem}.banner-media img{object-fit:contain;width:95%;height:95%}
-.courses-slide{padding:1.9rem;display:flex;flex-direction:column;gap:1.25rem;width:100%;background:linear-gradient(135deg,#062416,#03140c)}
-.courses-heading{display:flex;justify-content:space-between;align-items:center}.courses-heading h2{font-size:1.9rem;margin:0}.courses-heading span{font-size:1rem;color:var(--gold2);font-weight:800}
-.course-grid{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:.9rem;flex:1;min-height:0}
-.course{border:1px solid var(--line);border-left:.25rem solid var(--gold);border-radius:.75rem;padding:1.1rem 1.2rem;background:rgba(255,255,255,.035);display:flex;align-items:center;gap:1.2rem;overflow:hidden;min-width:0}
-.cdate{width:5.6rem;flex-shrink:0;text-align:center}.cday{font:600 3.3rem/1 Oswald,sans-serif;color:var(--gold2)}.cmon{font-size:1rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:.15rem}.cend{font-size:.9rem;color:var(--muted);margin-top:.35rem}
-.cbody{min-width:0;display:flex;flex-direction:column;gap:.5rem}.cbody h3{font-size:1.4rem;line-height:1.25;margin:0}.cmeta{font-size:1.1rem;font-weight:600;color:var(--gold2)}.cloc{font-size:1.05rem;line-height:1.35;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.progress{position:absolute;left:0;bottom:0;height:.25rem;width:100%;background:var(--gold2);transform-origin:left;transform:scaleX(0);z-index:6}@keyframes prog{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-.sidebar{display:flex;flex-direction:column;gap:.75rem;min-height:0}
-.market-title{display:flex;justify-content:space-between;align-items:center;padding:.25rem .15rem}.market-title h2{font-size:1.4rem;letter-spacing:.1em;margin:0}.city-badge{font-size:.85rem;text-align:right;color:var(--gold2);border:1px solid #d9770666;border-radius:2rem;padding:.45rem .8rem;font-weight:800}
-.quote-card{flex:1;min-height:0;background:var(--glass);border:1px solid var(--line);border-radius:.9rem;padding:.8rem 1.1rem;display:flex;flex-direction:column;justify-content:center;gap:.2rem;position:relative;overflow:hidden}.quote-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:.25rem;background:var(--gold)}
-.quote-name{font-size:.95rem;letter-spacing:.1em;font-weight:800;color:#d9e4dc;text-transform:uppercase}
-.quote-row{display:flex;align-items:baseline;justify-content:space-between;gap:.8rem}.quote-value{font:600 2.6rem Oswald,sans-serif;letter-spacing:.02em}
-.variation{font-weight:700;font-size:1.3rem;white-space:nowrap}.variation.up{color:#a7e0b7}.variation.down{color:#ffb4a8}.variation.flat{color:var(--muted)}
+.left{display:flex;flex-direction:column;gap:.75rem;min-height:0;min-width:0}
+.panel{flex:1;min-height:0;display:flex;flex-direction:column;background:#f2f5f1;color:var(--ink);border-radius:1rem;overflow:hidden;box-shadow:0 .6rem 2rem #0004}
+.tabs{display:flex;flex-shrink:0}.tab{flex:1;text-align:center;padding:.95rem 1rem;font-weight:800;font-size:1.1rem;letter-spacing:.06em;text-transform:uppercase;background:#cfd7ce;color:#41524a}.tab.on{background:var(--vc);color:#fff}
+.stage{position:relative;flex:1;min-height:0}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1s ease;pointer-events:none}.slide.active{opacity:1}
+.progress{position:absolute;left:0;bottom:0;height:.25rem;width:100%;background:var(--v);transform-origin:left;transform:scaleX(0);z-index:6}@keyframes prog{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+/* Cursos */
+.cs{padding:1.3rem 1.6rem 1.5rem;display:flex;flex-direction:column;gap:.9rem}
+.ch{display:flex;justify-content:space-between;align-items:baseline}.ch h2{font-size:1.7rem;margin:0;color:var(--v);font-weight:800}.ch span{font-size:1rem;font-weight:800;color:#5b6b63}
+.cl{flex:1;min-height:0;display:grid;grid-template-rows:repeat(4,1fr);gap:.6rem}
+.course{display:flex;align-items:center;padding:0 1.4rem;border-radius:.6rem;background:#e3e9e2;font-size:1.5rem;line-height:1.25;overflow:hidden}.course.first{background:rgba(98,181,90,.38)}.course b{white-space:nowrap}.course em{font-style:normal;font-weight:500;color:#4a5a52;white-space:nowrap}
+/* Notícias */
+.ns{display:flex}.nm{position:relative;width:42%;background:#cfd8cf;overflow:hidden}.nm img{width:100%;height:100%;object-fit:cover;display:block}
+.qr-card{position:absolute;left:1rem;bottom:1.1rem;z-index:3;width:9rem;background:#fff;color:var(--v);border-radius:.6rem;padding:.45rem .45rem .5rem;text-align:center;font-size:.8rem;font-weight:800;line-height:1.2;box-shadow:0 .3rem 1rem #0006}.qr-card img{display:block;width:100%;height:auto;margin-bottom:.3rem}
+.nc{flex:1;min-width:0;padding:1.5rem 2rem;display:flex;flex-direction:column;justify-content:center;gap:1rem}
+.eyebrow{color:var(--v);font-weight:800;letter-spacing:.14em;font-size:.95rem;text-transform:uppercase}
+.nc h1{font-size:2.1rem;line-height:1.2;margin:0;font-weight:800;color:var(--ink);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.nc p{font-size:1.2rem;line-height:1.5;margin:0;color:#3a4a42;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+/* Banners: a faixa tem a proporção do banner (--ratio), então a imagem preenche sem sobras */
+.banner{position:relative;flex-shrink:0;aspect-ratio:var(--ratio,761/160);border-radius:1rem;overflow:hidden;background:var(--vd);box-shadow:0 .4rem 1.4rem #0004}
+.bs{position:absolute;inset:0;opacity:0;transition:opacity 1s ease;overflow:hidden}.bs.active{opacity:1}
+.bs:before{content:"";position:absolute;inset:-1rem;background:var(--backdrop) center/cover;filter:blur(20px) brightness(.5)}
+.bs img{position:relative;width:100%;height:100%;object-fit:contain;display:block}.bs.cover img{object-fit:cover}
+/* Cotações */
+.side{display:flex;flex-direction:column;gap:.75rem;min-height:0}
+.side-title{background:rgba(0,0,0,.28);border-radius:1rem;border-bottom:.2rem solid var(--vc);padding:.8rem 1rem;text-align:center;font-weight:800;font-size:1.3rem;letter-spacing:.1em}.side-title small{display:block;font-size:.85rem;letter-spacing:.04em;color:var(--muted);font-weight:600;margin-top:.15rem}
+.quote-card{flex:1;min-height:0;background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:1rem;padding:.8rem 1.2rem;display:flex;flex-direction:column;justify-content:center;gap:.3rem}
+.qname{font-size:1.05rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.qname small{font-weight:600;color:var(--muted);text-transform:none;letter-spacing:0}
+.qrow{display:flex;align-items:center;justify-content:space-between;gap:.8rem}.quote-value{font:600 3rem Oswald,sans-serif;letter-spacing:.02em;line-height:1.1}
+.arrow{text-align:center;line-height:1;min-width:4.5rem}.arrow b{display:block;font-size:2.6rem}.arrow small{display:block;font-size:1rem;font-weight:700;margin-top:.25rem}.arrow.up{color:var(--vc)}.arrow.down{color:var(--red)}.arrow.flat{color:var(--muted)}
 .quote-meta{display:flex;justify-content:space-between;gap:.5rem;color:var(--muted);font-size:.95rem}
-.source-note{text-align:center;font-size:.8rem;line-height:1.5;color:var(--muted);padding:0 .5rem .1rem}.status.warn{color:#ffd27a;font-weight:700}
-footer{display:flex;align-items:center;overflow:hidden;border-top:1px solid var(--line);min-width:0}
-.ticker-label{background:var(--gold2);color:#1b170d;font-size:.9rem;font-weight:900;letter-spacing:.06em;padding:0 1.1rem;white-space:nowrap;height:100%;display:flex;align-items:center}
-.ticker-window{overflow:hidden;flex:1;white-space:nowrap}.ticker-text{display:inline-block;padding-left:100%;animation:ticker 60s linear infinite;font-size:1.15rem;font-weight:600;color:#e4ede6}
-.ticker-text span{margin-right:3.5rem}.ticker-text span:after{content:"";display:inline-block;width:.45rem;height:.45rem;background:var(--gold2);transform:rotate(45deg);margin-left:3.5rem;vertical-align:middle}.ticker-text span:last-child:after{display:none}
+.source-note{text-align:center;font-size:.8rem;line-height:1.5;color:var(--muted)}.status.warn{color:#ffd27a;font-weight:700}
+/* Rodapé */
+footer{display:flex;align-items:center;overflow:hidden;border-radius:.6rem;background:rgba(0,0,0,.35);min-width:0}
+.ticker-label{background:var(--vc);color:#06281c;font-size:.95rem;font-weight:900;letter-spacing:.06em;padding:0 1.2rem;white-space:nowrap;height:100%;display:flex;align-items:center}
+.ticker-window{overflow:hidden;flex:1;white-space:nowrap}.ticker-text{display:inline-block;padding-left:100%;animation:ticker 60s linear infinite;font-size:1.2rem;font-weight:600;color:#fff}
+.ticker-text span{margin-right:3rem}.ticker-text span:after{content:"";display:inline-block;width:.45rem;height:.45rem;background:var(--vc);border-radius:50%;margin-left:3rem;vertical-align:middle}.ticker-text span:last-child:after{display:none}
 @keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
 @media(prefers-reduced-motion:reduce){.ticker-text{animation-duration:120s!important}}
+.cs,.ns{position:absolute;inset:0}
 </style>
 </head>
 <body>
@@ -58,32 +66,38 @@ footer{display:flex;align-items:center;overflow:hidden;border-top:1px solid var(
   <div class="brand">
     <div class="logo-pill"><img src="https://portal.sistemafamasul.com.br/sites/default/files/logo-site-novaa.png" alt="Sistema FAMASUL" onerror="this.style.display='none'"></div>
     <div class="divider"></div>
-    <div class="syndicate">SINDICATO RURAL DE <span id="cityName">CAMPO GRANDE</span></div>
+    <div class="syndicate">Sindicato Rural de <span id="cityName">Campo Grande</span></div>
   </div>
   <div class="weather-clock">
-    <div class="weather"><div class="weather-icon" id="weatherIcon">🌤️</div><div><div class="temp" id="temperature">--°</div><div class="condition" id="condition">Consultando clima...</div></div></div>
+    <div class="weather"><div class="weather-icon" id="weatherIcon">🌤️</div><div><div class="temp" id="temperature">--°</div><div class="loc" id="loc">Campo Grande - MS</div></div></div>
     <div class="clock"><div class="time" id="clock">--:--</div><div class="date" id="date">Carregando data...</div></div>
   </div>
 </header>
 <main>
-  <section class="stage" id="stage" aria-label="Notícias, banners e cursos">
-    <div class="progress" id="progress"></div>
-  </section>
-  <aside class="sidebar">
-    <div class="market-title"><h2>MERCADO AGRO</h2><div class="city-badge" id="marketDate">Cotações</div></div>
-    <div class="quote-card" id="quote-soja"><div class="quote-name">Soja · saca 60 kg</div><div class="quote-row"><div class="quote-value">--</div><div class="variation"></div></div><div class="quote-meta"><span class="place">Região: --</span><span class="quote-date"></span></div></div>
-    <div class="quote-card" id="quote-milho"><div class="quote-name">Milho · saca 60 kg</div><div class="quote-row"><div class="quote-value">--</div><div class="variation"></div></div><div class="quote-meta"><span class="place">Praça: --</span><span class="quote-date"></span></div></div>
-    <div class="quote-card" id="quote-boi"><div class="quote-name">Boi gordo · arroba</div><div class="quote-row"><div class="quote-value">--</div><div class="variation"></div></div><div class="quote-meta"><span class="place">Região: --</span><span class="quote-date"></span></div></div>
-    <div class="quote-card" id="quote-vaca"><div class="quote-name">Vaca gorda · arroba</div><div class="quote-row"><div class="quote-value">--</div><div class="variation"></div></div><div class="quote-meta"><span class="place">Praça: --</span><span class="quote-date"></span></div></div>
+  <div class="left">
+    <section class="panel" aria-label="Cursos e notícias">
+      <div class="tabs"><div class="tab" id="tabC">Cronograma de cursos</div><div class="tab" id="tabN">Últimas notícias</div></div>
+      <div class="stage" id="stage"><div class="progress" id="progress"></div></div>
+    </section>
+    <section class="banner" id="banner" aria-label="Banners" hidden></section>
+  </div>
+  <aside class="side">
+    <div class="side-title">COTAÇÕES DO DIA<small id="marketDate">&nbsp;</small></div>
+    <div class="quote-card" id="quote-soja"><div class="qname">Soja <small>(saca 60 kg)</small></div><div class="qrow"><div class="quote-value">--</div><div class="arrow"></div></div><div class="quote-meta"><span class="place">--</span><span class="quote-date"></span></div></div>
+    <div class="quote-card" id="quote-milho"><div class="qname">Milho <small>(saca 60 kg)</small></div><div class="qrow"><div class="quote-value">--</div><div class="arrow"></div></div><div class="quote-meta"><span class="place">--</span><span class="quote-date"></span></div></div>
+    <div class="quote-card" id="quote-boi"><div class="qname">Boi gordo <small>(arroba)</small></div><div class="qrow"><div class="quote-value">--</div><div class="arrow"></div></div><div class="quote-meta"><span class="place">--</span><span class="quote-date"></span></div></div>
+    <div class="quote-card" id="quote-vaca"><div class="qname">Vaca gorda <small>(arroba)</small></div><div class="qrow"><div class="quote-value">--</div><div class="arrow"></div></div><div class="quote-meta"><span class="place">--</span><span class="quote-date"></span></div></div>
     <div class="source-note">Fonte: Sistema FAMASUL / Granos Corretora<br><span class="status" id="status">Inicializando painel...</span></div>
   </aside>
 </main>
-<footer><div class="ticker-label">AVISOS &amp; NOTÍCIAS</div><div class="ticker-window"><div class="ticker-text" id="ticker"><span>Bem-vindo ao painel institucional do Sistema FAMASUL e SENAR-MS.</span></div></div></footer>
+<footer><div class="ticker-label">ÚLTIMAS NOTÍCIAS</div><div class="ticker-window"><div class="ticker-text" id="ticker"><span>Bem-vindo ao painel institucional do Sistema FAMASUL e SENAR-MS.</span></div></div></footer>
 <script>
 "use strict";
-const FAMASUL="https://portal.sistemafamasul.com.br/", LOGO=FAMASUL+"sites/default/files/logo-site-novaa.png";
+const FAMASUL="https://portal.sistemafamasul.com.br/";
 const DEFAULT_CITY="campo-grande", CACHE_KEY="tv_famasul_", STALE_HOURS=12, RELOAD_HOURS=6, MS="mato grosso do sul", VAGAS_CURSO=10, PAGINAS_COMPLETAS=true;
-const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+const BANNER_RATIO=761/160, BANNER_MS=10000;  // proporção da faixa de banners (largura/altura)
+document.documentElement.style.setProperty("--ratio",BANNER_RATIO);
+const MES=["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
 const $=id=>document.getElementById(id);
 const norm=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
 const slugify=s=>norm(s).replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
@@ -95,13 +109,13 @@ const params=new URLSearchParams(location.search);
 const citySlug=slugify(params.get("sindicato")||DEFAULT_CITY)||DEFAULT_CITY;
 const prettify=slug=>slug.split("-").map(w=>["de","da","do","das","dos"].includes(w)?w:cap(w)).join(" ");
 let cityName=prettify(citySlug);
-const state={slides:[],index:0,sig:"",timer:null,tickerSig:""};
-function setCity(n){cityName=n;$("cityName").textContent=n}
+const state={slides:[],index:0,sig:"",timer:null,bt:null,tickerSig:""};
+function setCity(n){cityName=n;$("cityName").textContent=n;$("loc").textContent=n+" - MS"}
 setCity(cityName);
 
-/* Locais vêm em CAIXA ALTA do SENAR: converte para capitalização normal, preservando siglas */
+/* Títulos vêm em CAIXA ALTA do SENAR: converte para capitalização normal, preservando siglas */
 const KEEP=new Set(["APAE","CRAS","CAPS","GEAS","CEPPEC","AGEPEN","MS","BI","II","III","PM","UBS"]);
-const SMALL=new Set(["de","da","do","das","dos","e"]);
+const SMALL=new Set(["de","da","do","das","dos","e","em","para","com","a","o","no","na"]);
 function tcase(s){
  s=String(s||"").trim();if(!s||s!==s.toUpperCase())return s;
  return s.toLowerCase().replace(/[^\s\-\/.()]+/g,(w,i)=>{
@@ -117,80 +131,79 @@ function tickClock(){const d=new Date();$("clock").textContent=new Intl.DateTime
 tickClock();setInterval(tickClock,1000);
 
 /* Clima */
-function weatherText(c){if(c===0)return["Céu limpo","☀️"];if([1,2,3].includes(c))return["Parcialmente nublado","🌤️"];if([45,48].includes(c))return["Neblina","🌫️"];if([51,53,55,56,57].includes(c))return["Garoa","🌦️"];if([61,63,65,66,67,80,81,82].includes(c))return["Chuva / pancadas","🌧️"];if([71,73,75,77,85,86].includes(c))return["Neve","🌨️"];if([95,96,99].includes(c))return["Trovoadas","⛈️"];return["Condição variável","🌥️"]}
+function weatherIcon(c){if(c===0)return"☀️";if([1,2,3].includes(c))return"🌤️";if([45,48].includes(c))return"🌫️";if([51,53,55,56,57].includes(c))return"🌦️";if([61,63,65,66,67,80,81,82].includes(c))return"🌧️";if([71,73,75,77,85,86].includes(c))return"🌨️";if([95,96,99].includes(c))return"⛈️";return"🌥️"}
 async function loadWeather(){
  try{
   const g=await fetch("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(cityName)+"&count=10&language=pt&format=json",{cache:"no-store"});
   if(!g.ok)throw Error("geocoding "+g.status);
   const rs=(await g.json()).results||[];
-  const m=rs.find(x=>x.country_code==="BR"&&norm(x.admin1).includes(MS))||rs[0];
+  const m=rs.find(x=>x.country_code==="BR"&&norm(x.admin1).includes(MS));  // só aceita o município de MS (evita homônimos de outros estados)
   if(!m)throw Error("Município não localizado");
   const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${m.latitude}&longitude=${m.longitude}&current=temperature_2m,weather_code&timezone=America%2FCampo_Grande`,{cache:"no-store"});
   if(!r.ok)throw Error("weather "+r.status);
-  const cur=(await r.json()).current||{},info=weatherText(cur.weather_code);
-  $("temperature").textContent=Math.round(cur.temperature_2m)+"°";$("condition").textContent=info[0];$("weatherIcon").textContent=info[1];
- }catch(e){$("condition").textContent="Clima indisponível";console.warn(e)}
+  const cur=(await r.json()).current||{};
+  $("temperature").textContent=Math.round(cur.temperature_2m)+"°";$("weatherIcon").textContent=weatherIcon(cur.weather_code);
+ }catch(e){$("temperature").textContent="--°";console.warn(e)}
 }
 
-/* Slides */
-function backdrop(el,u){if(u)el.style.setProperty("--backdrop",cssUrl(u))}
-function courseHTML(c){
- const [d,m]=String(c.data_inicio||"").split("/");
- let end=c.data_fim&&c.data_fim!==c.data_inicio?c.data_fim:"";
- if(end&&c.data_fim_iso&&c.data_inicio_iso&&c.data_fim_iso.slice(0,4)!==c.data_inicio_iso.slice(0,4))end+="/"+c.data_fim_iso.slice(0,4);
- const date=d&&MESES[+m-1]?`<div class="cday">${safe(d)}</div><div class="cmon">${MESES[+m-1]}</div>${end?`<div class="cend">até ${safe(end)}</div>`:""}`:`<div class="cmon">${safe(c.periodo||"A confirmar")}</div>`;
- const health=/^(programa )?saude\b/.test(norm(c.titulo));  // programas de saúde (Homem, Mulher, Idoso...): sem vagas
- const meta=[c.carga_horaria?c.carga_horaria+" horas":"",health?"":VAGAS_CURSO+" vagas"].filter(Boolean).join(" · ");
- return `<article class="course"><div class="cdate">${date}</div><div class="cbody"><h3>${safe(c.titulo)}</h3>${meta?`<div class="cmeta">${safe(meta)}</div>`:""}<div class="cloc">${safe(tcase(c.local)||"Local a confirmar")}</div></div></article>`;
+/* Cursos */
+function dm(s){const [d,m]=String(s||"").split("/");return d&&MES[+m-1]?{d,m:MES[+m-1],mi:+m}:null}
+function periodo(c){
+ const a=dm(c.data_inicio),b=dm(c.data_fim);
+ if(!a)return c.periodo||"A confirmar";
+ if(!b||c.data_fim===c.data_inicio)return `${a.d}/${a.m}`;
+ const ye=c.data_fim_iso&&c.data_inicio_iso&&c.data_fim_iso.slice(0,4)!==c.data_inicio_iso.slice(0,4)?"/"+c.data_fim_iso.slice(0,4):"";
+ return a.mi===b.mi&&!ye?`${a.d} a ${b.d}/${a.m}`:`${a.d}/${a.m} a ${b.d}/${b.m}${ye}`;
 }
-function fmtData(s){const m=String(s||"").match(/^(\d{2})\/(\d{2})\/(\d{4})$/);return m&&MESES[+m[2]-1]?`${+m[1]} ${MESES[+m[2]-1]} ${m[3]}`:""}
-function buildSlide(type,item){
- const el=document.createElement("div");el.className="slide";
- if(type==="banner"){
-  const url=safeUrl(item.imagem||item.image)||LOGO;
-  const media=document.createElement("div");media.className="banner-media";backdrop(media,url);
-  const img=document.createElement("img");img.src=url;img.alt=item.titulo||"Banner institucional";img.onerror=()=>{img.src=LOGO};
-  media.append(img);el.append(media);el.dataset.ms=12000;
- }else if(type==="news"){
-  const url=safeUrl(item.imagem||item.image);
-  const media=document.createElement("div");media.className="news-media";backdrop(media,url);
-  if(url){const img=document.createElement("img");img.src=url;img.alt=item.titulo||"Notícia";img.onerror=()=>img.remove();media.append(img)}
-  if(/^data:image\/svg\+xml/.test(item.qr||"")){
-   const q=document.createElement("div");q.className="qr-card";
-   const qi=document.createElement("img");qi.src=item.qr;qi.alt="QR code da notícia";
-   const qt=document.createElement("div");qt.textContent="Leia no portal";
-   q.append(qi,qt);media.append(q);
-  }
-  const copy=document.createElement("div");copy.className="news-copy";
-  copy.innerHTML=`<div class="eyebrow">${safe(item.fonte||"Sistema FAMASUL")} · ${safe(fmtData(item.data)||"NOTÍCIAS")}</div><h1>${safe(item.titulo)}</h1><p>${safe(item.resumo||"Acesse o portal oficial para consultar a notícia completa.")}</p><div class="read-more">portal.sistemafamasul.com.br</div>`;
-  el.append(media,copy);
-  el.dataset.ms=Math.min(20000,Math.max(10000,9000+(item.resumo||"").length*35));
- }else{
-  el.classList.add("courses-slide");el.dataset.ms=14000;
-  const {courses,page,pages}=item;
-  el.innerHTML=`<div class="courses-heading"><h2>PRÓXIMOS CURSOS</h2><span>SENAR-MS · ${safe(cityName)}${pages>1?` · ${page}/${pages}`:""}</span></div><div class="course-grid">${courses.map(courseHTML).join("")}</div>`;
- }
- return el;
+function courseHTML(c,first){
+ const health=/^(programa )?saude\b/.test(norm(c.titulo));  // programas de saúde: sem vagas
+ const meta=[c.carga_horaria?c.carga_horaria+" horas":"",health?"":VAGAS_CURSO+" vagas"].filter(Boolean).join(" · ");
+ return `<div class="course${first?" first":""}"><div><b>${safe(periodo(c))}</b> – ${safe(tcase(c.titulo))}${meta?` <em>(${safe(meta)})</em>`:""}</div></div>`;
 }
 function courseSlides(courses){
  const todayIso=new Date().toLocaleDateString("sv-SE",{timeZone:TZ});
  const valid=(courses||[]).filter(c=>!c.data_fim_iso||c.data_fim_iso>=todayIso);
- // Com mais de 4 cursos, mostra só páginas completas de 4 (ex.: 5 a 7 cursos -> 4; 8 -> 4+4).
+ // Com mais de 4 cursos, mostra só páginas completas de 4 (5 a 7 -> 4; 8 -> 4+4).
  const list=PAGINAS_COMPLETAS&&valid.length>4?valid.slice(0,Math.floor(valid.length/4)*4):valid;
  const pages=Math.ceil(list.length/4);
  return Array.from({length:pages},(_,i)=>({courses:list.slice(i*4,i*4+4),page:i+1,pages}));
 }
+
+/* Slides do painel (abas) */
+function fmtData(s){const m=String(s||"").match(/^(\d{2})\/(\d{2})\/(\d{4})$/);return m&&MES[+m[2]-1]?`${+m[1]} ${MES[+m[2]-1]} ${m[3]}`:""}
+function buildSlide(type,item){
+ const el=document.createElement("div");el.className="slide";el.dataset.tab=type;
+ if(type==="c"){
+  el.classList.add("cs");el.dataset.ms=14000;
+  const {courses,page,pages}=item;
+  el.innerHTML=`<div class="ch"><h2>PRÓXIMOS CURSOS &amp; TREINAMENTOS</h2><span>SENAR-MS${pages>1?` · ${page}/${pages}`:""}</span></div><div class="cl">${courses.map((c,i)=>courseHTML(c,page===1&&i===0)).join("")}</div>`;
+ }else{
+  el.classList.add("ns");
+  const url=safeUrl(item.imagem||item.image);
+  if(url){
+   const nm=document.createElement("div");nm.className="nm";
+   const img=document.createElement("img");img.src=url;img.alt=item.titulo||"Notícia";img.onerror=()=>nm.remove();nm.append(img);
+   if(/^data:image\/svg\+xml/.test(item.qr||"")){
+    const q=document.createElement("div");q.className="qr-card";
+    const qi=document.createElement("img");qi.src=item.qr;qi.alt="QR code da notícia";
+    const qt=document.createElement("div");qt.textContent="Leia no portal";
+    q.append(qi,qt);nm.append(q);
+   }
+   el.append(nm);
+  }
+  const nc=document.createElement("div");nc.className="nc";
+  nc.innerHTML=`<div class="eyebrow">${safe(item.fonte||"Sistema FAMASUL")} · ${safe(fmtData(item.data)||"Notícias")}</div><h1>${safe(item.titulo)}</h1><p>${safe(item.resumo||"Acesse o portal oficial para consultar a notícia completa.")}</p>`;
+  el.append(nc);
+  el.dataset.ms=Math.min(20000,Math.max(10000,9000+(item.resumo||"").length*35));
+ }
+ return el;
+}
 function rebuildSlides(d){
  const stage=$("stage");stage.querySelectorAll(".slide").forEach(n=>n.remove());
- const news=(d.famasul?.noticias||[]).filter(n=>n.titulo),banners=(d.famasul?.banners||[]).filter(b=>safeUrl(b.imagem));
- const pages=courseSlides(d.municipio?.cursos);
- const list=[];let ni=0,bi=0;
- for(let round=0;round<2;round++){
-  for(let k=0;k<3&&news.length;k++)list.push(["news",news[ni++%news.length]]);
-  pages.forEach(p=>list.push(["courses",p]));
-  if(banners.length)list.push(["banner",banners[bi++%banners.length]]);
- }
- if(!list.length)list.push(["banner",{imagem:LOGO}]);
+ const news=(d.famasul?.noticias||[]).filter(n=>n.titulo),pages=courseSlides(d.municipio?.cursos);
+ const list=[],per=Math.min(3,news.length),cycles=per?Math.min(3,Math.ceil(news.length/per)):1;let ni=0;
+ for(let r=0;r<cycles;r++){pages.forEach(p=>list.push(["c",p]));for(let k=0;k<per;k++)list.push(["n",news[ni++%news.length]])}
+ if(!list.length)list.push(["n",{titulo:"Sistema FAMASUL e SENAR-MS",resumo:"Painel institucional. Em instantes as notícias e os cursos serão exibidos.",fonte:"Sistema FAMASUL"}]);
  state.slides=list.map(([t,i])=>{const el=buildSlide(t,i);stage.insertBefore(el,$("progress"));return el});
  clearTimeout(state.timer);state.index=0;show(0);
 }
@@ -198,16 +211,35 @@ function show(i){
  state.slides.forEach(s=>s.classList.remove("active"));
  const el=state.slides[i];if(!el)return;
  el.classList.add("active");
+ $("tabC").classList.toggle("on",el.dataset.tab==="c");$("tabN").classList.toggle("on",el.dataset.tab==="n");
  const ms=+el.dataset.ms||12000,p=$("progress");
  p.style.animation="none";void p.offsetWidth;p.style.animation=`prog ${ms}ms linear forwards`;
  clearTimeout(state.timer);
  state.timer=setTimeout(()=>{state.index=(state.index+1)%state.slides.length;show(state.index)},ms);
 }
 
+/* Faixa de banners */
+function buildBanners(d){
+ const box=$("banner");box.innerHTML="";clearInterval(state.bt);
+ const urls=(d.famasul?.banners||[]).map(b=>safeUrl(b.imagem||b.image)).filter(Boolean);
+ box.hidden=!urls.length;if(!urls.length)return;
+ urls.forEach((u,i)=>{
+  const w=document.createElement("div");w.className="bs"+(i?"":" active");w.style.setProperty("--backdrop",cssUrl(u));
+  const im=document.createElement("img");im.alt="Banner institucional";
+  im.onload=()=>{if(Math.abs(im.naturalWidth/im.naturalHeight/BANNER_RATIO-1)<.2)w.classList.add("cover")};
+  im.onerror=()=>w.remove();im.src=u;w.append(im);box.append(w);
+ });
+ state.bt=setInterval(()=>{
+  const k=[...box.children];if(k.length<2)return;
+  const cur=k.findIndex(x=>x.classList.contains("active"));
+  if(cur>=0)k[cur].classList.remove("active");k[(cur+1)%k.length].classList.add("active");
+ },BANNER_MS);
+}
+
 /* Cotações */
 const pd=s=>{const m=String(s||"").match(/(\d{2})\/(\d{2})\/(\d{4})/);return m?new Date(+m[3],+m[2]-1,+m[1]).getTime():0};
-/* Prioriza a data mais recente publicada para o produto. Nessa data, usa a praça/região do município;
-   se ela não foi publicada nesse dia, usa a média de MS do mesmo dia; só depois recua para datas antigas. */
+/* Usa a data mais recente publicada para o produto; nela, a praça/região do município,
+   senão a média de MS do mesmo dia; só depois recua para datas antigas. */
 function latest(items,place){
  const ok=(items||[]).filter(x=>x.praca&&x.valor!=null);
  if(!ok.length)return null;
@@ -222,32 +254,30 @@ function variation(items,f){
 }
 function updateQuotes(d){
  const q=d.cotacoes||{},c=d.municipio||{};
- const map=[["soja",c.regiao_soja,"Região: "],["milho",c.praca_milho||c.praca_graos,"Praça: "],["boi",c.regiao_boi||c.regiao_pecuaria,"Região: "],["vaca",c.praca_vaca,"Praça: "]];
- let newest="";
- for(const [key,pref,label] of map){
-  const el=$("quote-"+key),items=q[key]||[],place=pref||"Mato Grosso do Sul",f=latest(items,place),v=el.querySelector(".variation"),dt=el.querySelector(".quote-date");
-  v.className="variation";v.textContent="";
-  if(!f){el.querySelector(".quote-value").textContent="--";el.querySelector(".place").textContent=label+place;dt.textContent="indisponível";continue}
+ const map=[["soja",c.regiao_soja],["milho",c.praca_milho||c.praca_graos],["boi",c.regiao_boi||c.regiao_pecuaria],["vaca",c.praca_vaca]];
+ const hoje=new Date().toLocaleDateString("pt-BR",{timeZone:TZ});let newest="";
+ for(const [key,pref] of map){
+  const el=$("quote-"+key),items=q[key]||[],place=pref||"Mato Grosso do Sul",f=latest(items,place),ar=el.querySelector(".arrow"),dt=el.querySelector(".quote-date");
+  ar.className="arrow";ar.innerHTML="";
+  if(!f){el.querySelector(".quote-value").textContent="--";el.querySelector(".place").textContent=place;dt.textContent="indisponível";continue}
   el.querySelector(".quote-value").textContent=Number(f.valor).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
-  el.querySelector(".place").textContent=label+f.praca;
-  const hoje=new Date().toLocaleDateString("pt-BR",{timeZone:TZ});
+  el.querySelector(".place").textContent=f.praca;
   dt.textContent=(f.data===hoje?"hoje · ":"")+(f.data||"").slice(0,5);
   if(pd(f.data)>pd(newest))newest=f.data;
   const pct=variation(items,f);
   if(pct!==null){
    const r=Math.round(pct*100)/100;
-   v.textContent=(r>0?"▲ ":r<0?"▼ ":"= ")+Math.abs(r).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2})+"%";
-   v.classList.add(r>0?"up":r<0?"down":"flat");
+   ar.className="arrow "+(r>0?"up":r<0?"down":"flat");
+   ar.innerHTML=`<b>${r>0?"▲":r<0?"▼":"="}</b><small>${Math.abs(r).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2})}%</small>`;
   }
  }
- $("marketDate").textContent=newest?"Cotações até "+newest.slice(0,5):"Cotações";
+ $("marketDate").textContent=newest?"Atualizado em "+newest.slice(0,5):"\u00a0";
 }
 
-/* Ticker */
+/* Rodapé: só manchetes */
 function updateTicker(d){
- const heads=(d.famasul?.noticias||[]).map(n=>n.titulo).filter(Boolean);
- const cs=courseSlides(d.municipio?.cursos).flatMap(p=>p.courses).slice(0,3).map(c=>"Curso SENAR-MS: "+c.titulo+" — "+(c.periodo||"data a confirmar"));
- const items=[...heads,...cs,"Confira a programação no portal oficial do SENAR-MS."];
+ let items=(d.famasul?.noticias||[]).map(n=>n.titulo).filter(Boolean);
+ if(!items.length)items=["Bem-vindo ao painel institucional do Sistema FAMASUL e SENAR-MS."];
  const sig=items.join("|");if(sig===state.tickerSig)return;state.tickerSig=sig;
  const t=$("ticker");t.innerHTML=items.map(x=>`<span>${safe(x)}</span>`).join("");
  t.style.animationDuration=Math.max(40,(t.scrollWidth+t.parentElement.clientWidth)/90)+"s";
@@ -272,9 +302,9 @@ async function loadData(){
  else{try{data=JSON.parse(localStorage.getItem(CACHE_KEY+citySlug));cached=!!data}catch(e){}}
  if(!data){$("status").className="status warn";$("status").textContent="Sem dados: verifique dados/"+citySlug+".json";if(!state.slides.length)rebuildSlides({});return}
  if(data.municipio?.nome&&data.municipio.nome!==cityName){setCity(data.municipio.nome);loadWeather()}
- // Compara o conteúdo (não o horário da coleta): os slides só reiniciam se algo mudou de fato.
+ // Compara o conteúdo (não o horário da coleta): slides e banners só reiniciam se algo mudou de fato.
  const sig=JSON.stringify([data.municipio,data.famasul,data.cotacoes])+(cached?"c":"n");
- if(sig!==state.sig||!state.slides.length){state.sig=sig;rebuildSlides(data);updateQuotes(data);updateTicker(data)}
+ if(sig!==state.sig||!state.slides.length){state.sig=sig;rebuildSlides(data);buildBanners(data);updateQuotes(data);updateTicker(data)}
  showStatus(data,cached);
 }
 loadData().then(loadWeather);
