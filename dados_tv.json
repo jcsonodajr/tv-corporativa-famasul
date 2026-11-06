@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-06T14:56:20.036983+00:00",
+  "gerado_em": "2026-11-06T20:48:35.641720+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -2696,23 +2696,7 @@
       "praca_vaca": "Dourados",
       "regiao_soja": "Região Sul",
       "regiao_boi": "Região Sul",
-      "cursos": [
-        {
-          "titulo": "EQUIDEOCULTURA - DOMA RACIONAL",
-          "periodo": "15/12 até 19/12",
-          "data_inicio": "15/12",
-          "data_fim": "19/12",
-          "data_inicio_iso": "2026-12-15",
-          "data_fim_iso": "2026-12-19",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "douradina",
-          "link": "https://senarms.org.br/curso?curso=688",
-          "fonte": "https://senarms.org.br/municipios?municipio=DOURADINA"
-        }
-      ]
+      "cursos": []
     },
     "dourados": {
       "nome": "Dourados",
@@ -3262,21 +3246,6 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "EQUIDEOCULTURA - ADESTRAMENTO (RÉDEAS)",
-          "periodo": "09/11 até 13/11",
-          "data_inicio": "09/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-09",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE IGUATEMI",
-          "status": "CONFIRMADO",
-          "municipio_slug": "iguatemi",
-          "link": "https://senarms.org.br/curso?curso=690",
-          "fonte": "https://senarms.org.br/municipios?municipio=IGUATEMI"
-        },
-        {
           "titulo": "CONSTRUÇÃO DE PERGOLADOS",
           "periodo": "12/11 até 13/11",
           "data_inicio": "12/11",
@@ -3450,7 +3419,7 @@
           "data_fim_iso": "2026-11-12",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "ESCOLA - AGRINHO",
+          "local": "SECRETARIA DE DESENVOLVIMENTO ECONÔMICO E TURISMO DE ITAQUIRAÍ",
           "status": "CONFIRMADO",
           "municipio_slug": "itaquirai",
           "link": "https://senarms.org.br/curso?curso=503",
@@ -3840,7 +3809,7 @@
           "data_fim_iso": "2026-11-12",
           "carga_horaria": 24,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE JUTI",
+          "local": "CRAS",
           "status": "CONFIRMADO",
           "municipio_slug": "juti",
           "link": "https://senarms.org.br/curso?curso=794",
@@ -4701,18 +4670,18 @@
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         },
         {
-          "titulo": "ANÁLISE E CLASSIFICAÇÃO DE GRÃOS (SOJA E MILHO)",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
+          "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
+          "periodo": "16/11 até 19/11",
+          "data_inicio": "16/11",
+          "data_fim": "19/11",
+          "data_inicio_iso": "2026-11-16",
+          "data_fim_iso": "2026-11-19",
+          "carga_horaria": 16,
           "vagas": 10,
-          "local": "SINDICATO RURAL",
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=253",
+          "link": "https://senarms.org.br/curso?curso=796",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         }
       ]
@@ -5052,7 +5021,7 @@
           "data_fim_iso": "2026-12-05",
           "carga_horaria": 24,
           "vagas": 10,
-          "local": "FAZENDA JOTABASSO",
+          "local": "AGROPASTORIL JOTABASSO - UNIDADE FAZENDA SERRINHA",
           "status": "CONFIRMADO",
           "municipio_slug": "ponta-pora",
           "link": "https://senarms.org.br/curso?curso=626",
@@ -6296,7 +6265,7 @@
           "data_fim_iso": "2026-11-13",
           "carga_horaria": 8,
           "vagas": 10,
-          "local": "CHACARA CONQUISTA DA VITORIA, SANTA MONICA THIAGO",
+          "local": "SINDICATO RURAL DE TERENOS",
           "status": "CONFIRMADO",
           "municipio_slug": "terenos",
           "link": "https://senarms.org.br/curso?curso=818",
@@ -6645,6 +6614,15 @@
     ],
     "noticias": [
       {
+        "titulo": "Senar/MS ajuda produtora a perder 14 kg e melhorar qualidade de vida no combate à obesidade",
+        "link": "https://portal.sistemafamasul.com.br/noticias/senarms-ajuda-produtora-perder-14-kg-e-melhorar-qualidade-de-vida-no-combate-%C3%A0-obesidade",
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/CAPA%20MAT%C3%89RIA%200D3A2362_0.JPG",
+        "resumo": "Durante anos, a produtora rural Aldleide Salles, de 45 anos, enfrentou a obesidade e as limitações que o excesso de peso impunha à sua rotina no campo. As dores nos joelhos e as dificuldades até para caminhar e realizar tarefas simples na horta e em casa faziam parte do seu dia a dia.",
+        "fonte": "Sistema FAMASUL",
+        "data": "06/11/2026",
+        "qr": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27265%27%20height%3D%27265%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%285%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h53v53h-53z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%23000%27%20d%3D%27M2%202.5h7m2%200h2m1%200h2m2%200h3m2%200h3m2%200h5m1%200h6m2%200h1m1%200h7m-49%201h1m5%200h1m3%200h1m1%200h1m2%200h3m3%200h1m2%200h2m1%200h5m1%200h1m2%200h5m1%200h1m5%200h1m-49%201h1m1%200h3m1%200h1m3%200h1m1%200h3m2%200h1m1%200h1m1%200h1m2%200h2m3%200h2m1%200h1m1%200h2m3%200h2m1%200h1m1%200h3m1%200h1m-49%201h1m1%200h3m1%200h1m2%200h1m3%200h1m1%200h1m1%200h2m4%200h1m3%200h1m6%200h1m4%200h1m2%200h1m1%200h3m1%200h1m-49%201h1m1%200h3m1%200h1m4%200h3m2%200h1m1%200h3m1%200h6m1%200h2m1%200h2m8%200h1m1%200h3m1%200h1m-49%201h1m5%200h1m1%200h1m1%200h1m2%200h1m6%200h1m1%200h1m3%200h1m3%200h5m3%200h1m3%200h1m5%200h1m-49%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-40%201h3m4%200h2m4%200h1m3%200h1m3%200h1m1%200h1m2%200h3m-38%201h1m2%200h1m1%200h2m1%200h7m3%200h1m1%200h9m1%200h1m2%200h5m2%200h2m1%200h1m-44%201h1m1%200h1m1%200h1m3%200h3m6%200h2m17%200h1m9%200h1m1%200h1m-49%201h1m1%200h7m2%200h1m1%200h1m1%200h2m1%200h2m2%200h1m1%200h2m1%200h1m1%200h1m1%200h2m1%200h1m1%200h2m1%200h1m1%200h1m1%200h3m1%200h2m-47%201h1m7%200h1m2%200h1m1%200h1m1%200h2m4%200h2m1%200h1m1%200h4m1%200h1m1%200h2m5%200h2m1%200h1m1%200h2m-48%201h1m2%200h3m2%200h1m2%200h2m1%200h3m2%200h1m2%200h2m1%200h3m1%200h9m4%200h3m1%200h1m-48%201h3m1%200h2m1%200h3m2%200h1m1%200h1m4%200h2m4%200h1m5%200h1m2%200h4m2%200h2m1%200h4m1%200h1m-48%201h1m1%200h2m1%200h2m2%200h1m1%200h1m1%200h4m2%200h1m5%200h1m1%200h2m1%200h3m4%200h4m2%200h2m2%200h1m-49%201h1m2%200h1m3%200h1m3%200h1m1%200h2m2%200h1m2%200h1m1%200h3m1%200h2m1%200h1m1%200h2m1%200h4m2%200h2m1%200h2m2%200h1m-46%201h1m1%200h4m2%200h1m2%200h4m1%200h2m4%200h1m1%200h5m1%200h3m1%200h1m3%200h3m1%200h1m1%200h1m-42%201h1m5%200h3m1%200h1m4%200h1m1%200h2m2%200h4m2%200h1m4%200h2m2%200h1m2%200h1m3%200h1m-49%201h1m2%200h1m1%200h2m2%200h1m4%200h3m1%200h5m1%200h1m2%200h1m8%200h2m1%200h1m1%200h1m4%200h3m-48%201h1m1%200h2m2%200h1m7%200h13m4%200h2m2%200h1m2%200h2m2%200h2m1%200h1m-47%201h1m2%200h1m1%200h2m1%200h2m3%200h1m1%200h4m1%200h1m3%200h1m1%200h4m1%200h1m1%200h2m1%200h1m1%200h1m6%200h1m-42%201h1m2%200h2m1%200h1m1%200h1m4%200h1m3%200h1m2%200h1m1%200h2m8%200h1m4%200h1m2%200h1m2%200h2m-48%201h1m2%200h7m1%200h5m2%200h2m1%200h6m4%200h4m4%200h5m3%200h1m-45%201h1m3%200h1m2%200h2m1%200h1m2%200h1m2%200h3m3%200h1m1%200h1m2%200h1m1%200h1m1%200h2m2%200h2m3%200h1m3%200h1m-49%201h1m1%200h1m1%200h1m1%200h1m1%200h3m2%200h2m1%200h1m5%200h1m1%200h1m1%200h3m1%200h7m3%200h1m1%200h1m1%200h1m3%200h1m-46%201h2m3%200h1m1%200h5m1%200h3m3%200h1m3%200h3m5%200h1m2%200h1m1%200h2m3%200h5m-49%201h3m1%200h6m1%200h3m1%200h2m3%200h9m2%200h1m6%200h1m1%200h7m1%200h1m-48%201h3m3%200h4m2%200h3m1%200h3m3%200h1m1%200h1m2%200h6m1%200h2m4%200h3m1%200h1m1%200h2m-49%201h3m1%200h1m1%200h3m1%200h2m2%200h3m1%200h1m1%200h1m3%200h1m2%200h1m1%200h2m1%200h1m1%200h1m1%200h1m1%200h1m1%200h4m1%200h3m-45%201h2m5%200h3m1%200h3m1%200h9m2%200h1m2%200h2m4%200h3m3%200h1m1%200h1m1%200h1m-49%201h1m2%200h4m1%200h4m2%200h1m4%200h3m4%200h1m1%200h1m2%200h2m2%200h1m3%200h4m2%200h1m1%200h2m-48%201h3m1%200h1m1%200h1m3%200h3m3%200h1m3%200h2m1%200h1m1%200h3m3%200h3m1%200h1m3%200h3m3%200h1m1%200h1m-49%201h1m2%200h4m1%200h2m2%200h5m1%200h1m1%200h1m1%200h2m1%200h2m1%200h4m3%200h4m5%200h1m2%200h1m-47%201h1m2%200h2m4%200h3m1%200h2m1%200h1m1%200h1m1%200h3m2%200h2m4%200h1m4%200h1m1%200h2m1%200h1m4%200h2m-48%201h7m1%200h2m1%200h3m2%200h1m2%200h1m2%200h2m1%200h1m4%200h2m1%200h1m1%200h2m2%200h1m1%200h1m1%200h1m3%200h1m-46%201h3m4%200h3m1%200h1m2%200h4m1%200h2m3%200h2m4%200h1m2%200h1m1%200h1m1%200h1m1%200h1m4%200h2m-49%201h1m3%200h3m1%200h1m3%200h1m3%200h1m1%200h1m2%200h1m3%200h9m1%200h2m1%200h1m3%200h1m2%200h1m1%200h1m-48%201h1m3%200h2m1%200h3m3%200h1m1%200h1m1%200h1m1%200h1m1%200h2m5%200h1m2%200h1m2%200h2m1%200h1m4%200h2m1%200h1m2%200h1m-48%201h1m3%200h2m1%200h1m1%200h1m3%200h1m2%200h1m2%200h2m1%200h1m1%200h1m2%200h2m3%200h1m1%200h1m2%200h2m1%200h6m1%200h1m-48%201h3m3%200h1m4%200h2m5%200h1m1%200h1m1%200h1m1%200h5m1%200h7m2%200h4m-44%201h3m3%200h1m2%200h2m1%200h1m1%200h3m4%200h7m4%200h1m1%200h3m1%200h1m1%200h5m1%200h3m-41%201h4m1%200h1m1%200h1m1%200h2m1%200h3m3%200h1m1%200h2m2%200h1m3%200h1m1%200h1m1%200h1m3%200h1m3%200h1m-49%201h7m2%200h1m1%200h2m1%200h3m1%200h1m2%200h2m1%200h1m1%200h2m3%200h3m2%200h2m1%200h2m1%200h1m1%200h1m1%200h3m-49%201h1m5%200h1m1%200h1m1%200h3m5%200h1m2%200h2m3%200h2m4%200h1m2%200h4m1%200h1m3%200h3m1%200h1m-49%201h1m1%200h3m1%200h1m3%200h1m1%200h1m2%200h1m1%200h1m3%200h11m1%200h2m1%200h1m2%200h6m-45%201h1m1%200h3m1%200h1m1%200h1m6%200h1m1%200h1m2%200h1m1%200h4m5%200h1m7%200h2m1%200h1m1%200h1m1%200h2m-48%201h1m1%200h3m1%200h1m2%200h3m1%200h2m1%200h4m1%200h1m1%200h2m1%200h3m3%200h3m1%200h2m3%200h2m1%200h2m-46%201h1m5%200h1m4%200h1m3%200h4m2%200h1m2%200h4m1%200h1m8%200h1m2%200h1m1%200h2m-45%201h7m1%200h2m2%200h4m5%200h3m1%200h2m1%200h13m3%200h1m2%200h2%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      },
+      {
         "titulo": "Jovem autista desenvolve a comunicação no Senar/MS e se forma técnica em Agronegócio",
         "link": "https://portal.sistemafamasul.com.br/noticias/jovem-autista-desenvolve-comunica%C3%A7%C3%A3o-no-senarms-e-se-forma-t%C3%A9cnica-em-agroneg%C3%B3cio",
         "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/55573418865_459b82b188_o.jpg_0.jpeg",
@@ -6706,15 +6684,6 @@
         "fonte": "Sistema FAMASUL",
         "data": "16/10/2026",
         "qr": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27265%27%20height%3D%27265%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%285%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h53v53h-53z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%23000%27%20d%3D%27M2%202.5h7m3%200h1m2%200h2m1%200h3m4%200h1m3%200h1m1%200h2m4%200h3m2%200h1m1%200h7m-49%201h1m5%200h1m3%200h1m2%200h2m3%200h2m1%200h3m3%200h1m3%200h1m1%200h2m2%200h4m1%200h1m5%200h1m-49%201h1m1%200h3m1%200h1m1%200h1m2%200h2m1%200h5m1%200h1m2%200h3m1%200h1m2%200h4m1%200h1m3%200h2m1%200h1m1%200h3m1%200h1m-49%201h1m1%200h3m1%200h1m1%200h3m2%200h1m1%200h1m2%200h2m1%200h1m2%200h2m3%200h2m3%200h4m1%200h1m2%200h1m1%200h3m1%200h1m-49%201h1m1%200h3m1%200h1m1%200h2m2%200h1m1%200h2m1%200h2m2%200h11m3%200h3m4%200h1m1%200h3m1%200h1m-49%201h1m5%200h1m1%200h4m1%200h1m1%200h1m2%200h2m2%200h1m3%200h2m3%200h4m1%200h3m3%200h1m5%200h1m-49%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-41%201h4m2%200h1m7%200h1m3%200h3m1%200h3m4%200h1m2%200h1m-41%201h1m1%200h5m2%200h3m1%200h3m1%200h1m2%200h7m2%200h1m1%200h1m4%200h5m1%200h5m-47%201h2m1%200h3m3%200h1m1%200h2m1%200h4m5%200h3m3%200h3m4%200h2m3%200h3m2%200h2m-47%201h2m3%200h1m1%200h1m3%200h1m3%200h4m2%200h1m1%200h1m1%200h1m1%200h2m3%200h1m1%200h4m3%200h2m1%200h1m1%200h2m-46%201h1m3%200h1m3%200h1m1%200h1m1%200h2m2%200h2m7%200h1m1%200h1m1%200h1m2%200h1m3%200h2m3%200h1m2%200h1m-48%201h1m3%200h1m1%200h3m3%200h2m1%200h1m1%200h1m3%200h5m3%200h1m1%200h1m3%200h4m1%200h1m2%200h1m1%200h3m-47%201h4m2%200h1m4%200h1m1%200h1m2%200h1m1%200h2m1%200h4m2%200h1m1%200h2m10%200h2m1%200h1m1%200h1m-48%201h2m3%200h3m2%200h1m2%200h2m1%200h3m1%200h8m3%200h5m2%200h1m4%200h1m1%200h4m-49%201h1m1%200h2m5%200h3m2%200h2m1%200h1m1%200h2m1%200h1m4%200h1m2%200h1m1%200h1m1%200h1m2%200h2m1%200h1m1%200h1m1%200h2m2%200h1m-49%201h3m1%200h3m2%200h2m2%200h6m1%200h2m1%200h3m1%200h1m1%200h3m2%200h10m1%200h2m-47%201h2m1%200h2m2%200h1m7%200h1m1%200h1m1%200h1m2%200h1m7%200h2m3%200h1m5%200h3m3%200h1m-48%201h1m1%200h1m1%200h3m4%200h1m3%200h5m3%200h1m2%200h2m3%200h4m1%200h1m1%200h1m2%200h1m2%200h2m1%200h2m-47%201h2m1%200h1m4%200h1m1%200h5m2%200h1m1%200h1m3%200h3m1%200h2m1%200h4m3%200h1m1%200h1m1%200h2m3%200h1m-49%201h1m1%200h2m2%200h2m7%200h2m2%200h6m1%200h1m8%200h2m1%200h3m5%200h1m1%200h1m-49%201h2m1%200h1m1%200h1m1%200h1m3%200h1m1%200h2m1%200h4m1%200h3m1%200h2m2%200h3m5%200h1m3%200h4m-45%201h2m1%200h6m2%200h1m2%200h1m3%200h2m1%200h6m7%200h2m1%200h9m1%200h2m-49%201h1m1%200h1m1%200h1m3%200h1m2%200h2m1%200h3m1%200h3m1%200h1m3%200h5m2%200h1m5%200h2m3%200h1m2%200h2m-48%201h1m2%200h1m1%200h1m1%200h2m1%200h1m1%200h2m1%200h1m1%200h1m1%200h3m1%200h1m1%200h2m2%200h2m2%200h3m1%200h3m1%200h1m1%200h5m-49%201h2m1%200h2m3%200h1m1%200h1m1%200h1m2%200h2m5%200h1m3%200h1m2%200h2m1%200h2m3%200h1m1%200h2m3%200h1m1%200h1m-43%201h5m1%200h1m3%200h1m1%200h3m1%200h1m1%200h6m1%200h1m4%200h2m2%200h7m1%200h3m-47%201h1m4%200h1m1%200h1m2%200h2m2%200h1m1%200h1m2%200h1m2%200h1m3%200h3m1%200h3m2%200h2m1%200h1m4%200h1m-45%201h1m2%200h4m1%200h1m4%200h1m2%200h3m1%200h1m2%200h3m2%200h3m4%200h2m1%200h2m1%200h1m1%200h4m-48%201h4m1%200h1m1%200h1m2%200h2m3%200h1m2%200h1m2%200h3m5%200h3m4%200h2m1%200h4m-41%201h1m1%200h4m1%200h5m1%200h1m2%200h2m2%200h1m4%200h1m2%200h2m2%200h2m2%200h1m2%200h4m2%200h2m-48%201h2m1%200h1m2%200h3m2%200h3m1%200h1m1%200h1m2%200h3m2%200h4m2%200h1m1%200h1m2%200h2m1%200h1m1%200h1m4%200h2m-48%201h2m3%200h1m2%200h1m1%200h2m2%200h2m3%200h2m1%200h1m1%200h1m3%200h2m2%200h5m1%200h1m1%200h1m2%200h2m1%200h1m-40%201h1m4%200h3m2%200h2m1%200h4m2%200h4m4%200h3m3%200h1m1%200h1m3%200h1m-46%201h2m1%200h4m2%200h1m2%200h1m2%200h3m1%200h1m2%200h2m2%200h1m2%200h4m1%200h1m1%200h2m2%200h4m1%200h2m-48%201h1m1%200h1m3%200h1m2%200h2m1%200h2m3%200h3m1%200h2m2%200h3m1%200h1m1%200h2m3%200h1m2%200h1m6%200h2m-49%201h3m3%200h1m4%200h1m1%200h1m1%200h4m1%200h1m1%200h1m2%200h3m1%200h3m2%200h3m2%200h2m1%200h1m1%200h1m1%200h2m-48%201h5m4%200h3m3%200h1m1%200h2m2%200h1m1%200h3m1%200h4m4%200h1m1%200h1m2%200h2m1%200h1m1%200h2m-46%201h1m3%200h2m1%200h3m3%200h2m1%200h1m1%200h1m2%200h4m1%200h1m3%200h1m2%200h2m2%200h1m1%200h1m1%200h3m2%200h2m-48%201h3m3%200h1m1%200h1m1%200h1m1%200h1m2%200h1m4%200h1m1%200h2m1%200h3m1%200h1m2%200h1m3%200h2m1%200h1m7%200h1m-49%201h3m3%200h1m2%200h3m2%200h4m1%200h2m1%200h5m4%200h1m2%200h13m1%200h1m-41%201h2m1%200h1m2%200h1m2%200h1m1%200h1m1%200h2m3%200h1m2%200h3m1%200h1m1%200h3m2%200h1m3%200h1m1%200h1m-47%201h7m2%200h3m2%200h1m1%200h3m1%200h3m1%200h1m1%200h3m2%200h1m1%200h2m3%200h1m1%200h1m1%200h1m1%200h1m2%200h2m-49%201h1m5%200h1m1%200h1m1%200h1m1%200h2m4%200h1m2%200h2m3%200h3m1%200h1m1%200h2m6%200h1m3%200h1m2%200h1m-48%201h1m1%200h3m1%200h1m1%200h2m1%200h1m1%200h1m1%200h1m1%200h1m4%200h5m2%200h1m1%200h1m2%200h5m1%200h5m1%200h2m-48%201h1m1%200h3m1%200h1m1%200h3m1%200h1m2%200h1m3%200h4m7%200h1m4%200h3m1%200h2m1%200h4m2%200h1m-49%201h1m1%200h3m1%200h1m1%200h1m3%200h1m1%200h1m2%200h2m1%200h2m1%200h3m2%200h2m1%200h1m2%200h1m1%200h1m1%200h1m2%200h3m2%200h1m-47%201h1m5%200h1m5%200h1m3%200h2m1%200h4m4%200h2m1%200h1m1%200h2m3%200h2m2%200h2m2%200h1m2%200h1m-49%201h7m1%200h2m2%200h4m1%200h1m2%200h2m1%200h1m1%200h1m3%200h1m1%200h1m3%200h2m1%200h2m1%200h1m4%200h3%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-      },
-      {
-        "titulo": "Senar/MS ajuda casal de produtores a abandonar o fiado e recuperar a renda da horta",
-        "link": "https://portal.sistemafamasul.com.br/noticias/senarms-ajuda-casal-de-produtores-abandonar-o-fiado-e-recuperar-renda-da-horta",
-        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/blog/imagem%20reduzida_3.jpg",
-        "resumo": "Após muito tempo sofrendo com dívidas e dificuldades para investir na própria horta, o casal de Cassilândia, Antônio Chaves e Lourdes da Silva, encontrou uma forma de transformar os prejuízos e melhorar a produtividade da plantação com o apoio da Assistência Técnica e Gerencial (ATeG) Prepara do Senar/MS.",
-        "fonte": "Sistema FAMASUL",
-        "data": "16/10/2026",
-        "qr": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27265%27%20height%3D%27265%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%285%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h53v53h-53z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%23000%27%20d%3D%27M2%202.5h7m2%200h1m2%200h1m1%200h1m1%200h2m1%200h1m3%200h1m1%200h5m2%200h1m1%200h1m2%200h1m2%200h1m1%200h7m-49%201h1m5%200h1m2%200h2m1%200h3m1%200h1m4%200h3m4%200h1m1%200h4m1%200h1m1%200h4m1%200h1m5%200h1m-49%201h1m1%200h3m1%200h1m1%200h3m2%200h1m1%200h1m4%200h2m2%200h2m2%200h1m1%200h1m1%200h2m5%200h2m1%200h1m1%200h3m1%200h1m-49%201h1m1%200h3m1%200h1m1%200h1m1%200h1m1%200h1m8%200h1m1%200h1m1%200h1m3%200h2m3%200h1m1%200h2m1%200h1m2%200h1m1%200h3m1%200h1m-49%201h1m1%200h3m1%200h1m1%200h1m3%200h1m1%200h1m2%200h1m1%200h8m1%200h5m2%200h1m1%200h1m4%200h1m1%200h3m1%200h1m-49%201h1m5%200h1m1%200h1m5%200h1m1%200h1m3%200h1m1%200h1m3%200h2m3%200h5m1%200h2m3%200h1m5%200h1m-49%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-41%201h2m1%200h5m2%200h3m1%200h1m3%200h4m2%200h1m1%200h1m2%200h1m2%200h1m-41%201h1m1%200h5m2%200h1m1%200h1m1%200h1m1%200h1m1%200h2m1%200h1m1%200h6m1%200h2m5%200h2m1%200h1m2%200h5m-47%201h1m2%200h3m1%200h3m2%200h2m1%200h3m1%200h1m1%200h1m3%200h1m1%200h1m1%200h3m3%200h1m1%200h1m1%200h1m1%200h2m2%200h1m1%200h1m-47%201h1m1%200h1m1%200h2m3%200h3m1%200h1m1%200h2m2%200h1m2%200h1m2%200h1m1%200h1m4%200h2m1%200h1m1%200h1m5%200h5m-49%201h3m1%200h2m2%200h1m1%200h1m2%200h2m1%200h1m2%200h2m4%200h2m1%200h2m2%200h1m1%200h2m1%200h3m4%200h1m2%200h1m-47%201h1m3%200h3m4%200h2m4%200h2m2%200h4m3%200h3m3%200h6m2%200h1m1%200h3m-48%201h1m3%200h1m2%200h3m3%200h6m2%200h1m3%200h1m2%200h4m5%200h1m4%200h2m2%200h2m-45%201h2m1%200h3m4%200h4m1%200h2m4%200h1m1%200h2m3%200h5m2%200h2m7%200h2m-49%201h6m1%200h1m4%200h1m2%200h1m5%200h1m1%200h1m1%200h1m4%200h2m1%200h1m1%200h2m5%200h1m1%200h1m3%200h1m-46%201h1m2%200h1m3%200h1m2%200h5m2%200h1m2%200h3m1%200h1m1%200h2m5%200h1m2%200h5m1%200h2m-46%201h1m1%200h1m1%200h1m2%200h4m2%200h1m1%200h1m1%200h2m2%200h4m4%200h2m1%200h1m1%200h2m4%200h3m-44%201h4m2%200h1m1%200h1m2%200h1m1%200h2m1%200h4m3%200h1m1%200h3m1%200h2m5%200h1m3%200h2m2%200h2m2%200h1m-49%201h1m2%200h2m3%200h1m2%200h1m3%200h3m1%200h1m1%200h1m5%200h4m1%200h3m4%200h1m2%200h3m2%200h2m-48%201h3m2%200h3m2%200h1m1%200h2m3%200h8m5%200h1m3%200h2m1%200h3m5%200h1m1%200h1m-49%201h3m2%200h1m3%200h3m2%200h1m2%200h1m1%200h1m1%200h1m1%200h1m5%200h2m4%200h3m3%200h4m2%200h1m-48%201h1m1%200h9m1%200h1m1%200h6m2%200h5m4%200h1m2%200h2m1%200h9m1%200h2m-48%201h4m3%200h1m1%200h3m1%200h3m2%200h1m1%200h2m3%200h3m1%200h1m1%200h2m1%200h1m1%200h4m3%200h1m2%200h1m-48%201h3m1%200h1m1%200h1m1%200h2m1%200h1m1%200h1m1%200h2m3%200h3m1%200h1m1%200h1m2%200h1m1%200h1m3%200h2m1%200h3m1%200h1m1%200h4m-47%201h1m1%200h2m3%200h1m4%200h2m1%200h1m5%200h1m3%200h1m2%200h2m4%200h3m1%200h2m3%200h1m-45%201h1m1%200h1m1%200h6m3%200h1m1%200h2m1%200h1m1%200h1m1%200h6m3%200h1m1%200h3m2%200h7m2%200h2m-48%201h3m1%200h1m2%200h1m1%200h1m2%200h2m6%200h1m2%200h2m2%200h3m1%200h1m4%200h2m1%200h1m-40%201h1m2%200h5m2%200h3m1%200h1m1%200h1m5%200h4m2%200h3m1%200h2m1%200h1m1%200h2m1%200h1m2%200h1m1%200h2m-46%201h4m1%200h3m1%200h1m1%200h4m1%200h4m2%200h1m5%200h2m4%200h2m1%200h3m1%200h1m-39%201h3m1%200h1m2%200h1m7%200h1m2%200h2m2%200h1m3%200h1m1%200h3m2%200h2m1%200h3m1%200h1m1%200h2m-45%201h2m4%200h2m1%200h3m1%200h4m3%200h1m1%200h2m1%200h1m4%200h1m1%200h3m1%200h2m1%200h2m3%200h1m-48%201h1m1%200h1m1%200h2m1%200h2m2%200h1m1%200h1m5%200h1m1%200h2m1%200h1m2%200h1m2%200h5m2%200h2m1%200h1m2%200h4m-45%201h3m1%200h1m1%200h3m2%200h4m1%200h1m3%200h2m2%200h3m2%200h1m1%200h1m2%200h2m1%200h2m1%200h1m-44%201h4m1%200h4m3%200h1m2%200h4m1%200h6m2%200h1m1%200h4m1%200h1m4%200h1m1%200h2m1%200h1m1%200h2m-48%201h2m2%200h1m6%200h1m1%200h3m6%200h2m1%200h3m1%200h1m1%200h2m3%200h1m2%200h1m2%200h2m3%200h1m-47%201h1m2%200h5m1%200h3m1%200h2m2%200h2m1%200h1m6%200h3m2%200h1m1%200h1m2%200h2m1%200h1m1%200h1m1%200h3m-46%201h3m1%200h1m2%200h1m1%200h1m1%200h4m1%200h1m1%200h1m2%200h1m2%200h5m5%200h1m2%200h2m1%200h1m1%200h2m-46%201h1m3%200h3m1%200h1m2%200h2m3%200h2m3%200h4m1%200h1m6%200h1m1%200h1m1%200h1m1%200h1m1%200h3m2%200h2m-48%201h3m3%200h2m1%200h2m1%200h3m3%200h1m3%200h2m1%200h3m1%200h1m1%200h3m5%200h1m7%200h1m-49%201h3m3%200h1m1%200h1m1%200h1m7%200h3m1%200h5m2%200h3m1%200h5m1%200h10m-41%201h1m2%200h1m2%200h1m2%200h1m1%200h1m2%200h1m3%200h1m1%200h4m5%200h1m2%200h1m3%200h2m-46%201h7m2%200h1m1%200h1m1%200h1m1%200h3m2%200h1m1%200h1m1%200h1m1%200h2m1%200h1m1%200h1m2%200h1m1%200h3m1%200h1m1%200h1m1%200h1m1%200h3m-49%201h1m5%200h1m1%200h2m1%200h1m2%200h1m2%200h2m2%200h2m3%200h4m2%200h3m5%200h1m3%200h2m1%200h1m-48%201h1m1%200h3m1%200h1m1%200h2m2%200h1m4%200h3m2%200h5m2%200h3m3%200h3m2%200h8m-48%201h1m1%200h3m1%200h1m1%200h1m2%200h1m2%200h1m1%200h1m4%200h2m2%200h2m2%200h2m4%200h3m2%200h1m1%200h4m1%200h1m-48%201h1m1%200h3m1%200h1m1%200h1m2%200h1m1%200h1m2%200h2m1%200h1m2%200h3m1%200h1m1%200h2m1%200h1m1%200h2m1%200h3m2%200h3m3%200h2m-49%201h1m5%200h1m4%200h1m3%200h1m2%200h1m6%200h2m3%200h2m1%200h1m1%200h2m2%200h4m2%200h1m2%200h1m-49%201h7m1%200h2m2%200h1m4%200h1m1%200h2m2%200h1m3%200h1m1%200h2m5%200h2m1%200h1m5%200h4%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
       }
     ]
   },
@@ -7178,6 +7147,7 @@
     "Nenhum curso vigente na página do SENAR para Brasilândia.",
     "Nenhum curso vigente na página do SENAR para Corguinho.",
     "Nenhum curso vigente na página do SENAR para Coronel Sapucaia.",
+    "Nenhum curso vigente na página do SENAR para Douradina.",
     "Nenhum curso vigente na página do SENAR para Glória de Dourados.",
     "Nenhum curso vigente na página do SENAR para Ladário.",
     "Nenhum curso vigente na página do SENAR para Novo Horizonte do Sul.",
