@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-06T00:04:21.968726+00:00",
+  "gerado_em": "2026-11-06T06:26:31.156112+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -16,21 +16,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
-          "periodo": "06/11 até 07/11",
-          "data_inicio": "06/11",
-          "data_fim": "07/11",
-          "data_inicio_iso": "2026-11-06",
-          "data_fim_iso": "2026-11-07",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE ÁGUA CLARA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "agua-clara",
-          "link": "https://senarms.org.br/curso?curso=503",
-          "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
-        },
         {
           "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
           "periodo": "13/11 até 14/11",
@@ -862,21 +847,6 @@
       "regiao_boi": "Região Oeste",
       "cursos": [
         {
-          "titulo": "CULTIVO DE CITROS",
-          "periodo": "06/11 até 07/11",
-          "data_inicio": "06/11",
-          "data_fim": "07/11",
-          "data_inicio_iso": "2026-11-06",
-          "data_fim_iso": "2026-11-07",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "VIVIANE ARGUELHO - CASA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "aquidauana",
-          "link": "https://senarms.org.br/curso?curso=866",
-          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
-        },
-        {
           "titulo": "ARTES EM TECIDOS: BONECAS E BICHINHOS DE PANO",
           "periodo": "10/11 até 13/11",
           "data_inicio": "10/11",
@@ -979,6 +949,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "aquidauana",
           "link": "https://senarms.org.br/curso?curso=818",
+          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
+        },
+        {
+          "titulo": "ARTESANATO MACRAMÊ",
+          "periodo": "24/11 até 27/11",
+          "data_inicio": "24/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE AQUIDAUANA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "aquidauana",
+          "link": "https://senarms.org.br/curso?curso=527",
           "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
         }
       ]
@@ -3147,21 +3132,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "NR 31.6 - UTILIZAÇÃO CORRETA DE EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL",
-          "periodo": "06/11 até 06/11",
-          "data_inicio": "06/11",
-          "data_fim": "06/11",
-          "data_inicio_iso": "2026-11-06",
-          "data_fim_iso": "2026-11-06",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "guia-lopes-da-laguna",
-          "link": "https://senarms.org.br/curso?curso=799",
-          "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
-        },
-        {
           "titulo": "PRODUÇÃO DE BOLOS E BISCOITOS CASEIROS",
           "periodo": "09/11 até 10/11",
           "data_inicio": "09/11",
@@ -3264,6 +3234,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "guia-lopes-da-laguna",
           "link": "https://senarms.org.br/curso?curso=731",
+          "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
+        },
+        {
+          "titulo": "PROGRAMA SAÚDE DO HOMEM",
+          "periodo": "05/12 até 05/12",
+          "data_inicio": "05/12",
+          "data_fim": "05/12",
+          "data_inicio_iso": "2026-12-05",
+          "data_fim_iso": "2026-12-05",
+          "carga_horaria": 8,
+          "vagas": 100,
+          "local": "EVENTOS DE SAÚDE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "guia-lopes-da-laguna",
+          "link": "https://senarms.org.br/curso?curso=441",
           "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
         }
       ]
@@ -4541,21 +4526,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
-          "periodo": "06/11 até 06/11",
-          "data_inicio": "06/11",
-          "data_fim": "06/11",
-          "data_inicio_iso": "2026-11-06",
-          "data_fim_iso": "2026-11-06",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "CENTRO DE REFERÊNCIA DE ASSISTÊNCIA SOCIAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-alvorada-do-sul",
-          "link": "https://senarms.org.br/curso?curso=805",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ALVORADA+DO+SUL"
-        },
-        {
           "titulo": "INFORMÁTICA BÁSICA",
           "periodo": "10/11 até 13/11",
           "data_inicio": "10/11",
@@ -5669,21 +5639,6 @@
       "cursos": [
         {
           "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
-          "periodo": "06/11 até 06/11",
-          "data_inicio": "06/11",
-          "data_fim": "06/11",
-          "data_inicio_iso": "2026-11-06",
-          "data_fim_iso": "2026-11-06",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "SANTA VERGINIA AGROPECUARIA E FLORESTAL LTDA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "santa-rita-do-pardo",
-          "link": "https://senarms.org.br/curso?curso=805",
-          "fonte": "https://senarms.org.br/municipios?municipio=SANTA+RITA+DO+PARDO"
-        },
-        {
-          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
           "periodo": "09/11 até 09/11",
           "data_inicio": "09/11",
           "data_fim": "09/11",
@@ -5785,6 +5740,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "santa-rita-do-pardo",
           "link": "https://senarms.org.br/curso?curso=586",
+          "fonte": "https://senarms.org.br/municipios?municipio=SANTA+RITA+DO+PARDO"
+        },
+        {
+          "titulo": "OPERAÇÃO E MANUTENÇÃO DE ROÇADEIRA",
+          "periodo": "07/12 até 08/12",
+          "data_inicio": "07/12",
+          "data_fim": "08/12",
+          "data_inicio_iso": "2026-12-07",
+          "data_fim_iso": "2026-12-08",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "santa-rita-do-pardo",
+          "link": "https://senarms.org.br/curso?curso=589",
           "fonte": "https://senarms.org.br/municipios?municipio=SANTA+RITA+DO+PARDO"
         }
       ]
