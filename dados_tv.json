@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-07T00:50:21.683195+00:00",
+  "gerado_em": "2026-11-07T07:00:07.101149+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -4581,36 +4581,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "PROGRAMA SAÚDE DO HOMEM",
-          "periodo": "07/11 até 07/11",
-          "data_inicio": "07/11",
-          "data_fim": "07/11",
-          "data_inicio_iso": "2026-11-07",
-          "data_fim_iso": "2026-11-07",
-          "carga_horaria": 8,
-          "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=441",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
-        {
-          "titulo": "PROGRAMA SAÚDE DA MULHER",
-          "periodo": "07/11 até 07/11",
-          "data_inicio": "07/11",
-          "data_fim": "07/11",
-          "data_inicio_iso": "2026-11-07",
-          "data_fim_iso": "2026-11-07",
-          "carga_horaria": 8,
-          "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=442",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
-        {
           "titulo": "CULTIVO DE PLANTAS MEDICINAIS, AROMÁTICAS E CONDIMENTARES",
           "periodo": "09/11 até 11/11",
           "data_inicio": "09/11",
@@ -4698,6 +4668,36 @@
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
           "link": "https://senarms.org.br/curso?curso=795",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
+          "titulo": "ARTESANATO COM FIBRAS VEGETAIS - BANANEIRA E/OU TABOA",
+          "periodo": "23/11 até 27/11",
+          "data_inicio": "23/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 40,
+          "vagas": 10,
+          "local": "SINDICATO RURAL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=628",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
+          "titulo": "CULTIVO DE HORTALIÇAS FOLHOSAS",
+          "periodo": "23/11 até 25/11",
+          "data_inicio": "23/11",
+          "data_fim": "25/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-25",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=675",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         }
       ]
