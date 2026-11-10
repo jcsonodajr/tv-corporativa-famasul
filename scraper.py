@@ -91,6 +91,31 @@ REGIOES = {
     "chapadao-do-sul": "Região Norte", "costa-rica": "Região Norte"
 }
 
+# Divulgações exibidas na TV junto com notícias e cursos (o QR é gerado a cada execução).
+DIVULGACOES = [
+    {
+        "id": "certificado", "tag": "Certificado online",
+        "titulo": "Emita seu certificado online",
+        "texto": "Fez um curso do SENAR/MS? Aponte a câmera do celular para o QR code e emita o seu certificado pela internet.",
+        "url": "https://extranet.senarms.org.br/certificadoonline",
+        "link_exibido": "extranet.senarms.org.br/certificadoonline",
+        "imagem": "https://senarms.org.br/sites/default/files/banners/certificados-online-senarms-banner-site_0.png",
+    },
+    {
+        "id": "ead", "tag": "SENAR MS EAD",
+        "titulo": "Cursos online, gratuitos e com certificado",
+        "texto": "Estude no seu ritmo, onde e quando quiser. Aponte a câmera para o QR code, crie sua conta e conheça os cursos do SENAR MS EAD.",
+        "url": "https://ead.senarms.org.br",
+        "link_exibido": "ead.senarms.org.br",
+        "imagem": "https://ead.senarms.org.br/storage/arquivos/imagens/_1400xAUTO_crop_center-center_85_none/4703369/0260713-senar-ms-banner-home-institucional-1366x600px.webp",
+    },
+]
+
+
+def divulgacoes() -> list[dict]:
+    return [{**d, "qr": make_qr(d["url"])} for d in DIVULGACOES]
+
+
 DATE_RANGE = re.compile(
     r"^\s*(\d{1,2}/\d{1,2}(?:/\d{4})?)\s*(?:até|a|[-–—])\s*"
     r"(\d{1,2}/\d{1,2}(?:/\d{4})?)\s*[-–—:]\s*(.+?)\s*$", re.I
@@ -502,6 +527,7 @@ def main() -> None:
         "cotacoes": old_quotes,
         "avisos": [],
     }
+    payload["divulgacoes"] = divulgacoes()
     try:
         collected = scrape_famasul()
         if collected.get("banners") or collected.get("noticias"):
@@ -565,10 +591,15 @@ def main() -> None:
     tmp.replace(OUTPUT)
 
     DADOS_DIR.mkdir(exist_ok=True)
+    nomes = {slugify(n): n for n in MUNICIPIOS}
     for slug, m in payload["municipios"].items():
+        # QR da página do SENAR de onde os cursos são extraídos (só no arquivo leve do município).
+        pagina = f"{SENAR}?{urlencode({'municipio': nomes[slug].upper()})}"
         slim = {
-            "schema_version": 2, "gerado_em": now, "municipio": m,
+            "schema_version": 2, "gerado_em": now,
+            "municipio": {**m, "fonte": pagina, "qr": make_qr(pagina)},
             "famasul": payload["famasul"], "cotacoes": payload["cotacoes"],
+            "divulgacoes": payload["divulgacoes"],
         }
         (DADOS_DIR / f"{slug}.json").write_text(json.dumps(slim, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
