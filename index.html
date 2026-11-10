@@ -48,6 +48,11 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 29.5rem;gap:1.1rem;min-hei
 .ps.bg:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(0,38,26,.78) 0%,rgba(0,38,26,.5) 55%,rgba(0,38,26,0) 80%)}
 .ps.bg .pq,.ps.bg .pc{position:relative;z-index:2}.ps.bg .pc{max-width:46%;text-shadow:0 .1rem .7rem rgba(0,0,0,.5)}
 .ps.bg .pc h1{font-size:2.7rem;color:#fff}.ps.bg .pc p{font-size:1.4rem;color:#fff}.ps.bg .eyebrow,.ps.bg .plink{color:var(--vc)}
+/* Certificado: banner inteiro na altura do slide; coluna do QR à esquerda na mesma cor de fundo do banner */
+.ps.cert{padding:0;gap:0;align-items:stretch;background:#00604c;overflow:hidden}
+.cq{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9rem;padding:1rem .8rem;color:#fff;text-align:center}.cq .pq{width:11.5rem}
+.ct b{display:block;font-size:1.15rem;line-height:1.25}.ct span{display:block;margin-top:.35rem;font-size:.8rem;font-weight:700;color:var(--vc);word-break:break-all}
+.cimg{height:100%;width:auto;max-width:calc(100% - 13rem);object-fit:cover;display:block;flex-shrink:0}
 /* Banners: a faixa tem a proporção do banner (--ratio), então a imagem preenche sem sobras */
 .banner{position:relative;flex-shrink:0;aspect-ratio:var(--ratio,761/160);border-radius:1rem;overflow:hidden;background:var(--vd);box-shadow:0 .4rem 1.4rem #0004}
 .bs{position:absolute;inset:0;opacity:0;transition:opacity 1s ease;overflow:hidden}.bs.active{opacity:1}
@@ -192,7 +197,8 @@ function buildSlide(type,item){
   if(isQr(item.qr)){const q=document.createElement("div");q.className="cqr";const qi=document.createElement("img");qi.src=item.qr;qi.alt="QR code da página de cursos";const qt=document.createElement("div");qt.textContent="Veja todos os cursos e os detalhes";q.append(qi,qt);el.append(q)}
  }else if(type==="p"){
   el.classList.add("ps");el.dataset.ms=14000;
-  const bg=item.layout==="fundo"||item.id==="ead";  // EAD: banner ocupa o slide todo, texto sobre a imagem
+  const bg=item.layout==="fundo"||item.id==="ead";
+  const cert=item.layout==="lado"||item.id==="certificado";  // certificado: banner inteiro + QR à esquerda  // EAD: banner ocupa o slide todo, texto sobre a imagem
   const pc=document.createElement("div");pc.className="pc";
   pc.innerHTML=`<div class="eyebrow">${safe(item.tag)}</div><h1>${safe(item.titulo)}</h1><p>${safe(item.texto)}</p><div class="plink">${safe(item.link_exibido||"")}</div>`;
   let pq=null;
@@ -203,6 +209,14 @@ function buildSlide(type,item){
    if(u){const im=document.createElement("img");im.className="bgimg";im.alt="";im.onerror=()=>el.classList.add("nobg");im.src=u;el.append(im)}else el.classList.add("nobg");
    if(pq)el.append(pq);
    el.append(pc);
+  }else if(cert){
+   el.classList.add("cert");
+   const cq=document.createElement("div");cq.className="cq";
+   if(pq)cq.append(pq);
+   const ct=document.createElement("div");ct.className="ct";ct.innerHTML=`<b>${safe(item.titulo)}</b><span>${safe(item.link_exibido||"")}</span>`;cq.append(ct);
+   el.append(cq);
+   if(u){const im=document.createElement("img");im.className="cimg";im.alt=item.tag||"";im.onerror=()=>{im.remove();el.classList.remove("cert");el.append(pc)};im.src=u;el.append(im)}
+   else{el.classList.remove("cert");el.append(pc)}
   }else{
    const pm=document.createElement("div");pm.className="pm";
    const fb=()=>{pm.innerHTML="";const f=document.createElement("div");f.className="pfb";f.textContent=item.tag||"SENAR MS";pm.append(f)};
