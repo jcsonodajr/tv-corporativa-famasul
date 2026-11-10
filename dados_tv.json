@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-10T01:58:40.116912+00:00",
+  "gerado_em": "2026-11-10T09:38:00.333295+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -157,21 +157,6 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "INFORMÁTICA INTERMEDIÁRIA",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SALÃO MUITIUSO DO SINDICATO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "amambai",
-          "link": "https://senarms.org.br/curso?curso=809",
-          "fonte": "https://senarms.org.br/municipios?municipio=AMAMBAI"
-        },
-        {
           "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
           "periodo": "11/11 até 12/11",
           "data_inicio": "11/11",
@@ -275,6 +260,21 @@
           "municipio_slug": "amambai",
           "link": "https://senarms.org.br/curso?curso=609",
           "fonte": "https://senarms.org.br/municipios?municipio=AMAMBAI"
+        },
+        {
+          "titulo": "MANUTENÇÃO DE COLHEITADEIRA DE GRÃOS",
+          "periodo": "14/12 até 18/12",
+          "data_inicio": "14/12",
+          "data_fim": "18/12",
+          "data_inicio_iso": "2026-12-14",
+          "data_fim_iso": "2026-12-18",
+          "carga_horaria": 40,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE AMAMBAI",
+          "status": "CONFIRMADO",
+          "municipio_slug": "amambai",
+          "link": "https://senarms.org.br/curso?curso=242",
+          "fonte": "https://senarms.org.br/municipios?municipio=AMAMBAI"
         }
       ]
     },
@@ -286,21 +286,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "ARTESANATO - CROCHÊ EM LINHA FINA",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "CENTRO DE QUALIFICAÇÃO PROFISSIONALIZANTE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "anastacio",
-          "link": "https://senarms.org.br/curso?curso=584",
-          "fonte": "https://senarms.org.br/municipios?municipio=ANAST%C3%81CIO"
-        },
         {
           "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
           "periodo": "11/11 até 12/11",
@@ -404,6 +389,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "anastacio",
           "link": "https://senarms.org.br/curso?curso=529",
+          "fonte": "https://senarms.org.br/municipios?municipio=ANAST%C3%81CIO"
+        },
+        {
+          "titulo": "OPERAÇÃO BÁSICA DE TRATORES AGRÍCOLAS (PNEUS)",
+          "periodo": "25/11 até 27/11",
+          "data_inicio": "25/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-25",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "CENTRO DE QUALIFICAÇÃO PROFISSIONALIZANTE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "anastacio",
+          "link": "https://senarms.org.br/curso?curso=289",
           "fonte": "https://senarms.org.br/municipios?municipio=ANAST%C3%81CIO"
         }
       ]
@@ -717,21 +717,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "QUALIDADE DA SANGRIA",
-          "periodo": "10/11 até 11/11",
-          "data_inicio": "10/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE APARECIDA DO TABOADO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "aparecida-do-taboado",
-          "link": "https://senarms.org.br/curso?curso=669",
-          "fonte": "https://senarms.org.br/municipios?municipio=APARECIDA+DO+TABOADO"
-        },
-        {
           "titulo": "FUNDAMENTOS DA UTILIZAÇÃO DE DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - MÓDULO II",
           "periodo": "11/11 até 12/11",
           "data_inicio": "11/11",
@@ -835,6 +820,21 @@
           "municipio_slug": "aparecida-do-taboado",
           "link": "https://senarms.org.br/curso?curso=797",
           "fonte": "https://senarms.org.br/municipios?municipio=APARECIDA+DO+TABOADO"
+        },
+        {
+          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
+          "periodo": "23/11 até 24/11",
+          "data_inicio": "23/11",
+          "data_fim": "24/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-24",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "COMUNIDADE JOVEM RESGATE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "aparecida-do-taboado",
+          "link": "https://senarms.org.br/curso?curso=503",
+          "fonte": "https://senarms.org.br/municipios?municipio=APARECIDA+DO+TABOADO"
         }
       ]
     },
@@ -846,36 +846,6 @@
       "regiao_soja": "Região Oeste",
       "regiao_boi": "Região Oeste",
       "cursos": [
-        {
-          "titulo": "ARTES EM TECIDOS: BONECAS E BICHINHOS DE PANO",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "CAPS II CENTRO DE ATENÇÃO PSICOSSOCIAL DE AQUIDAUANA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "aquidauana",
-          "link": "https://senarms.org.br/curso?curso=824",
-          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
-        },
-        {
-          "titulo": "CONFECÇÃO DE FAIXAS PANTANEIRAS",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "NÚCLEO DE QUALIFICAÇÃO DE MÃO DE OBRA E GERAÇÃO DE EMPREGO E RENDA DE AQUIDAUANA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "aquidauana",
-          "link": "https://senarms.org.br/curso?curso=535",
-          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
-        },
         {
           "titulo": "CORTE E COSTURA BÁSICO",
           "periodo": "16/11 até 19/11",
@@ -964,6 +934,36 @@
           "status": "CONFIRMADO",
           "municipio_slug": "aquidauana",
           "link": "https://senarms.org.br/curso?curso=527",
+          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
+        },
+        {
+          "titulo": "PROGRAMA INCLUSÃO DIGITAL RURAL",
+          "periodo": "24/11 até 26/11",
+          "data_inicio": "24/11",
+          "data_fim": "26/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-26",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE AQUIDAUANA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "aquidauana",
+          "link": "https://senarms.org.br/curso?curso=815",
+          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
+        },
+        {
+          "titulo": "OPERAÇÃO E MANUTENÇÃO DE MOTOSSERRA",
+          "periodo": "25/11 até 27/11",
+          "data_inicio": "25/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-25",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE AQUIDAUANA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "aquidauana",
+          "link": "https://senarms.org.br/curso?curso=570",
           "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
         }
       ]
@@ -1271,21 +1271,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "MANEJO NUTRICIONAL DE EQUINOS",
-          "periodo": "10/11 até 11/11",
-          "data_inicio": "10/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "bela-vista",
-          "link": "https://senarms.org.br/curso?curso=761",
-          "fonte": "https://senarms.org.br/municipios?municipio=BELA+VISTA"
-        },
         {
           "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
           "periodo": "16/11 até 17/11",
@@ -1691,51 +1676,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "ARTESANATO DE BORDADO LIVRE",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CAMPO GRANDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "campo-grande",
-          "link": "https://senarms.org.br/curso?curso=621",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
-        },
-        {
-          "titulo": "PROCESSAMENTO DA BANANA",
-          "periodo": "10/11 até 12/11",
-          "data_inicio": "10/11",
-          "data_fim": "12/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-12",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SRCG",
-          "status": "CONFIRMADO",
-          "municipio_slug": "campo-grande",
-          "link": "https://senarms.org.br/curso?curso=631",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
-        },
-        {
-          "titulo": "ANÁLISE E CLASSIFICAÇÃO DE GRÃOS (SOJA E MILHO)",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SRCG",
-          "status": "CONFIRMADO",
-          "municipio_slug": "campo-grande",
-          "link": "https://senarms.org.br/curso?curso=253",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
-        },
-        {
           "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
           "periodo": "12/11 até 12/11",
           "data_inicio": "12/11",
@@ -1809,6 +1749,51 @@
           "municipio_slug": "campo-grande",
           "link": "https://senarms.org.br/curso?curso=589",
           "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
+        },
+        {
+          "titulo": "IMPLANTAÇÃO E MANEJO BÁSICO DE HORTA",
+          "periodo": "23/11 até 25/11",
+          "data_inicio": "23/11",
+          "data_fim": "25/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-25",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SRCG",
+          "status": "CONFIRMADO",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/curso?curso=712",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
+        },
+        {
+          "titulo": "FLORICULTURA - CULTIVO DE ORQUÍDEAS",
+          "periodo": "23/11 até 24/11",
+          "data_inicio": "23/11",
+          "data_fim": "24/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-24",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SRCG",
+          "status": "CONFIRMADO",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/curso?curso=689",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
+        },
+        {
+          "titulo": "INFORMÁTICA BÁSICA",
+          "periodo": "24/11 até 27/11",
+          "data_inicio": "24/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "SRCG",
+          "status": "CONFIRMADO",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/curso?curso=808",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
         }
       ]
     },
@@ -1845,21 +1830,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "INFORMÁTICA INTERMEDIÁRIA",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "cassilandia",
-          "link": "https://senarms.org.br/curso?curso=809",
-          "fonte": "https://senarms.org.br/municipios?municipio=CASSIL%C3%82NDIA"
-        },
         {
           "titulo": "SAÚDE DO IDOSO",
           "periodo": "16/11 até 18/11",
@@ -1930,21 +1900,6 @@
       "regiao_soja": "Região Norte",
       "regiao_boi": "Região Norte",
       "cursos": [
-        {
-          "titulo": "FLORICULTURA - CULTIVO DE ORQUÍDEAS",
-          "periodo": "10/11 até 11/11",
-          "data_inicio": "10/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CHAPADÃO DO SUL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "chapadao-do-sul",
-          "link": "https://senarms.org.br/curso?curso=689",
-          "fonte": "https://senarms.org.br/municipios?municipio=CHAPAD%C3%83O+DO+SUL"
-        },
         {
           "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
           "periodo": "16/11 até 17/11",
@@ -2049,6 +2004,21 @@
           "municipio_slug": "chapadao-do-sul",
           "link": "https://senarms.org.br/curso?curso=703",
           "fonte": "https://senarms.org.br/municipios?municipio=CHAPAD%C3%83O+DO+SUL"
+        },
+        {
+          "titulo": "PREPARAÇÕES ARTESANAIS DE PRATOS SEM GLÚTEN E LACTOSE",
+          "periodo": "01/12 até 02/12",
+          "data_inicio": "01/12",
+          "data_fim": "02/12",
+          "data_inicio_iso": "2026-12-01",
+          "data_fim_iso": "2026-12-02",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SEDEMA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "chapadao-do-sul",
+          "link": "https://senarms.org.br/curso?curso=802",
+          "fonte": "https://senarms.org.br/municipios?municipio=CHAPAD%C3%83O+DO+SUL"
         }
       ]
     },
@@ -2078,36 +2048,6 @@
       "regiao_soja": "Região Oeste",
       "regiao_boi": "Região Oeste",
       "cursos": [
-        {
-          "titulo": "PRIMEIROS SOCORROS",
-          "periodo": "10/11 até 11/11",
-          "data_inicio": "10/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "MARINHA DO BRASIL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=800",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
-        {
-          "titulo": "CONFEITARIA BOLOS DECORADOS",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "INSTITUTO SEMENTE DE AMOR",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=859",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
         {
           "titulo": "OPERADOR DE ESCAVADEIRA HIDRÁULICA (LINHA AMARELA)",
           "periodo": "11/11 até 13/11",
@@ -2196,6 +2136,36 @@
           "status": "CONFIRMADO",
           "municipio_slug": "corumba",
           "link": "https://senarms.org.br/curso?curso=580",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
+          "titulo": "CRIAÇÃO E MANEJO DE OVINOS NO PERÍODO DE RECRIA",
+          "periodo": "23/11 até 24/11",
+          "data_inicio": "23/11",
+          "data_fim": "24/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-24",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE CORUMBÁ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=692",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
+          "titulo": "FUNDAMENTOS DA UTILIZAÇÃO DE DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - MÓDULO II",
+          "periodo": "23/11 até 24/11",
+          "data_inicio": "23/11",
+          "data_fim": "24/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-24",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE CORUMBÁ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=504",
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         }
       ]
@@ -2338,21 +2308,6 @@
       "regiao_soja": "Região Norte",
       "regiao_boi": "Região Norte",
       "cursos": [
-        {
-          "titulo": "INFORMÁTICA INTERMEDIÁRIA",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "47º BATALHÃO DE INFANTARIA (47º BI)",
-          "status": "CONFIRMADO",
-          "municipio_slug": "coxim",
-          "link": "https://senarms.org.br/curso?curso=809",
-          "fonte": "https://senarms.org.br/municipios?municipio=COXIM"
-        },
         {
           "titulo": "CULINÁRIA REGIONAL SUL-MATOGROSSENSE",
           "periodo": "16/11 até 17/11",
@@ -3667,21 +3622,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "EXCEL BÁSICO",
-          "periodo": "10/11 até 12/11",
-          "data_inicio": "10/11",
-          "data_fim": "12/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-12",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "CRAS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "juti",
-          "link": "https://senarms.org.br/curso?curso=794",
-          "fonte": "https://senarms.org.br/municipios?municipio=JUTI"
-        },
-        {
           "titulo": "PRODUÇÃO DE PÃES ARTESANAIS",
           "periodo": "23/11 até 24/11",
           "data_inicio": "23/11",
@@ -3786,21 +3726,6 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "PRODUÇÃO DE SALGADOS",
-          "periodo": "10/11 até 11/11",
-          "data_inicio": "10/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE MARACAJU",
-          "status": "CONFIRMADO",
-          "municipio_slug": "maracaju",
-          "link": "https://senarms.org.br/curso?curso=860",
-          "fonte": "https://senarms.org.br/municipios?municipio=MARACAJU"
-        },
-        {
           "titulo": "NR 31.15 - CAPACITAÇÃO PARA TRABALHO EM ALTURA",
           "periodo": "16/11 até 17/11",
           "data_inicio": "16/11",
@@ -3903,6 +3828,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "maracaju",
           "link": "https://senarms.org.br/curso?curso=91",
+          "fonte": "https://senarms.org.br/municipios?municipio=MARACAJU"
+        },
+        {
+          "titulo": "OPERADOR DE ESCAVADEIRA HIDRÁULICA (LINHA AMARELA)",
+          "periodo": "07/12 até 09/12",
+          "data_inicio": "07/12",
+          "data_fim": "09/12",
+          "data_inicio_iso": "2026-12-07",
+          "data_fim_iso": "2026-12-09",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE MARACAJU",
+          "status": "CONFIRMADO",
+          "municipio_slug": "maracaju",
+          "link": "https://senarms.org.br/curso?curso=84",
           "fonte": "https://senarms.org.br/municipios?municipio=MARACAJU"
         }
       ]
@@ -4361,21 +4301,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "INFORMÁTICA BÁSICA",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "CENTRO DE REFERÊNCIA DE ASSISTÊNCIA SOCIAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-alvorada-do-sul",
-          "link": "https://senarms.org.br/curso?curso=808",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ALVORADA+DO+SUL"
-        },
-        {
           "titulo": "CONSERVA DE FRUTAS",
           "periodo": "16/11 até 18/11",
           "data_inicio": "16/11",
@@ -4430,21 +4355,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "INFORMÁTICA BÁSICA",
-          "periodo": "10/11 até 19/11",
-          "data_inicio": "10/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SENAR ON",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=808",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
         {
           "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
           "periodo": "16/11 até 19/11",
@@ -4548,6 +4458,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
           "link": "https://senarms.org.br/curso?curso=804",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
+          "titulo": "LIDERANDO ADVERSIDADES",
+          "periodo": "24/11 até 27/11",
+          "data_inicio": "24/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=846",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         }
       ]
@@ -4708,21 +4633,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "PISCICULTURA: IMPLANTAÇÃO E MANEJO BÁSICO",
-          "periodo": "10/11 até 12/11",
-          "data_inicio": "10/11",
-          "data_fim": "12/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-12",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE PARANHOS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "paranhos",
-          "link": "https://senarms.org.br/curso?curso=755",
-          "fonte": "https://senarms.org.br/municipios?municipio=PARANHOS"
-        },
         {
           "titulo": "PISCICULTURA AVANÇADA",
           "periodo": "16/11 até 18/11",
@@ -5753,21 +5663,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "ANÁLISE E CLASSIFICAÇÃO DE GRÃOS (SOJA E MILHO)",
-          "periodo": "10/11 até 13/11",
-          "data_inicio": "10/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE SIDROLÂNDIA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "sidrolandia",
-          "link": "https://senarms.org.br/curso?curso=253",
-          "fonte": "https://senarms.org.br/municipios?municipio=SIDROL%C3%82NDIA"
-        },
-        {
           "titulo": "CULTIVO DE MORANGO",
           "periodo": "11/11 até 12/11",
           "data_inicio": "11/11",
@@ -5871,6 +5766,21 @@
           "municipio_slug": "sidrolandia",
           "link": "https://senarms.org.br/curso?curso=775",
           "fonte": "https://senarms.org.br/municipios?municipio=SIDROL%C3%82NDIA"
+        },
+        {
+          "titulo": "PROCESSAMENTO DA BANANA",
+          "periodo": "24/11 até 26/11",
+          "data_inicio": "24/11",
+          "data_fim": "26/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-26",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "ASSENTAMENTO BARRA NOVA - VILMA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "sidrolandia",
+          "link": "https://senarms.org.br/curso?curso=631",
+          "fonte": "https://senarms.org.br/municipios?municipio=SIDROL%C3%82NDIA"
         }
       ]
     },
@@ -5895,21 +5805,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "sonora",
           "link": "https://senarms.org.br/curso?curso=420",
-          "fonte": "https://senarms.org.br/municipios?municipio=SONORA"
-        },
-        {
-          "titulo": "PRODUÇÃO DE SALGADOS",
-          "periodo": "10/11 até 11/11",
-          "data_inicio": "10/11",
-          "data_fim": "11/11",
-          "data_inicio_iso": "2026-11-10",
-          "data_fim_iso": "2026-11-11",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "GERÊNCIA MUNICIPAL DE ASSINSTÊNCIA SOCIAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "sonora",
-          "link": "https://senarms.org.br/curso?curso=860",
           "fonte": "https://senarms.org.br/municipios?municipio=SONORA"
         },
         {
