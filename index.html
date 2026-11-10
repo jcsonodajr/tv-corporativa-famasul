@@ -311,7 +311,7 @@ function updateTicker(d){
 /* Dados */
 function normalize(raw){
  const city=raw.municipios?raw.municipios[citySlug]:raw.municipio;
- return {gerado_em:raw.gerado_em,municipio:city||{},famasul:raw.famasul||{},cotacoes:raw.cotacoes||{}};
+ return {gerado_em:raw.gerado_em,municipio:city||{},famasul:raw.famasul||{},cotacoes:raw.cotacoes||{},divulgacoes:raw.divulgacoes||[]};
 }
 async function fetchJson(u){const r=await fetch(u+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return r.json()}
 function showStatus(d,cached){
@@ -328,7 +328,7 @@ async function loadData(){
  if(!data){$("status").className="status warn";$("status").textContent="Sem dados: verifique dados/"+citySlug+".json";if(!state.slides.length)rebuildSlides({});return}
  if(data.municipio?.nome&&data.municipio.nome!==cityName){setCity(data.municipio.nome);loadWeather()}
  // Compara o conteúdo (não o horário da coleta): slides e banners só reiniciam se algo mudou de fato.
- const sig=JSON.stringify([data.municipio,data.famasul,data.cotacoes])+(cached?"c":"n");
+ const sig=JSON.stringify([data.municipio,data.famasul,data.cotacoes,data.divulgacoes])+(cached?"c":"n");
  if(sig!==state.sig||!state.slides.length){state.sig=sig;rebuildSlides(data);buildBanners(data);updateQuotes(data);updateTicker(data)}
  showStatus(data,cached);
 }
