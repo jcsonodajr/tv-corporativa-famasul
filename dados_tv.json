@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-10T09:38:00.333295+00:00",
+  "gerado_em": "2026-11-10T12:34:01.870849+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -6853,5 +6853,27 @@
     "Nenhum curso vigente na página do SENAR para Novo Horizonte do Sul.",
     "Nenhum curso vigente na página do SENAR para Paraíso das Águas.",
     "Nenhum curso vigente na página do SENAR para Rochedo."
+  ],
+  "divulgacoes": [
+    {
+      "id": "certificado",
+      "tag": "Certificado online",
+      "titulo": "Emita seu certificado online",
+      "texto": "Fez um curso do SENAR/MS? Aponte a câmera do celular para o QR code e emita o seu certificado pela internet.",
+      "url": "https://extranet.senarms.org.br/certificadoonline",
+      "link_exibido": "extranet.senarms.org.br/certificadoonline",
+      "imagem": "https://senarms.org.br/sites/default/files/banners/certificados-online-senarms-banner-site_0.png",
+      "qr": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27185%27%20height%3D%27185%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%285%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h37v37h-37z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%23000%27%20d%3D%27M2%202.5h7m2%200h2m2%200h1m2%200h2m1%200h2m2%200h1m2%200h7m-33%201h1m5%200h1m2%200h1m1%200h5m1%200h1m2%200h1m1%200h1m3%200h1m5%200h1m-33%201h1m1%200h3m1%200h1m1%200h1m1%200h2m1%200h1m2%200h3m2%200h1m2%200h1m1%200h1m1%200h3m1%200h1m-33%201h1m1%200h3m1%200h1m1%200h1m1%200h1m3%200h1m1%200h1m3%200h1m1%200h1m1%200h1m1%200h1m1%200h3m1%200h1m-33%201h1m1%200h3m1%200h1m1%200h2m5%200h1m2%200h1m4%200h1m2%200h1m1%200h3m1%200h1m-33%201h1m5%200h1m1%200h2m1%200h3m1%200h4m1%200h1m1%200h1m3%200h1m5%200h1m-33%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-25%201h2m2%200h1m2%200h1m2%200h1m2%200h1m1%200h1m-24%201h1m1%200h5m3%200h6m1%200h1m4%200h3m1%200h5m-28%201h1m1%200h1m1%200h2m2%200h2m1%200h1m3%200h3m2%200h1m2%200h2m1%200h2m1%200h1m-32%201h1m3%200h2m1%200h1m1%200h1m1%200h1m2%200h2m1%200h1m2%200h2m1%200h1m1%200h1m1%200h1m1%200h2m-29%201h1m1%200h1m3%200h1m1%200h2m1%200h1m1%200h1m2%200h3m1%200h3m2%200h5m-33%201h2m1%200h2m1%200h2m1%200h3m3%200h1m2%200h2m2%200h1m1%200h2m1%200h3m-29%201h2m2%200h1m6%200h1m1%200h4m2%200h2m1%200h1m2%200h1m2%200h4m-33%201h1m1%200h2m1%200h7m1%200h2m4%200h1m1%200h2m2%200h7m-32%201h1m2%200h1m1%200h1m1%200h1m2%200h3m3%200h1m2%200h5m1%200h2m2%200h2m-28%201h2m1%200h3m2%200h1m1%200h2m2%200h1m1%200h1m2%200h2m1%200h1m1%200h3m2%200h1m-33%201h2m5%200h1m3%200h1m2%200h1m1%200h2m1%200h2m1%200h2m2%200h2m1%200h2m1%200h1m-31%201h3m1%200h2m3%200h1m2%200h2m1%200h1m2%200h2m2%200h1m2%200h2m1%200h2m-31%201h1m1%200h1m3%200h1m1%200h2m2%200h2m2%200h2m1%200h3m2%200h8m-33%201h1m1%200h2m1%200h2m3%200h3m1%200h3m5%200h1m1%200h2m1%200h3m1%200h2m-33%201h1m1%200h2m4%200h1m2%200h2m2%200h1m2%200h1m2%200h1m1%200h1m2%200h1m3%200h1m1%200h1m-33%201h1m3%200h3m6%200h6m2%200h2m1%200h2m5%200h1m-32%201h1m1%200h1m2%200h1m1%200h4m1%200h1m1%200h2m5%200h1m3%200h1m1%200h5m-32%201h1m2%200h4m2%200h5m1%200h4m5%200h6m-22%201h5m1%200h1m1%200h1m1%200h3m2%200h2m3%200h1m1%200h1m1%200h1m-33%201h7m2%200h5m1%200h2m1%200h1m1%200h1m1%200h3m1%200h1m1%200h1m1%200h1m-31%201h1m5%200h1m1%200h3m2%200h1m2%200h1m2%200h1m1%200h1m1%200h2m3%200h3m1%200h1m-33%201h1m1%200h3m1%200h1m1%200h2m1%200h3m4%200h1m3%200h1m1%200h6m-30%201h1m1%200h3m1%200h1m1%200h1m2%200h3m1%200h3m6%200h2m2%200h5m-33%201h1m1%200h3m1%200h1m1%200h4m2%200h1m2%200h1m2%200h1m1%200h1m2%200h3m2%200h1m-31%201h1m5%200h1m5%200h2m2%200h1m1%200h1m1%200h2m6%200h3m-31%201h7m1%200h1m4%200h2m2%200h1m2%200h1m1%200h4m1%200h1m3%200h1%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+    },
+    {
+      "id": "ead",
+      "tag": "SENAR MS EAD",
+      "titulo": "Cursos online, gratuitos e com certificado",
+      "texto": "Estude no seu ritmo, onde e quando quiser. Aponte a câmera para o QR code, crie sua conta e conheça os cursos do SENAR MS EAD.",
+      "url": "https://ead.senarms.org.br",
+      "link_exibido": "ead.senarms.org.br",
+      "imagem": "https://ead.senarms.org.br/storage/arquivos/imagens/_1400xAUTO_crop_center-center_85_none/4703369/0260713-senar-ms-banner-home-institucional-1366x600px.webp",
+      "qr": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27145%27%20height%3D%27145%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%285%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h29v29h-29z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%23000%27%20d%3D%27M2%202.5h7m1%200h1m1%200h3m1%200h1m3%200h7m-25%201h1m5%200h1m1%200h3m1%200h2m4%200h1m5%200h1m-25%201h1m1%200h3m1%200h1m1%200h1m1%200h2m1%200h2m1%200h1m1%200h1m1%200h3m1%200h1m-25%201h1m1%200h3m1%200h1m2%200h1m1%200h3m4%200h1m1%200h3m1%200h1m-25%201h1m1%200h3m1%200h1m1%200h1m7%200h1m1%200h1m1%200h3m1%200h1m-25%201h1m5%200h1m2%200h1m1%200h1m1%200h1m4%200h1m5%200h1m-25%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-16%201h1m2%200h2m-14%201h1m2%200h6m2%200h1m3%200h3m2%200h1m1%200h3m-24%201h1m2%200h2m1%200h1m3%200h5m3%200h5m-24%201h1m1%200h1m1%200h1m1%200h1m2%200h1m2%200h2m1%200h1m1%200h5m2%200h1m-25%201h3m2%200h1m2%200h1m1%200h3m2%200h1m2%200h2m1%200h4m-24%201h2m1%200h1m1%200h3m2%200h2m3%200h1m1%200h2m4%200h1m-25%201h1m9%200h1m1%200h1m1%200h3m3%200h1m2%200h1m-24%201h2m4%200h1m3%200h1m1%200h1m1%200h2m1%200h2m1%200h5m-25%201h1m2%200h3m2%200h1m2%200h2m5%200h2m1%200h2m1%200h1m-25%201h1m1%200h1m3%200h3m1%200h2m1%200h1m1%200h6m1%200h2m-16%201h1m1%200h1m3%200h1m1%200h1m3%200h1m1%200h2m-24%201h7m1%200h5m1%200h1m1%200h1m1%200h1m1%200h1m3%200h1m-25%201h1m5%200h1m1%200h1m2%200h6m3%200h1m-21%201h1m1%200h3m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-21%201h1m1%200h3m1%200h1m1%200h2m1%200h1m2%200h2m2%200h1m4%200h2m-25%201h1m1%200h3m1%200h1m3%200h4m1%200h1m1%200h1m2%200h5m-25%201h1m5%200h1m2%200h1m4%200h2m3%200h2m1%200h3m-25%201h7m1%200h2m2%200h1m1%200h1m1%200h2m3%200h1m2%200h1%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+    }
   ]
 }
