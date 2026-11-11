@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-11T14:01:47.865694+00:00",
+  "gerado_em": "2026-11-11T21:15:31.776966+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -915,7 +915,7 @@
           "data_fim_iso": "2026-11-27",
           "carga_horaria": 32,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE AQUIDAUANA",
+          "local": "CASA ENEDINO ROSA",
           "status": "CONFIRMADO",
           "municipio_slug": "aquidauana",
           "link": "https://senarms.org.br/curso?curso=527",
@@ -1644,7 +1644,7 @@
           "data_fim_iso": "2026-12-19",
           "carga_horaria": 40,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE CAMAPUÃ",
+          "local": "RUBI DIMA CABRAL ALVES",
           "status": "CONFIRMADO",
           "municipio_slug": "camapua",
           "link": "https://senarms.org.br/curso?curso=688",
@@ -2472,7 +2472,7 @@
           "data_fim_iso": "2026-11-27",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE DOIS IRMÃOS DO BURITI",
+          "local": "ESCOLA ESTADUAL PROFESSORA ESTEFANA CENTURION GAMBARRA",
           "status": "CONFIRMADO",
           "municipio_slug": "dois-irmaos-do-buriti",
           "link": "https://senarms.org.br/curso?curso=803",
@@ -2521,21 +2521,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "dois-irmaos-do-buriti",
           "link": "https://senarms.org.br/curso?curso=84",
-          "fonte": "https://senarms.org.br/municipios?municipio=DOIS+IRM%C3%83OS+DO+BURITI"
-        },
-        {
-          "titulo": "EXCEL AVANÇADO",
-          "periodo": "10/12 até 12/12",
-          "data_inicio": "10/12",
-          "data_fim": "12/12",
-          "data_inicio_iso": "2026-12-10",
-          "data_fim_iso": "2026-12-12",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE DOIS IRMÃOS DO BURITI",
-          "status": "CONFIRMADO",
-          "municipio_slug": "dois-irmaos-do-buriti",
-          "link": "https://senarms.org.br/curso?curso=855",
           "fonte": "https://senarms.org.br/municipios?municipio=DOIS+IRM%C3%83OS+DO+BURITI"
         },
         {
@@ -4998,21 +4983,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "FORMAÇÃO DE LÍDERES",
-          "periodo": "12/11 até 13/11",
-          "data_inicio": "12/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-12",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE RIO BRILHANTE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "rio-brilhante",
-          "link": "https://senarms.org.br/curso?curso=807",
-          "fonte": "https://senarms.org.br/municipios?municipio=RIO+BRILHANTE"
-        },
-        {
           "titulo": "ARTESANATO DE BORDADO EM PONTO CRIVO",
           "periodo": "16/11 até 19/11",
           "data_inicio": "16/11",
@@ -5115,6 +5085,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "rio-brilhante",
           "link": "https://senarms.org.br/curso?curso=819",
+          "fonte": "https://senarms.org.br/municipios?municipio=RIO+BRILHANTE"
+        },
+        {
+          "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
+          "periodo": "14/12 até 15/12",
+          "data_inicio": "14/12",
+          "data_fim": "15/12",
+          "data_inicio_iso": "2026-12-14",
+          "data_fim_iso": "2026-12-15",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "FAZENDA ESTÂNCIA ROSA BRANCA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "rio-brilhante",
+          "link": "https://senarms.org.br/curso?curso=796",
           "fonte": "https://senarms.org.br/municipios?municipio=RIO+BRILHANTE"
         }
       ]
@@ -5464,6 +5449,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "sao-gabriel-do-oeste",
           "link": "https://senarms.org.br/curso?curso=757",
+          "fonte": "https://senarms.org.br/municipios?municipio=S%C3%83O+GABRIEL+DO+OESTE"
+        },
+        {
+          "titulo": "OPERAÇÃO BÁSICA DE TRATORES AGRÍCOLAS (PNEUS)",
+          "periodo": "07/12 até 09/12",
+          "data_inicio": "07/12",
+          "data_fim": "09/12",
+          "data_inicio_iso": "2026-12-07",
+          "data_fim_iso": "2026-12-09",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE SÃO GABRIEL DO OESTE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "sao-gabriel-do-oeste",
+          "link": "https://senarms.org.br/curso?curso=289",
           "fonte": "https://senarms.org.br/municipios?municipio=S%C3%83O+GABRIEL+DO+OESTE"
         },
         {
@@ -5912,6 +5912,21 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
+          "titulo": "OPERAÇÃO E MANUTENÇÃO DE MOTOSSERRA",
+          "periodo": "12/11 até 14/11",
+          "data_inicio": "12/11",
+          "data_fim": "14/11",
+          "data_inicio_iso": "2026-11-12",
+          "data_fim_iso": "2026-11-14",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE TERENOS",
+          "status": "CONFIRMADO",
+          "municipio_slug": "terenos",
+          "link": "https://senarms.org.br/curso?curso=570",
+          "fonte": "https://senarms.org.br/municipios?municipio=TERENOS"
+        },
+        {
           "titulo": "BOAS PRÁTICAS PARA SERVIÇOS DE ALIMENTAÇÃO",
           "periodo": "13/11 até 13/11",
           "data_inicio": "13/11",
@@ -6014,21 +6029,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "terenos",
           "link": "https://senarms.org.br/curso?curso=808",
-          "fonte": "https://senarms.org.br/municipios?municipio=TERENOS"
-        },
-        {
-          "titulo": "BENEFICIAMENTO DA MANDIOCA",
-          "periodo": "01/12 até 02/12",
-          "data_inicio": "01/12",
-          "data_fim": "02/12",
-          "data_inicio_iso": "2026-12-01",
-          "data_fim_iso": "2026-12-02",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "terenos",
-          "link": "https://senarms.org.br/curso?curso=585",
           "fonte": "https://senarms.org.br/municipios?municipio=TERENOS"
         }
       ]
@@ -6207,6 +6207,11 @@
   "famasul": {
     "banners": [
       {
+        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/bannnnnnnnnnnner.jpg_0.jpeg",
+        "titulo": "",
+        "link": "https://ead.senarms.org.br/matriculas-abertas?utm_medium=digital&utm_source=banner&utm_campaign=20261105-senar-ms-banner-home-in"
+      },
+      {
         "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/BANNER%20SITE%20-%20INSTITUCIONAL%20c_0.jpg",
         "titulo": "",
         "link": "https://etec.senar.org.br/processo-seletivo"
@@ -6345,13 +6350,33 @@
   "cotacoes": {
     "soja": [
       {
-        "data": "10/11/2026",
-        "praca": "Região Oeste",
-        "valor": 378.73
+        "data": "11/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 376.76
       },
       {
-        "data": "10/11/2026",
+        "data": "11/11/2026",
+        "praca": "Região Sudeste",
+        "valor": 378.72
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Região Oeste",
+        "valor": 378.72
+      },
+      {
+        "data": "11/11/2026",
         "praca": "Região Sul",
+        "valor": 373.81
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Região Centro",
+        "valor": 378.72
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Região Norte",
         "valor": 373.81
       },
       {
@@ -6361,13 +6386,13 @@
       },
       {
         "data": "10/11/2026",
-        "praca": "Região Norte",
+        "praca": "Região Sul",
         "valor": 373.81
       },
       {
         "data": "10/11/2026",
-        "praca": "Região Centro",
-        "valor": 373.81
+        "praca": "Região Oeste",
+        "valor": 378.73
       },
       {
         "data": "10/11/2026",
@@ -6375,8 +6400,13 @@
         "valor": 375.78
       },
       {
-        "data": "09/11/2026",
-        "praca": "Região Sul",
+        "data": "10/11/2026",
+        "praca": "Região Norte",
+        "valor": 373.81
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Região Centro",
         "valor": 373.81
       },
       {
@@ -6391,12 +6421,12 @@
       },
       {
         "data": "09/11/2026",
-        "praca": "Região Norte",
+        "praca": "Região Sul",
         "valor": 373.81
       },
       {
         "data": "09/11/2026",
-        "praca": "Região Centro",
+        "praca": "Região Norte",
         "valor": 373.81
       },
       {
@@ -6405,23 +6435,18 @@
         "valor": 375.78
       },
       {
-        "data": "06/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 372.33
-      },
-      {
-        "data": "06/11/2026",
-        "praca": "Região Norte",
-        "valor": 371.35
-      },
-      {
-        "data": "06/11/2026",
+        "data": "09/11/2026",
         "praca": "Região Centro",
-        "valor": 368.89
+        "valor": 373.81
       },
       {
         "data": "06/11/2026",
         "praca": "Região Sudeste",
+        "valor": 373.81
+      },
+      {
+        "data": "06/11/2026",
+        "praca": "Região Sul",
         "valor": 373.81
       },
       {
@@ -6431,55 +6456,70 @@
       },
       {
         "data": "06/11/2026",
-        "praca": "Região Sul",
-        "valor": 373.81
+        "praca": "Região Norte",
+        "valor": 371.35
       },
       {
-        "data": "05/11/2026",
-        "praca": "Região Oeste",
-        "valor": 373.81
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Região Sul",
-        "valor": 373.81
-      },
-      {
-        "data": "05/11/2026",
+        "data": "06/11/2026",
         "praca": "Mato Grosso do Sul",
         "valor": 372.33
       },
       {
-        "data": "05/11/2026",
+        "data": "06/11/2026",
         "praca": "Região Centro",
         "valor": 368.89
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 373.81
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Região Norte",
-        "valor": 371.35
       }
     ],
     "milho": [
       {
-        "data": "10/11/2026",
-        "praca": "Dourados",
-        "valor": 144.0
-      },
-      {
-        "data": "10/11/2026",
-        "praca": "Maracaju",
+        "data": "11/11/2026",
+        "praca": "Campo Grande",
         "valor": 143.0
       },
       {
-        "data": "10/11/2026",
+        "data": "11/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 142.25
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 140.0
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Dourados",
+        "valor": 145.0
+      },
+      {
+        "data": "11/11/2026",
         "praca": "Chapadão do Sul",
         "valor": 142.0
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 143.0
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Maracaju",
+        "valor": 144.0
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 143.0
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Sonora",
+        "valor": 138.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 140.0
       },
       {
         "data": "10/11/2026",
@@ -6488,8 +6528,28 @@
       },
       {
         "data": "10/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 142.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Maracaju",
+        "valor": 143.0
+      },
+      {
+        "data": "10/11/2026",
         "praca": "Sonora",
         "valor": 138.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 142.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Campo Grande",
+        "valor": 143.0
       },
       {
         "data": "10/11/2026",
@@ -6498,38 +6558,8 @@
       },
       {
         "data": "10/11/2026",
-        "praca": "Campo Grande",
-        "valor": 143.0
-      },
-      {
-        "data": "10/11/2026",
-        "praca": "Ponta Porã",
-        "valor": 142.0
-      },
-      {
-        "data": "10/11/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 140.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 140.69
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Maracaju",
-        "valor": 142.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Sonora",
-        "valor": 138.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Ponta Porã",
-        "valor": 141.5
+        "praca": "Dourados",
+        "valor": 144.0
       },
       {
         "data": "09/11/2026",
@@ -6538,8 +6568,23 @@
       },
       {
         "data": "09/11/2026",
-        "praca": "São Gabriel do Oeste",
+        "praca": "Chapadão do Sul",
+        "valor": 140.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Dourados",
+        "valor": 143.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Sonora",
         "valor": 138.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 140.69
       },
       {
         "data": "09/11/2026",
@@ -6548,17 +6593,47 @@
       },
       {
         "data": "09/11/2026",
-        "praca": "Chapadão do Sul",
-        "valor": 140.0
+        "praca": "Maracaju",
+        "valor": 142.0
       },
       {
         "data": "09/11/2026",
-        "praca": "Dourados",
-        "valor": 143.0
+        "praca": "São Gabriel do Oeste",
+        "valor": 138.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 141.5
       }
     ],
     "boi": [
       {
+        "data": "11/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 358.23
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Região Oeste",
+        "valor": 360.69
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Região Norte",
+        "valor": 359.05
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Região Sudeste",
+        "valor": 359.05
+      },
+      {
+        "data": "11/11/2026",
+        "praca": "Região Sul",
+        "valor": 354.13
+      },
+      {
         "data": "10/11/2026",
         "praca": "Região Oeste",
         "valor": 361.51
@@ -6566,6 +6641,11 @@
       {
         "data": "10/11/2026",
         "praca": "Região Norte",
+        "valor": 359.05
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Região Sudeste",
         "valor": 359.05
       },
       {
@@ -6579,8 +6659,23 @@
         "valor": 358.44
       },
       {
-        "data": "10/11/2026",
+        "data": "09/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 358.44
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Região Sul",
+        "valor": 354.13
+      },
+      {
+        "data": "09/11/2026",
         "praca": "Região Sudeste",
+        "valor": 359.05
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Região Norte",
         "valor": 359.05
       },
       {
@@ -6589,211 +6684,146 @@
         "valor": 361.51
       },
       {
-        "data": "09/11/2026",
-        "praca": "Região Sul",
-        "valor": 354.13
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Região Norte",
-        "valor": 359.05
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 358.44
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 359.05
-      },
-      {
         "data": "06/11/2026",
         "praca": "Região Sul",
         "valor": 354.13
-      },
-      {
-        "data": "06/11/2026",
-        "praca": "Região Norte",
-        "valor": 356.59
-      },
-      {
-        "data": "06/11/2026",
-        "praca": "Região Oeste",
-        "valor": 357.41
-      },
-      {
-        "data": "06/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 354.13
-      },
-      {
-        "data": "06/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 355.57
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Região Sul",
-        "valor": 354.13
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 355.57
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 354.13
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Região Norte",
-        "valor": 356.59
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Região Oeste",
-        "valor": 357.41
       }
     ],
     "vaca": [
       {
-        "data": "10/11/2026",
-        "praca": "Maracaju",
-        "valor": 50.0
-      },
-      {
-        "data": "10/11/2026",
-        "praca": "Ponta Porã",
-        "valor": 50.0
-      },
-      {
-        "data": "10/11/2026",
-        "praca": "Sidrolândia",
-        "valor": 49.0
-      },
-      {
-        "data": "10/11/2026",
+        "data": "11/11/2026",
         "praca": "Mato Grosso do Sul",
-        "valor": 49.63
+        "valor": 49.88
       },
       {
-        "data": "10/11/2026",
-        "praca": "Sonora",
-        "valor": 48.0
-      },
-      {
-        "data": "10/11/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 49.0
-      },
-      {
-        "data": "10/11/2026",
+        "data": "11/11/2026",
         "praca": "Campo Grande",
         "valor": 49.0
       },
       {
-        "data": "10/11/2026",
-        "praca": "Chapadão do Sul",
-        "valor": 51.0
-      },
-      {
-        "data": "10/11/2026",
+        "data": "11/11/2026",
         "praca": "Dourados",
-        "valor": 51.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 49.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Sonora",
-        "valor": 48.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Dourados",
-        "valor": 51.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Sidrolândia",
-        "valor": 49.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Maracaju",
-        "valor": 50.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 49.63
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Campo Grande",
-        "valor": 49.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Ponta Porã",
-        "valor": 50.0
-      },
-      {
-        "data": "09/11/2026",
-        "praca": "Chapadão do Sul",
-        "valor": 51.0
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Sidrolândia",
-        "valor": 51.0
-      },
-      {
-        "data": "05/11/2026",
-        "praca": "Ponta Porã",
         "valor": 52.0
       },
       {
-        "data": "05/11/2026",
-        "praca": "Campo Grande",
-        "valor": 51.0
+        "data": "11/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 49.0
       },
       {
-        "data": "05/11/2026",
+        "data": "11/11/2026",
         "praca": "Sonora",
         "valor": 48.0
       },
       {
-        "data": "05/11/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 49.0
+        "data": "11/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 51.0
       },
       {
-        "data": "05/11/2026",
-        "praca": "Dourados",
-        "valor": 53.0
+        "data": "11/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 50.0
       },
       {
-        "data": "05/11/2026",
+        "data": "11/11/2026",
         "praca": "Maracaju",
         "valor": 51.0
       },
       {
-        "data": "05/11/2026",
-        "praca": "Chapadão do Sul",
+        "data": "11/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 49.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 49.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 49.63
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Dourados",
+        "valor": 51.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Ponta Porã",
         "valor": 50.0
       },
       {
-        "data": "05/11/2026",
+        "data": "10/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 49.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Campo Grande",
+        "valor": 49.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Maracaju",
+        "valor": 50.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Sonora",
+        "valor": 48.0
+      },
+      {
+        "data": "10/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 51.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 49.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Sonora",
+        "valor": 48.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 50.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 49.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Maracaju",
+        "valor": 50.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 51.0
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Campo Grande",
+        "valor": 49.0
+      },
+      {
+        "data": "09/11/2026",
         "praca": "Mato Grosso do Sul",
-        "valor": 50.63
+        "valor": 49.63
+      },
+      {
+        "data": "09/11/2026",
+        "praca": "Dourados",
+        "valor": 51.0
       }
     ]
   },
