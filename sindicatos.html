@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sindicatos | TV Famasul</title>
+<style>body{font-family:Arial,sans-serif;margin:2rem auto;max-width:46rem;padding:0 1rem;color:#1b2a24}h1{color:#006C4C}input{width:100%;padding:.7rem;font-size:1rem;margin:1rem 0;box-sizing:border-box}li{padding:.35rem 0;border-bottom:1px solid #e3e9e2}a{color:#006C4C;font-weight:700;text-decoration:none}code{color:#555;font-size:.85rem;margin-left:.5rem}</style></head>
+<body><h1>TV Famasul: endereço de cada sindicato</h1>
+<p>Use o endereço do município na TV. Exemplo: <code>https://tvfamasul.netlify.app/camapua</code></p>
+<input id="q" placeholder="Buscar município..." autofocus><ul id="l"></ul>
+<script>
+fetch("/dados_tv.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+ const m=Object.values(d.municipios||{}).sort((a,b)=>a.nome.localeCompare(b.nome,"pt-BR")),ul=document.getElementById("l");
+ const draw=t=>{ul.innerHTML=m.filter(x=>x.nome.toLowerCase().includes(t.toLowerCase())).map(x=>`<li><a href="/${x.slug}">${x.nome}</a><code>${location.origin}/${x.slug}</code></li>`).join("")};
+ draw("");document.getElementById("q").oninput=e=>draw(e.target.value);
+}).catch(()=>{document.getElementById("l").innerHTML="<li>Não foi possível carregar a lista (dados_tv.json).</li>"});
+</script></body></html>
