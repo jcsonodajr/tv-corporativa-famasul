@@ -122,7 +122,12 @@ const safeUrl=u=>{u=String(u||"").trim().replace(/^http:\/\//i,"https://");retur
 const cssUrl=u=>`url("${u.replace(/["\\()\s]/g,encodeURIComponent)}")`;
 const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
 const params=new URLSearchParams(location.search);
-const citySlug=slugify(params.get("sindicato")||DEFAULT_CITY)||DEFAULT_CITY;
+// O município vem de ?sindicato=camapua ou, no Netlify, do caminho: https://tvfamasul.netlify.app/camapua
+const PATH_MODE=/\.netlify\.app$/.test(location.hostname)||location.hostname==="localhost";  // com domínio próprio, troque para true
+const seg=location.pathname.split("/").filter(Boolean)[0]||"";
+const fromPath=PATH_MODE&&/^[a-z0-9-]+$/i.test(seg)&&!/^(dados|index|sindicatos)/i.test(seg)?seg:"";
+const DATA_BASE=PATH_MODE?"/":"";  // caminho absoluto dos JSON quando o município está na URL
+const citySlug=slugify(params.get("sindicato")||fromPath||DEFAULT_CITY)||DEFAULT_CITY;
 const prettify=slug=>slug.split("-").map(w=>["de","da","do","das","dos"].includes(w)?w:cap(w)).join(" ");
 let cityName=prettify(citySlug);
 const state={slides:[],index:0,sig:"",timer:null,bt:null,tickerSig:""};
@@ -350,7 +355,7 @@ function showStatus(d,cached){
 }
 async function loadData(){
  let data=null,cached=false;
- for(const u of [`dados/${citySlug}.json`,"dados_tv.json"]){try{data=normalize(await fetchJson(u));if(data.municipio&&data.municipio.slug||u==="dados_tv.json")break}catch(e){console.warn("Falha em",u,e)}}
+ for(const u of [`${DATA_BASE}dados/${citySlug}.json`,`${DATA_BASE}dados_tv.json`]){try{data=normalize(await fetchJson(u));if(data.municipio&&data.municipio.slug||u.endsWith("dados_tv.json"))break}catch(e){console.warn("Falha em",u,e)}}
  if(data){try{localStorage.setItem(CACHE_KEY+citySlug,JSON.stringify(data))}catch(e){}}
  else{try{data=JSON.parse(localStorage.getItem(CACHE_KEY+citySlug));cached=!!data}catch(e){}}
  if(!data){$("status").className="status warn";$("status").textContent="Sem dados: verifique dados/"+citySlug+".json";if(!state.slides.length)rebuildSlides({});return}
