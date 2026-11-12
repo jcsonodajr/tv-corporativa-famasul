@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-12T10:53:55.889086+00:00",
+  "gerado_em": "2026-11-12T18:48:03.583113+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -77,6 +77,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
         },
         {
+          "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
+          "periodo": "10/12 até 11/12",
+          "data_inicio": "10/12",
+          "data_fim": "11/12",
+          "data_inicio_iso": "2026-12-10",
+          "data_fim_iso": "2026-12-11",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE ÁGUA CLARA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "agua-clara",
+          "link": "https://senarms.org.br/curso?curso=731",
+          "fonte": "https://senarms.org.br/municipios?municipio=%C3%81GUA+CLARA"
+        },
+        {
           "titulo": "NR 31.7 - PREVENÇÃO DE ACIDENTES COM DEFENSIVOS AGRICOLAS, ADITIVOS, ADJUVANTES E SIMILARES",
           "periodo": "15/12 até 17/12",
           "data_inicio": "15/12",
@@ -85,7 +100,7 @@
           "data_fim_iso": "2026-12-17",
           "carga_horaria": 20,
           "vagas": 10,
-          "local": "PREFEITURA MUNICIPAL DE AGUA CLARA/MS",
+          "local": "SINDICATO RURAL DE ÁGUA CLARA",
           "status": "CONFIRMADO",
           "municipio_slug": "agua-clara",
           "link": "https://senarms.org.br/curso?curso=663",
@@ -100,7 +115,7 @@
           "data_fim_iso": "2026-12-16",
           "carga_horaria": 8,
           "vagas": 10,
-          "local": "PREFEITURA MUNICIPAL DE AGUA CLARA/MS",
+          "local": "SINDICATO RURAL DE ÁGUA CLARA",
           "status": "CONFIRMADO",
           "municipio_slug": "agua-clara",
           "link": "https://senarms.org.br/curso?curso=818",
@@ -1591,6 +1606,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=CAMAPU%C3%83"
         },
         {
+          "titulo": "EQUIDEOCULTURA - DOMA RACIONAL",
+          "periodo": "01/12 até 05/12",
+          "data_inicio": "01/12",
+          "data_fim": "05/12",
+          "data_inicio_iso": "2026-12-01",
+          "data_fim_iso": "2026-12-05",
+          "carga_horaria": 40,
+          "vagas": 10,
+          "local": "RUBI DIMA CABRAL ALVES",
+          "status": "CONFIRMADO",
+          "municipio_slug": "camapua",
+          "link": "https://senarms.org.br/curso?curso=688",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMAPU%C3%83"
+        },
+        {
           "titulo": "REGULAGEM E UTILIZAÇÃO DE PULVERIZADOR (TRATORIZADO)",
           "periodo": "02/12 até 04/12",
           "data_inicio": "02/12",
@@ -1633,21 +1663,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "camapua",
           "link": "https://senarms.org.br/curso?curso=731",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMAPU%C3%83"
-        },
-        {
-          "titulo": "EQUIDEOCULTURA - DOMA RACIONAL",
-          "periodo": "15/12 até 19/12",
-          "data_inicio": "15/12",
-          "data_fim": "19/12",
-          "data_inicio_iso": "2026-12-15",
-          "data_fim_iso": "2026-12-19",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "RUBI DIMA CABRAL ALVES",
-          "status": "CONFIRMADO",
-          "municipio_slug": "camapua",
-          "link": "https://senarms.org.br/curso?curso=688",
           "fonte": "https://senarms.org.br/municipios?municipio=CAMAPU%C3%83"
         }
       ]
@@ -2982,21 +2997,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
         },
         {
-          "titulo": "NR 31.7 - PREVENÇÃO DE ACIDENTES COM DEFENSIVOS AGRICOLAS, ADITIVOS, ADJUVANTES E SIMILARES",
-          "periodo": "17/11 até 19/11",
-          "data_inicio": "17/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-17",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 20,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "guia-lopes-da-laguna",
-          "link": "https://senarms.org.br/curso?curso=663",
-          "fonte": "https://senarms.org.br/municipios?municipio=GUIA+LOPES+DA+LAGUNA"
-        },
-        {
           "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
           "periodo": "18/11 até 19/11",
           "data_inicio": "18/11",
@@ -3230,7 +3230,23 @@
       "praca_vaca": "Mato Grosso do Sul",
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
-      "cursos": []
+      "cursos": [
+        {
+          "titulo": "INFORMÁTICA BÁSICA",
+          "periodo": "16/11 até 19/11",
+          "data_inicio": "16/11",
+          "data_fim": "19/11",
+          "data_inicio_iso": "2026-11-16",
+          "data_fim_iso": "2026-11-19",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "ESCOLA CABUREY - ASSENTAMENTO CABUREY",
+          "status": "CONFIRMADO",
+          "municipio_slug": "itaquirai",
+          "link": "https://senarms.org.br/curso?curso=808",
+          "fonte": "https://senarms.org.br/municipios?municipio=ITAQUIRA%C3%8D"
+        }
+      ]
     },
     "ivinhema": {
       "nome": "Ivinhema",
@@ -3803,7 +3819,7 @@
           "data_fim_iso": "2026-11-19",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE MIRANDA E BODOQUENA",
+          "local": "ARLETE INDIA - ALDEIA PASSARINHO",
           "status": "CONFIRMADO",
           "municipio_slug": "miranda",
           "link": "https://senarms.org.br/curso?curso=863",
@@ -3833,7 +3849,7 @@
           "data_fim_iso": "2026-11-24",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "ALDEIA LALIMA - CASA DA DONA CIDA (IRMÃ GENILDO)",
+          "local": "JOANA RITA - ALDEIA LALIMA",
           "status": "CONFIRMADO",
           "municipio_slug": "miranda",
           "link": "https://senarms.org.br/curso?curso=867",
@@ -3965,21 +3981,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
         },
         {
-          "titulo": "INFORMÁTICA BÁSICA",
-          "periodo": "16/11 até 19/11",
-          "data_inicio": "16/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-16",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "GEAS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "navirai",
-          "link": "https://senarms.org.br/curso?curso=808",
-          "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
-        },
-        {
           "titulo": "TECELAGEM MANUAL NO TEAR DE PENTE LIÇO",
           "periodo": "17/11 até 20/11",
           "data_inicio": "17/11",
@@ -4067,6 +4068,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "navirai",
           "link": "https://senarms.org.br/curso?curso=206",
+          "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
+        },
+        {
+          "titulo": "PASSOS PARA O PRIMEIRO EMPREGO",
+          "periodo": "26/11 até 27/11",
+          "data_inicio": "26/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-26",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "CASA DO TRABALHADOR",
+          "status": "CONFIRMADO",
+          "municipio_slug": "navirai",
+          "link": "https://senarms.org.br/curso?curso=732",
           "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
         }
       ]
@@ -4280,7 +4296,7 @@
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         },
         {
-          "titulo": "EXCEL INTERMEDIÁRIO",
+          "titulo": "EXCEL BÁSICO",
           "periodo": "16/11 até 18/11",
           "data_inicio": "16/11",
           "data_fim": "18/11",
@@ -4288,10 +4304,25 @@
           "data_fim_iso": "2026-11-18",
           "carga_horaria": 24,
           "vagas": 10,
-          "local": "CENTRO DA JUVENTUDE",
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=795",
+          "link": "https://senarms.org.br/curso?curso=794",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
+          "titulo": "PROCESSAMENTO ARTESANAL DE PLANTAS MEDICINAIS",
+          "periodo": "16/11 até 19/11",
+          "data_inicio": "16/11",
+          "data_fim": "19/11",
+          "data_inicio_iso": "2026-11-16",
+          "data_fim_iso": "2026-11-19",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "SINDICATO RURAL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=804",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         },
         {
@@ -4352,21 +4383,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
           "link": "https://senarms.org.br/curso?curso=855",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
-        {
-          "titulo": "PROCESSAMENTO ARTESANAL DE PLANTAS MEDICINAIS",
-          "periodo": "23/11 até 26/11",
-          "data_inicio": "23/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-23",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=804",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         },
         {
@@ -5890,7 +5906,7 @@
           "data_fim_iso": "2026-11-25",
           "carga_horaria": 24,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE TERENOS",
+          "local": "SUB PREFEITURA",
           "status": "CONFIRMADO",
           "municipio_slug": "terenos",
           "link": "https://senarms.org.br/curso?curso=90",
@@ -6728,7 +6744,6 @@
     "Nenhum curso vigente na página do SENAR para Coronel Sapucaia.",
     "Nenhum curso vigente na página do SENAR para Douradina.",
     "Nenhum curso vigente na página do SENAR para Glória de Dourados.",
-    "Nenhum curso vigente na página do SENAR para Itaquiraí.",
     "Nenhum curso vigente na página do SENAR para Ladário.",
     "Nenhum curso vigente na página do SENAR para Novo Horizonte do Sul.",
     "Nenhum curso vigente na página do SENAR para Paraíso das Águas.",
