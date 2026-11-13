@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-13T00:07:09.449312+00:00",
+  "gerado_em": "2026-11-13T06:30:51.598182+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -431,21 +431,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
-          "periodo": "13/11 até 14/11",
-          "data_inicio": "13/11",
-          "data_fim": "14/11",
-          "data_inicio_iso": "2026-11-13",
-          "data_fim_iso": "2026-11-14",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "CENTRO MULTIPLO USO DISTRITO VILA QUEBRACHO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "anaurilandia",
-          "link": "https://senarms.org.br/curso?curso=503",
-          "fonte": "https://senarms.org.br/municipios?municipio=ANAURIL%C3%82NDIA"
-        },
         {
           "titulo": "CELULAR SEM MISTÉRIO: TECNOLOGIA PARA A MELHOR IDADE",
           "periodo": "02/12 até 03/12",
@@ -1231,21 +1216,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
-          "periodo": "13/11 até 13/11",
-          "data_inicio": "13/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-13",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "ESQUADRÃO DA VIDA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "bataypora",
-          "link": "https://senarms.org.br/curso?curso=805",
-          "fonte": "https://senarms.org.br/municipios?municipio=BATAYPOR%C3%83"
-        },
         {
           "titulo": "APRENDIZAGEM PROFISSIONAL RURAL EM ADMINISTRAÇÃO RURAL",
           "periodo": "24/11 até 05/11/2027",
@@ -3422,21 +3392,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
-          "periodo": "13/11 até 13/11",
-          "data_inicio": "13/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-13",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE JARDIM",
-          "status": "CONFIRMADO",
-          "municipio_slug": "jardim",
-          "link": "https://senarms.org.br/curso?curso=805",
-          "fonte": "https://senarms.org.br/municipios?municipio=JARDIM"
-        },
-        {
           "titulo": "TECELAGEM MANUAL NO TEAR DE PENTE LIÇO",
           "periodo": "23/11 até 26/11",
           "data_inicio": "23/11",
@@ -5543,21 +5498,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "FERTIRRIGAÇÃO PARA HORTICULTURA E REÚSO",
-          "periodo": "13/11 até 14/11",
-          "data_inicio": "13/11",
-          "data_fim": "14/11",
-          "data_inicio_iso": "2026-11-13",
-          "data_fim_iso": "2026-11-14",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE SIDROLÂNDIA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "sidrolandia",
-          "link": "https://senarms.org.br/curso?curso=652",
-          "fonte": "https://senarms.org.br/municipios?municipio=SIDROL%C3%82NDIA"
-        },
-        {
           "titulo": "PROCESSAMENTO DA BANANA",
           "periodo": "16/11 até 18/11",
           "data_inicio": "16/11",
@@ -5660,6 +5600,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "sidrolandia",
           "link": "https://senarms.org.br/curso?curso=503",
+          "fonte": "https://senarms.org.br/municipios?municipio=SIDROL%C3%82NDIA"
+        },
+        {
+          "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
+          "periodo": "26/11 até 27/11",
+          "data_inicio": "26/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-26",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE SIDROLÂNDIA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "sidrolandia",
+          "link": "https://senarms.org.br/curso?curso=731",
           "fonte": "https://senarms.org.br/municipios?municipio=SIDROL%C3%82NDIA"
         }
       ]
@@ -5838,21 +5793,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "BOAS PRÁTICAS PARA SERVIÇOS DE ALIMENTAÇÃO",
-          "periodo": "13/11 até 13/11",
-          "data_inicio": "13/11",
-          "data_fim": "13/11",
-          "data_inicio_iso": "2026-11-13",
-          "data_fim_iso": "2026-11-13",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE TERENOS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "terenos",
-          "link": "https://senarms.org.br/curso?curso=818",
-          "fonte": "https://senarms.org.br/municipios?municipio=TERENOS"
-        },
-        {
           "titulo": "INFORMÁTICA BÁSICA",
           "periodo": "16/11 até 19/11",
           "data_inicio": "16/11",
@@ -5955,6 +5895,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "terenos",
           "link": "https://senarms.org.br/curso?curso=585",
+          "fonte": "https://senarms.org.br/municipios?municipio=TERENOS"
+        },
+        {
+          "titulo": "EXCEL BÁSICO",
+          "periodo": "03/12 até 05/12",
+          "data_inicio": "03/12",
+          "data_fim": "05/12",
+          "data_inicio_iso": "2026-12-03",
+          "data_fim_iso": "2026-12-05",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "FAZENDA SANTA CLARA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "terenos",
+          "link": "https://senarms.org.br/curso?curso=794",
           "fonte": "https://senarms.org.br/municipios?municipio=TERENOS"
         }
       ]
