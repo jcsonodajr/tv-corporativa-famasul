@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-12T18:48:03.583113+00:00",
+  "gerado_em": "2026-11-13T00:07:09.449312+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -1063,11 +1063,11 @@
         },
         {
           "titulo": "ORIENTAÇÕES DE LICENCIAMENTO AMBIENTAL PARA PROPRIETÁRIOS RURAIS",
-          "periodo": "23/11 até 24/11",
-          "data_inicio": "23/11",
-          "data_fim": "24/11",
-          "data_inicio_iso": "2026-11-23",
-          "data_fim_iso": "2026-11-24",
+          "periodo": "24/11 até 25/11",
+          "data_inicio": "24/11",
+          "data_fim": "25/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-25",
           "carga_horaria": 16,
           "vagas": 10,
           "local": "SINDICATO RURAL DE BANDEIRANTES",
@@ -1130,7 +1130,7 @@
           "data_fim_iso": "2026-12-11",
           "carga_horaria": 24,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE BANDEIRANTES",
+          "local": "ASSOCIAÇÃO VIVA VIDA",
           "status": "CONFIRMADO",
           "municipio_slug": "bandeirantes",
           "link": "https://senarms.org.br/curso?curso=675",
@@ -1318,11 +1318,11 @@
         },
         {
           "titulo": "IMPLANTAÇÃO E MANEJO BÁSICO DE HORTA",
-          "periodo": "26/11 até 28/11",
-          "data_inicio": "26/11",
-          "data_fim": "28/11",
-          "data_inicio_iso": "2026-11-26",
-          "data_fim_iso": "2026-11-28",
+          "periodo": "19/11 até 21/11",
+          "data_inicio": "19/11",
+          "data_fim": "21/11",
+          "data_inicio_iso": "2026-11-19",
+          "data_fim_iso": "2026-11-21",
           "carga_horaria": 24,
           "vagas": 10,
           "local": "SINDICATO RURAL DE BELA VISTA",
@@ -2464,21 +2464,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "EQUIDEOCULTURA - DOMA RACIONAL",
-          "periodo": "23/11 até 27/11",
-          "data_inicio": "23/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-23",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "dois-irmaos-do-buriti",
-          "link": "https://senarms.org.br/curso?curso=688",
-          "fonte": "https://senarms.org.br/municipios?municipio=DOIS+IRM%C3%83OS+DO+BURITI"
-        },
-        {
           "titulo": "DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - PROCESSAMENTO DE IMAGEM E DADOS - MÓDULO III",
           "periodo": "26/11 até 27/11",
           "data_inicio": "26/11",
@@ -2588,21 +2573,6 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "ANÁLISE E CLASSIFICAÇÃO DE GRÃOS (SOJA E MILHO)",
-          "periodo": "16/11 até 19/11",
-          "data_inicio": "16/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-16",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE DOURADOS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "dourados",
-          "link": "https://senarms.org.br/curso?curso=253",
-          "fonte": "https://senarms.org.br/municipios?municipio=DOURADOS"
-        },
-        {
           "titulo": "CONSERVA DE FRUTAS",
           "periodo": "17/11 até 19/11",
           "data_inicio": "17/11",
@@ -2705,6 +2675,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "dourados",
           "link": "https://senarms.org.br/curso?curso=808",
+          "fonte": "https://senarms.org.br/municipios?municipio=DOURADOS"
+        },
+        {
+          "titulo": "TECELAGEM MANUAL NO TEAR DE PENTE LIÇO",
+          "periodo": "01/12 até 04/12",
+          "data_inicio": "01/12",
+          "data_fim": "04/12",
+          "data_inicio_iso": "2026-12-01",
+          "data_fim_iso": "2026-12-04",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "SINDICATO RURAL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "dourados",
+          "link": "https://senarms.org.br/curso?curso=829",
           "fonte": "https://senarms.org.br/municipios?municipio=DOURADOS"
         }
       ]
@@ -3827,6 +3812,21 @@
         },
         {
           "titulo": "MANEJO RACIONAL DE BOVINOS PARA ABATE",
+          "periodo": "18/11 até 19/11",
+          "data_inicio": "18/11",
+          "data_fim": "19/11",
+          "data_inicio_iso": "2026-11-18",
+          "data_fim_iso": "2026-11-19",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE MIRANDA E BODOQUENA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "miranda",
+          "link": "https://senarms.org.br/curso?curso=756",
+          "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
+        },
+        {
+          "titulo": "MANEJO RACIONAL DE BOVINOS PARA ABATE",
           "periodo": "23/11 até 24/11",
           "data_inicio": "23/11",
           "data_fim": "24/11",
@@ -3898,21 +3898,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "miranda",
           "link": "https://senarms.org.br/curso?curso=664",
-          "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
-        },
-        {
-          "titulo": "PREVENÇÃO E COMBATE A INCÊNDIOS NAS ÁREAS RURAIS",
-          "periodo": "26/11 até 27/11",
-          "data_inicio": "26/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-26",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RUAL DE MIRANDA E BODOQUENA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "miranda",
-          "link": "https://senarms.org.br/curso?curso=706",
           "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
         }
       ]
@@ -4281,21 +4266,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
-          "periodo": "16/11 até 19/11",
-          "data_inicio": "16/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-16",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=796",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
-        {
           "titulo": "EXCEL BÁSICO",
           "periodo": "16/11 até 18/11",
           "data_inicio": "16/11",
@@ -4398,6 +4368,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
           "link": "https://senarms.org.br/curso?curso=846",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
+          "titulo": "BENEFICIAMENTO DA MANDIOCA",
+          "periodo": "24/11 até 25/11",
+          "data_inicio": "24/11",
+          "data_fim": "25/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-25",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=585",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         }
       ]
