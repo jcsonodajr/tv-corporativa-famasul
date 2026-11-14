@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-13T21:54:48.653072+00:00",
+  "gerado_em": "2026-11-14T02:14:10.758394+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -1229,6 +1229,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "bataypora",
           "link": "https://senarms.org.br/curso?curso=420",
+          "fonte": "https://senarms.org.br/municipios?municipio=BATAYPOR%C3%83"
+        },
+        {
+          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
+          "periodo": "27/11 até 27/11",
+          "data_inicio": "27/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-27",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 8,
+          "vagas": 10,
+          "local": "ESQUADRÃO DA VIDA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "bataypora",
+          "link": "https://senarms.org.br/curso?curso=805",
           "fonte": "https://senarms.org.br/municipios?municipio=BATAYPOR%C3%83"
         },
         {
@@ -3065,21 +3080,6 @@
           "municipio_slug": "iguatemi",
           "link": "https://senarms.org.br/curso?curso=690",
           "fonte": "https://senarms.org.br/municipios?municipio=IGUATEMI"
-        },
-        {
-          "titulo": "FLORICULTURA, JARDINAGEM E PAISAGISMO",
-          "periodo": "17/11 até 19/11",
-          "data_inicio": "17/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-17",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "iguatemi",
-          "link": "https://senarms.org.br/curso?curso=703",
-          "fonte": "https://senarms.org.br/municipios?municipio=IGUATEMI"
         }
       ]
     },
@@ -3882,14 +3882,14 @@
         },
         {
           "titulo": "PRODUÇÃO DE SALGADOS",
-          "periodo": "23/11 até 24/11",
-          "data_inicio": "23/11",
-          "data_fim": "24/11",
-          "data_inicio_iso": "2026-11-23",
-          "data_fim_iso": "2026-11-24",
+          "periodo": "10/12 até 11/12",
+          "data_inicio": "10/12",
+          "data_fim": "11/12",
+          "data_inicio_iso": "2026-12-10",
+          "data_fim_iso": "2026-12-11",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "CENTRO DE QUALIFICAÇÃO",
+          "local": "SINDICATO RURAL DE MUNDO NOVO",
           "status": "CONFIRMADO",
           "municipio_slug": "mundo-novo",
           "link": "https://senarms.org.br/curso?curso=860",
@@ -4281,6 +4281,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         },
         {
+          "titulo": "CONSERVA DE HORTALIÇAS",
+          "periodo": "23/11 até 24/11",
+          "data_inicio": "23/11",
+          "data_fim": "24/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-24",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=723",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
           "titulo": "INFORMÁTICA INTERMEDIÁRIA",
           "periodo": "23/11 até 02/12",
           "data_inicio": "23/11",
@@ -4323,21 +4338,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
           "link": "https://senarms.org.br/curso?curso=846",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
-        {
-          "titulo": "BENEFICIAMENTO DA MANDIOCA",
-          "periodo": "24/11 até 25/11",
-          "data_inicio": "24/11",
-          "data_fim": "25/11",
-          "data_inicio_iso": "2026-11-24",
-          "data_fim_iso": "2026-11-25",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=585",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         }
       ]
@@ -4724,6 +4724,21 @@
       "regiao_boi": "Região Oeste",
       "cursos": [
         {
+          "titulo": "NR 31.15 - CAPACITAÇÃO PARA TRABALHO EM ALTURA",
+          "periodo": "17/11 até 18/11",
+          "data_inicio": "17/11",
+          "data_fim": "18/11",
+          "data_inicio_iso": "2026-11-17",
+          "data_fim_iso": "2026-11-18",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE PORTO MURTINHO",
+          "status": "CONFIRMADO",
+          "municipio_slug": "porto-murtinho",
+          "link": "https://senarms.org.br/curso?curso=485",
+          "fonte": "https://senarms.org.br/municipios?municipio=PORTO+MURTINHO"
+        },
+        {
           "titulo": "PREVENÇÃO E COMBATE A INCÊNDIOS NAS ÁREAS RURAIS",
           "periodo": "18/11 até 19/11",
           "data_inicio": "18/11",
@@ -4736,21 +4751,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "porto-murtinho",
           "link": "https://senarms.org.br/curso?curso=706",
-          "fonte": "https://senarms.org.br/municipios?municipio=PORTO+MURTINHO"
-        },
-        {
-          "titulo": "NR 31.15 - CAPACITAÇÃO PARA TRABALHO EM ALTURA",
-          "periodo": "18/11 até 19/11",
-          "data_inicio": "18/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-18",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE PORTO MURTINHO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "porto-murtinho",
-          "link": "https://senarms.org.br/curso?curso=485",
           "fonte": "https://senarms.org.br/municipios?municipio=PORTO+MURTINHO"
         },
         {
@@ -5241,7 +5241,7 @@
           "data_fim_iso": "2026-11-19",
           "carga_horaria": 20,
           "vagas": 10,
-          "local": "SINDICATO RURAL DE SANTA RITA DO PARDO",
+          "local": "SANTA VERGINIA AGROPECUARIA E FLORESTAL LTDA",
           "status": "CONFIRMADO",
           "municipio_slug": "santa-rita-do-pardo",
           "link": "https://senarms.org.br/curso?curso=663",
