@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-14T02:14:10.758394+00:00",
+  "gerado_em": "2026-11-14T10:05:34.030094+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -5008,36 +5008,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "PROGRAMA SAÚDE DO HOMEM",
-          "periodo": "14/11 até 14/11",
-          "data_inicio": "14/11",
-          "data_fim": "14/11",
-          "data_inicio_iso": "2026-11-14",
-          "data_fim_iso": "2026-11-14",
-          "carga_horaria": 8,
-          "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "rio-negro",
-          "link": "https://senarms.org.br/curso?curso=441",
-          "fonte": "https://senarms.org.br/municipios?municipio=RIO+NEGRO"
-        },
-        {
-          "titulo": "PROGRAMA SAÚDE DA MULHER",
-          "periodo": "14/11 até 14/11",
-          "data_inicio": "14/11",
-          "data_fim": "14/11",
-          "data_inicio_iso": "2026-11-14",
-          "data_fim_iso": "2026-11-14",
-          "carga_horaria": 8,
-          "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "rio-negro",
-          "link": "https://senarms.org.br/curso?curso=442",
-          "fonte": "https://senarms.org.br/municipios?municipio=RIO+NEGRO"
-        },
         {
           "titulo": "PRODUÇÃO DE BOLOS E BISCOITOS CASEIROS",
           "periodo": "16/11 até 17/11",
