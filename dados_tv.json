@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-16T09:26:22.715456+00:00",
+  "gerado_em": "2026-11-16T20:16:42.054003+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -1913,21 +1913,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         },
         {
-          "titulo": "CASQUEAMENTO E MANUTENÇÃO DE CASCOS DE EQUIDEOS",
-          "periodo": "18/11 até 19/11",
-          "data_inicio": "18/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-18",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CORUMBÁ",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=580",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
-        {
           "titulo": "CRIAÇÃO E MANEJO DE OVINOS NO PERÍODO DE RECRIA",
           "periodo": "23/11 até 24/11",
           "data_inicio": "23/11",
@@ -2015,6 +2000,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "corumba",
           "link": "https://senarms.org.br/curso?curso=527",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
+          "titulo": "COMUNICAÇÃO NÃO-VIOLENTA ATRAVÉS DA INTELIGÊNCIA EMOCIONAL",
+          "periodo": "30/11 até 01/12",
+          "data_inicio": "30/11",
+          "data_fim": "01/12",
+          "data_inicio_iso": "2026-11-30",
+          "data_fim_iso": "2026-12-01",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE CORUMBÁ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=796",
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         }
       ]
@@ -2678,11 +2678,11 @@
       "cursos": [
         {
           "titulo": "PREPARAÇÕES ARTESANAIS DE PRATOS SEM GLÚTEN E LACTOSE",
-          "periodo": "18/11 até 19/11",
-          "data_inicio": "18/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-18",
-          "data_fim_iso": "2026-11-19",
+          "periodo": "17/11 até 18/11",
+          "data_inicio": "17/11",
+          "data_fim": "18/11",
+          "data_inicio_iso": "2026-11-17",
+          "data_fim_iso": "2026-11-18",
           "carga_horaria": 16,
           "vagas": 10,
           "local": "SINDICATO RURAL DE FIGUEIRÃO",
@@ -2809,7 +2809,7 @@
           "data_fim_iso": "2026-12-05",
           "carga_horaria": 8,
           "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
+          "local": "ANTIGO CENTRO DE DIAGNÓSTICO",
           "status": "CONFIRMADO",
           "municipio_slug": "guia-lopes-da-laguna",
           "link": "https://senarms.org.br/curso?curso=441",
@@ -2824,7 +2824,7 @@
           "data_fim_iso": "2026-12-05",
           "carga_horaria": 8,
           "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
+          "local": "ANTIGO CENTRO DE DIAGNÓSTICO",
           "status": "CONFIRMADO",
           "municipio_slug": "guia-lopes-da-laguna",
           "link": "https://senarms.org.br/curso?curso=442",
@@ -3618,21 +3618,6 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "TECELAGEM MANUAL NO TEAR DE PENTE LIÇO",
-          "periodo": "17/11 até 20/11",
-          "data_inicio": "17/11",
-          "data_fim": "20/11",
-          "data_inicio_iso": "2026-11-17",
-          "data_fim_iso": "2026-11-20",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE NAVIRAÍ",
-          "status": "CONFIRMADO",
-          "municipio_slug": "navirai",
-          "link": "https://senarms.org.br/curso?curso=829",
-          "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
-        },
-        {
           "titulo": "FUNDAMENTOS DA UTILIZAÇÃO DE DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - MÓDULO II",
           "periodo": "18/11 até 19/11",
           "data_inicio": "18/11",
@@ -3735,6 +3720,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "navirai",
           "link": "https://senarms.org.br/curso?curso=731",
+          "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
+        },
+        {
+          "titulo": "CONFEITARIA BOLOS DECORADOS",
+          "periodo": "03/12 até 04/12",
+          "data_inicio": "03/12",
+          "data_fim": "04/12",
+          "data_inicio_iso": "2026-12-03",
+          "data_fim_iso": "2026-12-04",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NAVIRAÍ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "navirai",
+          "link": "https://senarms.org.br/curso?curso=859",
           "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
         }
       ]
