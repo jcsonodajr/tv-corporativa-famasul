@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-18T21:19:46.523750+00:00",
+  "gerado_em": "2026-11-19T03:10:12.427411+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -1182,21 +1182,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "IMPLANTAÇÃO E MANEJO BÁSICO DE HORTA",
-          "periodo": "19/11 até 21/11",
-          "data_inicio": "19/11",
-          "data_fim": "21/11",
-          "data_inicio_iso": "2026-11-19",
-          "data_fim_iso": "2026-11-21",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE BELA VISTA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "bela-vista",
-          "link": "https://senarms.org.br/curso?curso=712",
-          "fonte": "https://senarms.org.br/municipios?municipio=BELA+VISTA"
-        },
-        {
           "titulo": "PROGRAMA SAÚDE DO HOMEM",
           "periodo": "21/11 até 21/11",
           "data_inicio": "21/11",
@@ -1510,21 +1495,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "PROGRAMA SAÚDE DO HOMEM",
-          "periodo": "19/11 até 19/11",
-          "data_inicio": "19/11",
-          "data_fim": "19/11",
-          "data_inicio_iso": "2026-11-19",
-          "data_fim_iso": "2026-11-19",
-          "carga_horaria": 8,
-          "vagas": 100,
-          "local": "FUNTRAB",
-          "status": "CONFIRMADO",
-          "municipio_slug": "campo-grande",
-          "link": "https://senarms.org.br/curso?curso=441",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
-        },
-        {
           "titulo": "IMPLANTAÇÃO E MANEJO BÁSICO DE HORTA",
           "periodo": "23/11 até 25/11",
           "data_inicio": "23/11",
@@ -1628,6 +1598,21 @@
           "municipio_slug": "campo-grande",
           "link": "https://senarms.org.br/curso?curso=860",
           "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
+        },
+        {
+          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
+          "periodo": "03/12 até 04/12",
+          "data_inicio": "03/12",
+          "data_fim": "04/12",
+          "data_inicio_iso": "2026-12-03",
+          "data_fim_iso": "2026-12-04",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SRCG",
+          "status": "CONFIRMADO",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/curso?curso=503",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
         }
       ]
     },
@@ -1638,23 +1623,7 @@
       "praca_vaca": "Mato Grosso do Sul",
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
-      "cursos": [
-        {
-          "titulo": "APLICAÇÃO DE VACINAS E MEDICAMENTOS EM BOVINOS",
-          "periodo": "19/11 até 20/11",
-          "data_inicio": "19/11",
-          "data_fim": "20/11",
-          "data_inicio_iso": "2026-11-19",
-          "data_fim_iso": "2026-11-20",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CARACOL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "caracol",
-          "link": "https://senarms.org.br/curso?curso=758",
-          "fonte": "https://senarms.org.br/municipios?municipio=CARACOL"
-        }
-      ]
+      "cursos": []
     },
     "cassilandia": {
       "nome": "Cassilândia",
@@ -2474,21 +2443,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "eldorado",
           "link": "https://senarms.org.br/curso?curso=815",
-          "fonte": "https://senarms.org.br/municipios?municipio=ELDORADO"
-        },
-        {
-          "titulo": "NR 10 - BÁSICA - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE",
-          "periodo": "23/11 até 27/11",
-          "data_inicio": "23/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-23",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "BELO ALIMENTOS",
-          "status": "CONFIRMADO",
-          "municipio_slug": "eldorado",
-          "link": "https://senarms.org.br/curso?curso=531",
           "fonte": "https://senarms.org.br/municipios?municipio=ELDORADO"
         },
         {
@@ -3381,7 +3335,7 @@
           "data_fim_iso": "2026-11-24",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "FUNDAÇÃO BRADESCO BODOQUENA",
+          "local": "SINDICATO RURAL DE MIRANDA E BODOQUENA",
           "status": "CONFIRMADO",
           "municipio_slug": "miranda",
           "link": "https://senarms.org.br/curso?curso=756",
@@ -3418,6 +3372,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
         },
         {
+          "titulo": "NR 31.7 - PREVENÇÃO DE ACIDENTES COM DEFENSIVOS AGRICOLAS, ADITIVOS, ADJUVANTES E SIMILARES",
+          "periodo": "24/11 até 26/11",
+          "data_inicio": "24/11",
+          "data_fim": "26/11",
+          "data_inicio_iso": "2026-11-24",
+          "data_fim_iso": "2026-11-26",
+          "carga_horaria": 20,
+          "vagas": 10,
+          "local": "FAZENDA AMORI",
+          "status": "CONFIRMADO",
+          "municipio_slug": "miranda",
+          "link": "https://senarms.org.br/curso?curso=663",
+          "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
+        },
+        {
           "titulo": "OPERADOR DE TRATORES COM GRADES AGRÍCOLAS",
           "periodo": "25/11 até 27/11",
           "data_inicio": "25/11",
@@ -3430,21 +3399,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "miranda",
           "link": "https://senarms.org.br/curso?curso=616",
-          "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
-        },
-        {
-          "titulo": "NR 31.7 - ATUALIZAÇÃO - PREVENÇÃO DE ACIDENTES COM DEFENSIVOS AGRÍCOLAS, ADITIVOS, ADJUVANTES E PRODUTOS AFINS",
-          "periodo": "26/11 até 26/11",
-          "data_inicio": "26/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-26",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "FAZENDA AMORI",
-          "status": "CONFIRMADO",
-          "municipio_slug": "miranda",
-          "link": "https://senarms.org.br/curso?curso=664",
           "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
         },
         {
@@ -3558,21 +3512,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
         },
         {
-          "titulo": "EQUIDEOCULTURA - ADESTRAMENTO (RÉDEAS)",
-          "periodo": "23/11 até 27/11",
-          "data_inicio": "23/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-23",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "RANCHO BACANA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "navirai",
-          "link": "https://senarms.org.br/curso?curso=690",
-          "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
-        },
-        {
           "titulo": "OPERADOR DE EMPILHADEIRA",
           "periodo": "23/11 até 25/11",
           "data_inicio": "23/11",
@@ -3646,6 +3585,21 @@
           "municipio_slug": "navirai",
           "link": "https://senarms.org.br/curso?curso=663",
           "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
+        },
+        {
+          "titulo": "EQUIDEOCULTURA - DOMA RACIONAL",
+          "periodo": "07/12 até 11/12",
+          "data_inicio": "07/12",
+          "data_fim": "11/12",
+          "data_inicio_iso": "2026-12-07",
+          "data_fim_iso": "2026-12-11",
+          "carga_horaria": 40,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NAVIRAÍ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "navirai",
+          "link": "https://senarms.org.br/curso?curso=688",
+          "fonte": "https://senarms.org.br/municipios?municipio=NAVIRA%C3%8D"
         }
       ]
     },
@@ -3657,21 +3611,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "EXCEL AVANÇADO",
-          "periodo": "19/11 até 21/11",
-          "data_inicio": "19/11",
-          "data_fim": "21/11",
-          "data_inicio_iso": "2026-11-19",
-          "data_fim_iso": "2026-11-21",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SEDE UIRAPURU",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nioaque",
-          "link": "https://senarms.org.br/curso?curso=855",
-          "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
-        },
         {
           "titulo": "OPERADOR DE TRATORES COM ARADOS AGRÍCOLAS",
           "periodo": "23/11 até 25/11",
@@ -3776,6 +3715,21 @@
           "municipio_slug": "nioaque",
           "link": "https://senarms.org.br/curso?curso=722",
           "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
+        },
+        {
+          "titulo": "EXCEL AVANÇADO",
+          "periodo": "10/12 até 12/12",
+          "data_inicio": "10/12",
+          "data_fim": "12/12",
+          "data_inicio_iso": "2026-12-10",
+          "data_fim_iso": "2026-12-12",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NIOAQUE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nioaque",
+          "link": "https://senarms.org.br/curso?curso=855",
+          "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
         }
       ]
     },
@@ -3828,21 +3782,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "ARTESANATO COM FIBRAS VEGETAIS - BANANEIRA E/OU TABOA",
-          "periodo": "23/11 até 27/11",
-          "data_inicio": "23/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-23",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=628",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
-        {
           "titulo": "CULTIVO DE HORTALIÇAS FOLHOSAS",
           "periodo": "23/11 até 25/11",
           "data_inicio": "23/11",
@@ -3888,7 +3827,22 @@
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         },
         {
-          "titulo": "EXCEL AVANÇADO",
+          "titulo": "ARTESANATO CROCHÊ EM BARBANTE",
+          "periodo": "23/11 até 26/11",
+          "data_inicio": "23/11",
+          "data_fim": "26/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-26",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=598",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
+          "titulo": "EXCEL INTERMEDIÁRIO",
           "periodo": "23/11 até 25/11",
           "data_inicio": "23/11",
           "data_fim": "25/11",
@@ -3896,10 +3850,25 @@
           "data_fim_iso": "2026-11-25",
           "carga_horaria": 24,
           "vagas": 10,
-          "local": "SINDICATO RURAL",
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
           "status": "CONFIRMADO",
           "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=855",
+          "link": "https://senarms.org.br/curso?curso=795",
+          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
+        },
+        {
+          "titulo": "INFORMÁTICA BÁSICA",
+          "periodo": "23/11 até 27/11",
+          "data_inicio": "23/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE NOVA ANDRADINA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "nova-andradina",
+          "link": "https://senarms.org.br/curso?curso=808",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         },
         {
@@ -3931,21 +3900,6 @@
           "municipio_slug": "nova-andradina",
           "link": "https://senarms.org.br/curso?curso=750",
           "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
-        },
-        {
-          "titulo": "ARTESANATO CROCHÊ EM BARBANTE",
-          "periodo": "30/11 até 03/12",
-          "data_inicio": "30/11",
-          "data_fim": "03/12",
-          "data_inicio_iso": "2026-11-30",
-          "data_fim_iso": "2026-12-03",
-          "carga_horaria": 32,
-          "vagas": 10,
-          "local": "ASSENTAMENTO SÃO JOÃO- CASA GISELE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nova-andradina",
-          "link": "https://senarms.org.br/curso?curso=598",
-          "fonte": "https://senarms.org.br/municipios?municipio=NOVA+ANDRADINA"
         }
       ]
     },
@@ -3976,18 +3930,18 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "PROCESSAMENTO DO TOMATE",
-          "periodo": "19/11 até 20/11",
-          "data_inicio": "19/11",
-          "data_fim": "20/11",
-          "data_inicio_iso": "2026-11-19",
-          "data_fim_iso": "2026-11-20",
-          "carga_horaria": 16,
+          "titulo": "NR 10 - BÁSICA - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE",
+          "periodo": "23/11 até 27/11",
+          "data_inicio": "23/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-23",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 40,
           "vagas": 10,
-          "local": "ASSENTAMENTO SERRA",
+          "local": "SINDICATO RURAL DE PARANAÍBA",
           "status": "CONFIRMADO",
           "municipio_slug": "paranaiba",
-          "link": "https://senarms.org.br/curso?curso=722",
+          "link": "https://senarms.org.br/curso?curso=531",
           "fonte": "https://senarms.org.br/municipios?municipio=PARANA%C3%8DBA"
         },
         {
@@ -4509,7 +4463,7 @@
           "data_fim_iso": "2026-12-10",
           "carga_horaria": 32,
           "vagas": 10,
-          "local": "PENITENCIARIA FEMININA",
+          "local": "CENTRO DE ATENDIMENTO PSICOSSOCIAL - CAPS 1 RIO BRILHANTE",
           "status": "CONFIRMADO",
           "municipio_slug": "rio-brilhante",
           "link": "https://senarms.org.br/curso?curso=529",
@@ -4524,7 +4478,7 @@
           "data_fim_iso": "2026-12-10",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "FAZENDA DA ESPERANÇA",
+          "local": "SINDICATO RURAL DE RIO BRILHANTE",
           "status": "CONFIRMADO",
           "municipio_slug": "rio-brilhante",
           "link": "https://senarms.org.br/curso?curso=819",
@@ -5629,6 +5583,16 @@
     "soja": [
       {
         "data": "18/11/2026",
+        "praca": "Região Sudeste",
+        "valor": 383.64
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 379.34
+      },
+      {
+        "data": "18/11/2026",
         "praca": "Região Sul",
         "valor": 376.27
       },
@@ -5643,24 +5607,9 @@
         "valor": 378.72
       },
       {
-        "data": "18/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 383.64
-      },
-      {
-        "data": "18/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 379.34
-      },
-      {
         "data": "16/11/2026",
         "praca": "Mato Grosso do Sul",
         "valor": 379.95
-      },
-      {
-        "data": "16/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 383.64
       },
       {
         "data": "16/11/2026",
@@ -5678,8 +5627,28 @@
         "valor": 378.72
       },
       {
+        "data": "16/11/2026",
+        "praca": "Região Sudeste",
+        "valor": 383.64
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Região Centro",
+        "valor": 378.72
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Região Sudeste",
+        "valor": 383.64
+      },
+      {
         "data": "13/11/2026",
         "praca": "Região Sul",
+        "valor": 378.72
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Mato Grosso do Sul",
         "valor": 378.72
       },
       {
@@ -5689,37 +5658,7 @@
       },
       {
         "data": "13/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 383.64
-      },
-      {
-        "data": "13/11/2026",
         "praca": "Região Norte",
-        "valor": 373.81
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Região Centro",
-        "valor": 378.72
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 378.72
-      },
-      {
-        "data": "11/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 378.72
-      },
-      {
-        "data": "11/11/2026",
-        "praca": "Região Norte",
-        "valor": 373.81
-      },
-      {
-        "data": "11/11/2026",
-        "praca": "Região Sul",
         "valor": 373.81
       }
     ],
@@ -5913,16 +5852,21 @@
       },
       {
         "data": "18/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 149.31
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Região Oeste",
+        "valor": 360.69
+      },
+      {
+        "data": "18/11/2026",
         "praca": "Região Sudeste",
         "valor": 363.97
       },
       {
-        "data": "18/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 360.42
-      },
-      {
-        "data": "18/11/2026",
+        "data": "16/11/2026",
         "praca": "Região Oeste",
         "valor": 360.69
       },
@@ -5933,33 +5877,18 @@
       },
       {
         "data": "16/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 360.42
-      },
-      {
-        "data": "16/11/2026",
         "praca": "Região Sul",
         "valor": 356.59
       },
       {
         "data": "16/11/2026",
-        "praca": "Região Oeste",
-        "valor": 360.69
+        "praca": "Mato Grosso do Sul",
+        "valor": 147.81
       },
       {
         "data": "13/11/2026",
         "praca": "Mato Grosso do Sul",
-        "valor": 361.51
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Região Sudeste",
-        "valor": 363.97
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Região Sul",
-        "valor": 356.59
+        "valor": 146.88
       },
       {
         "data": "13/11/2026",
@@ -5970,16 +5899,221 @@
         "data": "13/11/2026",
         "praca": "Região Oeste",
         "valor": 361.51
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Região Sudeste",
+        "valor": 363.97
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Região Sul",
+        "valor": 356.59
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 148.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Sonora",
+        "valor": 146.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Maracaju",
+        "valor": 151.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Campo Grande",
+        "valor": 149.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 149.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 149.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 150.5
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Dourados",
+        "valor": 152.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 149.5
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 148.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Sonora",
+        "valor": 144.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Campo Grande",
+        "valor": 148.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Dourados",
+        "valor": 151.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 148.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 148.19
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Maracaju",
+        "valor": 150.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 147.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Campo Grande",
+        "valor": 148.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 148.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Maracaju",
+        "valor": 150.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 146.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Sonora",
+        "valor": 144.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Dourados",
+        "valor": 151.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 149.5
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 146.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 147.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 148.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Dourados",
+        "valor": 149.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Maracaju",
+        "valor": 148.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Campo Grande",
+        "valor": 148.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 145.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 146.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Sonora",
+        "valor": 144.0
       }
     ],
     "vaca": [
       {
-        "data": "17/11/2026",
+        "data": "18/11/2026",
         "praca": "Ponta Porã",
         "valor": 50.5
       },
       {
-        "data": "17/11/2026",
+        "data": "18/11/2026",
+        "praca": "Maracaju",
+        "valor": 52.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 49.5
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Mato Grosso do Sul",
+        "valor": 50.71
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Dourados",
+        "valor": 52.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 53.0
+      },
+      {
+        "data": "18/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 49.0
+      },
+      {
+        "data": "18/11/2026",
         "praca": "Campo Grande",
         "valor": 49.0
       },
@@ -5990,12 +6124,27 @@
       },
       {
         "data": "17/11/2026",
+        "praca": "São Gabriel do Oeste",
+        "valor": 49.5
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Maracaju",
+        "valor": 52.0
+      },
+      {
+        "data": "17/11/2026",
+        "praca": "Campo Grande",
+        "valor": 49.0
+      },
+      {
+        "data": "17/11/2026",
         "praca": "Chapadão do Sul",
         "valor": 53.0
       },
       {
         "data": "17/11/2026",
-        "praca": "Maracaju",
+        "praca": "Dourados",
         "valor": 52.0
       },
       {
@@ -6005,38 +6154,8 @@
       },
       {
         "data": "17/11/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 49.5
-      },
-      {
-        "data": "17/11/2026",
-        "praca": "Dourados",
-        "valor": 52.0
-      },
-      {
-        "data": "16/11/2026",
         "praca": "Ponta Porã",
         "valor": 50.5
-      },
-      {
-        "data": "16/11/2026",
-        "praca": "Campo Grande",
-        "valor": 50.0
-      },
-      {
-        "data": "16/11/2026",
-        "praca": "Chapadão do Sul",
-        "valor": 53.0
-      },
-      {
-        "data": "16/11/2026",
-        "praca": "Sidrolândia",
-        "valor": 50.0
-      },
-      {
-        "data": "16/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 50.93
       },
       {
         "data": "16/11/2026",
@@ -6045,8 +6164,18 @@
       },
       {
         "data": "16/11/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 49.5
+        "praca": "Mato Grosso do Sul",
+        "valor": 50.93
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Chapadão do Sul",
+        "valor": 53.0
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Campo Grande",
+        "valor": 50.0
       },
       {
         "data": "16/11/2026",
@@ -6054,14 +6183,49 @@
         "valor": 52.0
       },
       {
-        "data": "13/11/2026",
+        "data": "16/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 50.5
+      },
+      {
+        "data": "16/11/2026",
         "praca": "São Gabriel do Oeste",
         "valor": 49.5
+      },
+      {
+        "data": "16/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 50.0
       },
       {
         "data": "13/11/2026",
         "praca": "Mato Grosso do Sul",
         "valor": 51.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Campo Grande",
+        "valor": 50.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Dourados",
+        "valor": 52.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Ponta Porã",
+        "valor": 50.5
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Maracaju",
+        "valor": 52.0
+      },
+      {
+        "data": "13/11/2026",
+        "praca": "Sidrolândia",
+        "valor": 50.0
       },
       {
         "data": "13/11/2026",
@@ -6070,38 +6234,8 @@
       },
       {
         "data": "13/11/2026",
-        "praca": "Dourados",
-        "valor": 52.0
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Maracaju",
-        "valor": 52.0
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Sidrolândia",
-        "valor": 50.0
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Ponta Porã",
-        "valor": 50.5
-      },
-      {
-        "data": "13/11/2026",
-        "praca": "Campo Grande",
-        "valor": 50.0
-      },
-      {
-        "data": "12/11/2026",
-        "praca": "Dourados",
-        "valor": 52.0
-      },
-      {
-        "data": "12/11/2026",
-        "praca": "Mato Grosso do Sul",
-        "valor": 50.71
+        "praca": "São Gabriel do Oeste",
+        "valor": 49.5
       },
       {
         "data": "12/11/2026",
@@ -6110,34 +6244,21 @@
       },
       {
         "data": "12/11/2026",
-        "praca": "Ponta Porã",
-        "valor": 50.5
-      },
-      {
-        "data": "12/11/2026",
-        "praca": "Maracaju",
-        "valor": 52.0
-      },
-      {
-        "data": "12/11/2026",
-        "praca": "São Gabriel do Oeste",
-        "valor": 49.5
-      },
-      {
-        "data": "12/11/2026",
         "praca": "Campo Grande",
         "valor": 50.0
       },
       {
         "data": "12/11/2026",
-        "praca": "Sidrolândia",
-        "valor": 50.0
+        "praca": "Dourados",
+        "valor": 52.0
       }
     ]
   },
   "avisos": [
+    "Cotação de milho não identificada; preservados dados anteriores.",
     "Nenhum curso vigente na página do SENAR para Bodoquena.",
     "Nenhum curso vigente na página do SENAR para Brasilândia.",
+    "Nenhum curso vigente na página do SENAR para Caracol.",
     "Nenhum curso vigente na página do SENAR para Corguinho.",
     "Nenhum curso vigente na página do SENAR para Coronel Sapucaia.",
     "Nenhum curso vigente na página do SENAR para Douradina.",
