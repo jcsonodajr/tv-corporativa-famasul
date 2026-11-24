@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-24T05:53:44.656325+00:00",
+  "gerado_em": "2026-11-24T17:28:58.032955+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -488,11 +488,11 @@
         },
         {
           "titulo": "PROCESSAMENTO ARTESANAL DE PLANTAS MEDICINAIS",
-          "periodo": "02/12 até 05/12",
-          "data_inicio": "02/12",
-          "data_fim": "05/12",
-          "data_inicio_iso": "2026-12-02",
-          "data_fim_iso": "2026-12-05",
+          "periodo": "01/12 até 04/12",
+          "data_inicio": "01/12",
+          "data_fim": "04/12",
+          "data_inicio_iso": "2026-12-01",
+          "data_fim_iso": "2026-12-04",
           "carga_horaria": 32,
           "vagas": 10,
           "local": "SINDICATO RURAL DE ANGÉLICA",
@@ -985,6 +985,21 @@
           "municipio_slug": "bandeirantes",
           "link": "https://senarms.org.br/curso?curso=675",
           "fonte": "https://senarms.org.br/municipios?municipio=BANDEIRANTES"
+        },
+        {
+          "titulo": "ORIENTAÇÕES DE LICENCIAMENTO AMBIENTAL PARA PROPRIETÁRIOS RURAIS",
+          "periodo": "10/12 até 11/12",
+          "data_inicio": "10/12",
+          "data_fim": "11/12",
+          "data_inicio_iso": "2026-12-10",
+          "data_fim_iso": "2026-12-11",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE BANDEIRANTES",
+          "status": "CONFIRMADO",
+          "municipio_slug": "bandeirantes",
+          "link": "https://senarms.org.br/curso?curso=764",
+          "fonte": "https://senarms.org.br/municipios?municipio=BANDEIRANTES"
         }
       ]
     },
@@ -1287,21 +1302,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "camapua",
           "link": "https://senarms.org.br/curso?curso=863",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMAPU%C3%83"
-        },
-        {
-          "titulo": "EQUIDEOCULTURA - DOMA RACIONAL",
-          "periodo": "30/11 até 04/12",
-          "data_inicio": "30/11",
-          "data_fim": "04/12",
-          "data_inicio_iso": "2026-11-30",
-          "data_fim_iso": "2026-12-04",
-          "carga_horaria": 40,
-          "vagas": 10,
-          "local": "RUBI DIMA CABRAL ALVES",
-          "status": "CONFIRMADO",
-          "municipio_slug": "camapua",
-          "link": "https://senarms.org.br/curso?curso=688",
           "fonte": "https://senarms.org.br/municipios?municipio=CAMAPU%C3%83"
         },
         {
@@ -1672,6 +1672,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         },
         {
+          "titulo": "CONFEITARIA BOLOS DECORADOS",
+          "periodo": "25/11 até 26/11",
+          "data_inicio": "25/11",
+          "data_fim": "26/11",
+          "data_inicio_iso": "2026-11-25",
+          "data_fim_iso": "2026-11-26",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "CENTRO COMUNITÁRIO PADRE ERNESTO SASSIDA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=859",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
           "titulo": "PRODUÇÃO DE SALGADOS",
           "periodo": "25/11 até 26/11",
           "data_inicio": "25/11",
@@ -1759,21 +1774,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "corumba",
           "link": "https://senarms.org.br/curso?curso=859",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
-        {
-          "titulo": "PRIMEIROS SOCORROS",
-          "periodo": "03/12 até 04/12",
-          "data_inicio": "03/12",
-          "data_fim": "04/12",
-          "data_inicio_iso": "2026-12-03",
-          "data_fim_iso": "2026-12-04",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CORUMBÁ",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=800",
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         }
       ]
@@ -2027,21 +2027,6 @@
           "fonte": "https://senarms.org.br/municipios?municipio=DOIS+IRM%C3%83OS+DO+BURITI"
         },
         {
-          "titulo": "PROCESSAMENTO DA CARNE DE PEIXE",
-          "periodo": "07/12 até 08/12",
-          "data_inicio": "07/12",
-          "data_fim": "08/12",
-          "data_inicio_iso": "2026-12-07",
-          "data_fim_iso": "2026-12-08",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "dois-irmaos-do-buriti",
-          "link": "https://senarms.org.br/curso?curso=720",
-          "fonte": "https://senarms.org.br/municipios?municipio=DOIS+IRM%C3%83OS+DO+BURITI"
-        },
-        {
           "titulo": "OPERADOR DE ESCAVADEIRA HIDRÁULICA (LINHA AMARELA)",
           "periodo": "10/12 até 12/12",
           "data_inicio": "10/12",
@@ -2106,33 +2091,18 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "PROCESSAMENTO DO TOMATE",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL",
-          "status": "CONFIRMADO",
-          "municipio_slug": "dourados",
-          "link": "https://senarms.org.br/curso?curso=722",
-          "fonte": "https://senarms.org.br/municipios?municipio=DOURADOS"
-        },
-        {
-          "titulo": "ARTESANATO DE BORDADO EM PONTO CRUZ",
-          "periodo": "30/11 até 03/12",
+          "titulo": "FLORICULTURA, JARDINAGEM E PAISAGISMO",
+          "periodo": "30/11 até 02/12",
           "data_inicio": "30/11",
-          "data_fim": "03/12",
+          "data_fim": "02/12",
           "data_inicio_iso": "2026-11-30",
-          "data_fim_iso": "2026-12-03",
-          "carga_horaria": 32,
+          "data_fim_iso": "2026-12-02",
+          "carga_horaria": 24,
           "vagas": 10,
           "local": "SINDICATO RURAL DE DOURADOS",
           "status": "CONFIRMADO",
           "municipio_slug": "dourados",
-          "link": "https://senarms.org.br/curso?curso=622",
+          "link": "https://senarms.org.br/curso?curso=703",
           "fonte": "https://senarms.org.br/municipios?municipio=DOURADOS"
         },
         {
@@ -2223,6 +2193,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "dourados",
           "link": "https://senarms.org.br/curso?curso=798",
+          "fonte": "https://senarms.org.br/municipios?municipio=DOURADOS"
+        },
+        {
+          "titulo": "INFORMÁTICA INTERMEDIÁRIA",
+          "periodo": "07/12 até 10/12",
+          "data_inicio": "07/12",
+          "data_fim": "10/12",
+          "data_inicio_iso": "2026-12-07",
+          "data_fim_iso": "2026-12-10",
+          "carga_horaria": 32,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE DOURADOS",
+          "status": "CONFIRMADO",
+          "municipio_slug": "dourados",
+          "link": "https://senarms.org.br/curso?curso=809",
           "fonte": "https://senarms.org.br/municipios?municipio=DOURADOS"
         }
       ]
@@ -3808,6 +3793,21 @@
           "fonte": "https://senarms.org.br/municipios?municipio=PONTA+POR%C3%83"
         },
         {
+          "titulo": "NR 31.13 - TRABALHADOR E VIGIA EM SECADORES, SILOS E ESPAÇOS CONFINADOS",
+          "periodo": "26/11 até 27/11",
+          "data_inicio": "26/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-26",
+          "data_fim_iso": "2026-11-27",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "FAZENDA JOTABASSO",
+          "status": "CONFIRMADO",
+          "municipio_slug": "ponta-pora",
+          "link": "https://senarms.org.br/curso?curso=484",
+          "fonte": "https://senarms.org.br/municipios?municipio=PONTA+POR%C3%83"
+        },
+        {
           "titulo": "NR 31.12 SEGURANÇA NO TRABALHO EM MÁQUINAS, EQUIPAMENTOS E IMPLEMENTOS",
           "periodo": "26/11 até 28/11",
           "data_inicio": "26/11",
@@ -3865,21 +3865,6 @@
           "status": "CONFIRMADO",
           "municipio_slug": "ponta-pora",
           "link": "https://senarms.org.br/curso?curso=504",
-          "fonte": "https://senarms.org.br/municipios?municipio=PONTA+POR%C3%83"
-        },
-        {
-          "titulo": "NR 31.13 - TRABALHADOR E VIGIA EM SECADORES, SILOS E ESPAÇOS CONFINADOS",
-          "periodo": "07/12 até 08/12",
-          "data_inicio": "07/12",
-          "data_fim": "08/12",
-          "data_inicio_iso": "2026-12-07",
-          "data_fim_iso": "2026-12-08",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "FAZENDA JOTABASSO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "ponta-pora",
-          "link": "https://senarms.org.br/curso?curso=484",
           "fonte": "https://senarms.org.br/municipios?municipio=PONTA+POR%C3%83"
         },
         {
@@ -3974,14 +3959,14 @@
       "cursos": [
         {
           "titulo": "PRODUÇÃO DE SALGADOS",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
+          "periodo": "26/11 até 27/11",
+          "data_inicio": "26/11",
+          "data_fim": "27/11",
+          "data_inicio_iso": "2026-11-26",
+          "data_fim_iso": "2026-11-27",
           "carga_horaria": 16,
           "vagas": 10,
-          "local": "FAZENDA DA ESPERANÇA",
+          "local": "SINDICATO RURAL DE RIO BRILHANTE",
           "status": "CONFIRMADO",
           "municipio_slug": "rio-brilhante",
           "link": "https://senarms.org.br/curso?curso=860",
@@ -4876,11 +4861,6 @@
         "link": "http://famasulvantagens.com.br/"
       },
       {
-        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/BANNER%20SITE_15%20EDI%C3%87%C3%83O%20REVISTA%20FAMASUL_0.png",
-        "titulo": "",
-        "link": "https://mla.bs/eb0077c7f6"
-      },
-      {
         "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/Banner%20Site%20Agroci%C3%AAncia%2020262_0.png",
         "titulo": "",
         "link": "https://portal.sistemafamasul.com.br/premioagrociencia"
@@ -4899,11 +4879,6 @@
         "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/gif%20agrodados%20famasul_0.gif",
         "titulo": "",
         "link": "http://extranet.senarms.org.br/agrodados/Account/login"
-      },
-      {
-        "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/SITE%20SENAR%20E%20FAMASUL_0.png",
-        "titulo": "",
-        "link": "https://mla.bs/0831f21e"
       },
       {
         "imagem": "https://portal.sistemafamasul.com.br/sites/default/files/banners/funar-estagio.gif",
