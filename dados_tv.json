@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-25T02:14:42.788956+00:00",
+  "gerado_em": "2026-11-25T12:35:22.029282+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -257,21 +257,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "OPERAÇÃO BÁSICA DE TRATORES AGRÍCOLAS (PNEUS)",
-          "periodo": "25/11 até 27/11",
-          "data_inicio": "25/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "CENTRO DE QUALIFICAÇÃO PROFISSIONALIZANTE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "anastacio",
-          "link": "https://senarms.org.br/curso?curso=289",
-          "fonte": "https://senarms.org.br/municipios?municipio=ANAST%C3%81CIO"
-        },
-        {
           "titulo": "OPERAÇÃO E MANUTENÇÃO DE ROÇADEIRA",
           "periodo": "26/11 até 27/11",
           "data_inicio": "26/11",
@@ -374,6 +359,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "anastacio",
           "link": "https://senarms.org.br/curso?curso=720",
+          "fonte": "https://senarms.org.br/municipios?municipio=ANAST%C3%81CIO"
+        },
+        {
+          "titulo": "APLICAÇÃO DE VACINAS E MEDICAMENTOS EM BOVINOS",
+          "periodo": "03/12 até 04/12",
+          "data_inicio": "03/12",
+          "data_fim": "04/12",
+          "data_inicio_iso": "2026-12-03",
+          "data_fim_iso": "2026-12-04",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE ANASTÁCIO",
+          "status": "CONFIRMADO",
+          "municipio_slug": "anastacio",
+          "link": "https://senarms.org.br/curso?curso=758",
           "fonte": "https://senarms.org.br/municipios?municipio=ANAST%C3%81CIO"
         }
       ]
@@ -757,21 +757,6 @@
       "regiao_boi": "Região Oeste",
       "cursos": [
         {
-          "titulo": "OPERAÇÃO E MANUTENÇÃO DE MOTOSSERRA",
-          "periodo": "25/11 até 27/11",
-          "data_inicio": "25/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE AQUIDAUANA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "aquidauana",
-          "link": "https://senarms.org.br/curso?curso=570",
-          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
-        },
-        {
           "titulo": "CORTE E COSTURA - MODELAGEM E CONFECÇÃO DE PEÇAS",
           "periodo": "30/11 até 11/12",
           "data_inicio": "30/11",
@@ -874,6 +859,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "aquidauana",
           "link": "https://senarms.org.br/curso?curso=798",
+          "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
+        },
+        {
+          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
+          "periodo": "10/12 até 11/12",
+          "data_inicio": "10/12",
+          "data_fim": "11/12",
+          "data_inicio_iso": "2026-12-10",
+          "data_fim_iso": "2026-12-11",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE AQUIDAUANA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "aquidauana",
+          "link": "https://senarms.org.br/curso?curso=503",
           "fonte": "https://senarms.org.br/municipios?municipio=AQUIDAUANA"
         }
       ]
@@ -1171,21 +1171,6 @@
       "regiao_boi": "Região Oeste",
       "cursos": [
         {
-          "titulo": "PRODUÇÃO DE SALGADOS",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE BONITO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "bonito",
-          "link": "https://senarms.org.br/curso?curso=860",
-          "fonte": "https://senarms.org.br/municipios?municipio=BONITO"
-        },
-        {
           "titulo": "CONSERVA DE HORTALIÇAS",
           "periodo": "02/12 até 03/12",
           "data_inicio": "02/12",
@@ -1275,21 +1260,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "FORMAÇÃO DE LÍDERES",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CAMAPUA - SEDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "camapua",
-          "link": "https://senarms.org.br/curso?curso=807",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMAPU%C3%83"
-        },
-        {
           "titulo": "CULTIVO DA BANANA",
           "periodo": "26/11 até 27/11",
           "data_inicio": "26/11",
@@ -1359,36 +1329,6 @@
       "regiao_soja": "Região Centro",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE CAMPO GRANDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "campo-grande",
-          "link": "https://senarms.org.br/curso?curso=503",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
-        },
-        {
-          "titulo": "PROCESSAMENTO DO MILHO",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SRCG",
-          "status": "CONFIRMADO",
-          "municipio_slug": "campo-grande",
-          "link": "https://senarms.org.br/curso?curso=870",
-          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
-        },
         {
           "titulo": "INFORMÁTICA INTERMEDIÁRIA",
           "periodo": "01/12 até 04/12",
@@ -1477,6 +1417,36 @@
           "status": "CONFIRMADO",
           "municipio_slug": "campo-grande",
           "link": "https://senarms.org.br/curso?curso=572",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
+        },
+        {
+          "titulo": "OPERAÇÃO E MANUTENÇÃO DE MOTOSSERRA",
+          "periodo": "09/12 até 11/12",
+          "data_inicio": "09/12",
+          "data_fim": "11/12",
+          "data_inicio_iso": "2026-12-09",
+          "data_fim_iso": "2026-12-11",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE CAMPO GRANDE",
+          "status": "CONFIRMADO",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/curso?curso=570",
+          "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
+        },
+        {
+          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
+          "periodo": "10/12 até 11/12",
+          "data_inicio": "10/12",
+          "data_fim": "11/12",
+          "data_inicio_iso": "2026-12-10",
+          "data_fim_iso": "2026-12-11",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SRCG",
+          "status": "CONFIRMADO",
+          "municipio_slug": "campo-grande",
+          "link": "https://senarms.org.br/curso?curso=503",
           "fonte": "https://senarms.org.br/municipios?municipio=CAMPO+GRANDE"
         }
       ]
@@ -1657,51 +1627,6 @@
       "regiao_boi": "Região Oeste",
       "cursos": [
         {
-          "titulo": "PASSOS PARA O PRIMEIRO EMPREGO",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "ASSISTÊNCIA SOCIAL (CRAS ALBUQUERQUE)",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=732",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
-        {
-          "titulo": "CONFEITARIA BOLOS DECORADOS",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "CENTRO COMUNITÁRIO PADRE ERNESTO SASSIDA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=859",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
-        {
-          "titulo": "PRODUÇÃO DE SALGADOS",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SECRETARIA DE ASSISTÊNCIA SOCIAL DE CORUMBÁ",
-          "status": "CONFIRMADO",
-          "municipio_slug": "corumba",
-          "link": "https://senarms.org.br/curso?curso=860",
-          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
-        },
-        {
           "titulo": "ARTESANATO MACRAMÊ",
           "periodo": "30/11 até 03/12",
           "data_inicio": "30/11",
@@ -1774,6 +1699,51 @@
           "status": "CONFIRMADO",
           "municipio_slug": "corumba",
           "link": "https://senarms.org.br/curso?curso=859",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
+          "titulo": "PRIMEIROS SOCORROS",
+          "periodo": "03/12 até 04/12",
+          "data_inicio": "03/12",
+          "data_fim": "04/12",
+          "data_inicio_iso": "2026-12-03",
+          "data_fim_iso": "2026-12-04",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE CORUMBÁ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=800",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
+          "titulo": "PREVENÇÃO E COMBATE A INCÊNDIOS NAS ÁREAS RURAIS",
+          "periodo": "03/12 até 04/12",
+          "data_inicio": "03/12",
+          "data_fim": "04/12",
+          "data_inicio_iso": "2026-12-03",
+          "data_fim_iso": "2026-12-04",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE CORUMBÁ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=706",
+          "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
+        },
+        {
+          "titulo": "OPERAÇÃO BÁSICA DE TRATORES AGRÍCOLAS (PNEUS)",
+          "periodo": "03/12 até 05/12",
+          "data_inicio": "03/12",
+          "data_fim": "05/12",
+          "data_inicio_iso": "2026-12-03",
+          "data_fim_iso": "2026-12-05",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE CORUMBÁ",
+          "status": "CONFIRMADO",
+          "municipio_slug": "corumba",
+          "link": "https://senarms.org.br/curso?curso=289",
           "fonte": "https://senarms.org.br/municipios?municipio=CORUMB%C3%81"
         }
       ]
@@ -2578,21 +2548,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "NR 31.12 SEGURANÇA NO TRABALHO EM MÁQUINAS, EQUIPAMENTOS E IMPLEMENTOS",
-          "periodo": "25/11 até 27/11",
-          "data_inicio": "25/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "FAZENDA SAO LUIZ",
-          "status": "CONFIRMADO",
-          "municipio_slug": "ivinhema",
-          "link": "https://senarms.org.br/curso?curso=626",
-          "fonte": "https://senarms.org.br/municipios?municipio=IVINHEMA"
-        },
-        {
           "titulo": "EXCEL BÁSICO",
           "periodo": "07/12 até 09/12",
           "data_inicio": "07/12",
@@ -2850,21 +2805,6 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "NR 31.13 - TRABALHADOR E VIGIA EM SECADORES, SILOS E ESPAÇOS CONFINADOS",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE MARACAJU",
-          "status": "CONFIRMADO",
-          "municipio_slug": "maracaju",
-          "link": "https://senarms.org.br/curso?curso=484",
-          "fonte": "https://senarms.org.br/municipios?municipio=MARACAJU"
-        },
-        {
           "titulo": "FUNDAMENTOS DA UTILIZAÇÃO DE DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - MÓDULO II",
           "periodo": "30/11 até 01/12",
           "data_inicio": "30/11",
@@ -2949,21 +2889,6 @@
       "regiao_soja": "Região Oeste",
       "regiao_boi": "Região Oeste",
       "cursos": [
-        {
-          "titulo": "OPERADOR DE TRATORES COM GRADES AGRÍCOLAS",
-          "periodo": "25/11 até 27/11",
-          "data_inicio": "25/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "FAZENDA ESTÂNCIA ESMERALDA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "miranda",
-          "link": "https://senarms.org.br/curso?curso=616",
-          "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
-        },
         {
           "titulo": "PREVENÇÃO E COMBATE A INCÊNDIOS NAS ÁREAS RURAIS",
           "periodo": "26/11 até 27/11",
@@ -3067,6 +2992,21 @@
           "status": "CONFIRMADO",
           "municipio_slug": "miranda",
           "link": "https://senarms.org.br/curso?curso=485",
+          "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
+        },
+        {
+          "titulo": "EQUIDEOCULTURA - ADESTRAMENTO (RÉDEAS)",
+          "periodo": "14/12 até 18/12",
+          "data_inicio": "14/12",
+          "data_fim": "18/12",
+          "data_inicio_iso": "2026-12-14",
+          "data_fim_iso": "2026-12-18",
+          "carga_horaria": 40,
+          "vagas": 10,
+          "local": "SINDICATO RURAL DE MIRANDA E BODOQUENA",
+          "status": "CONFIRMADO",
+          "municipio_slug": "miranda",
+          "link": "https://senarms.org.br/curso?curso=690",
           "fonte": "https://senarms.org.br/municipios?municipio=MIRANDA"
         }
       ]
@@ -3733,21 +3673,6 @@
       "regiao_boi": "Região Sul",
       "cursos": [
         {
-          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "SINDICATO RURAL DE PONTA PORÃ",
-          "status": "CONFIRMADO",
-          "municipio_slug": "ponta-pora",
-          "link": "https://senarms.org.br/curso?curso=503",
-          "fonte": "https://senarms.org.br/municipios?municipio=PONTA+POR%C3%83"
-        },
-        {
           "titulo": "EXCEL INTERMEDIÁRIO",
           "periodo": "26/11 até 28/11",
           "data_inicio": "26/11",
@@ -3851,6 +3776,21 @@
           "municipio_slug": "ponta-pora",
           "link": "https://senarms.org.br/curso?curso=253",
           "fonte": "https://senarms.org.br/municipios?municipio=PONTA+POR%C3%83"
+        },
+        {
+          "titulo": "DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - PROCESSAMENTO DE IMAGEM E DADOS - MÓDULO III",
+          "periodo": "14/12 até 15/12",
+          "data_inicio": "14/12",
+          "data_fim": "15/12",
+          "data_inicio_iso": "2026-12-14",
+          "data_fim_iso": "2026-12-15",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "ponta-pora",
+          "link": "https://senarms.org.br/curso?curso=803",
+          "fonte": "https://senarms.org.br/municipios?municipio=PONTA+POR%C3%83"
         }
       ]
     },
@@ -3862,21 +3802,6 @@
       "regiao_soja": "Região Oeste",
       "regiao_boi": "Região Oeste",
       "cursos": [
-        {
-          "titulo": "OPERAÇÃO E MANUTENÇÃO DE MOTOSSERRA",
-          "periodo": "25/11 até 27/11",
-          "data_inicio": "25/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "SRPM",
-          "status": "CONFIRMADO",
-          "municipio_slug": "porto-murtinho",
-          "link": "https://senarms.org.br/curso?curso=570",
-          "fonte": "https://senarms.org.br/municipios?municipio=PORTO+MURTINHO"
-        },
         {
           "titulo": "CONFEITARIA BOLOS DECORADOS",
           "periodo": "03/12 até 04/12",
@@ -4381,21 +4306,6 @@
       "regiao_soja": "Região Centro",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "OPERAÇÃO DE AERONAVE REMOTAMENTE PILOTADA (DRONE) - MÓDULO I",
-          "periodo": "25/11 até 26/11",
-          "data_inicio": "25/11",
-          "data_fim": "26/11",
-          "data_inicio_iso": "2026-11-25",
-          "data_fim_iso": "2026-11-26",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "OMPE MATOSUL AGRO",
-          "status": "CONFIRMADO",
-          "municipio_slug": "sidrolandia",
-          "link": "https://senarms.org.br/curso?curso=503",
-          "fonte": "https://senarms.org.br/municipios?municipio=SIDROL%C3%82NDIA"
-        },
         {
           "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
           "periodo": "26/11 até 27/11",
