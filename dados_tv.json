@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-26T23:42:31.530253+00:00",
+  "gerado_em": "2026-11-27T08:05:14.087507+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -1006,21 +1006,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "NOÇÕES DE PRIMEIROS SOCORROS",
-          "periodo": "27/11 até 27/11",
-          "data_inicio": "27/11",
-          "data_fim": "27/11",
-          "data_inicio_iso": "2026-11-27",
-          "data_fim_iso": "2026-11-27",
-          "carga_horaria": 8,
-          "vagas": 10,
-          "local": "ESQUADRÃO DA VIDA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "bataypora",
-          "link": "https://senarms.org.br/curso?curso=805",
-          "fonte": "https://senarms.org.br/municipios?municipio=BATAYPOR%C3%83"
-        },
         {
           "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
           "periodo": "01/12 até 02/12",
@@ -3041,21 +3026,6 @@
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
         {
-          "titulo": "EQUIDEOCULTURA - PRÁTICAS DE RANCH SORTING",
-          "periodo": "27/11 até 29/11",
-          "data_inicio": "27/11",
-          "data_fim": "29/11",
-          "data_inicio_iso": "2026-11-27",
-          "data_fim_iso": "2026-11-29",
-          "carga_horaria": 24,
-          "vagas": 10,
-          "local": "FAZENDA NOVA",
-          "status": "CONFIRMADO",
-          "municipio_slug": "nioaque",
-          "link": "https://senarms.org.br/curso?curso=779",
-          "fonte": "https://senarms.org.br/municipios?municipio=NIOAQUE"
-        },
-        {
           "titulo": "PRODUÇÃO DE ALIMENTOS SAUDÁVEIS",
           "periodo": "02/12 até 03/12",
           "data_inicio": "02/12",
@@ -4107,21 +4077,6 @@
       "regiao_soja": "Mato Grosso do Sul",
       "regiao_boi": "Mato Grosso do Sul",
       "cursos": [
-        {
-          "titulo": "PROCESSAMENTO DA CARNE DE PEIXE",
-          "periodo": "27/11 até 28/11",
-          "data_inicio": "27/11",
-          "data_fim": "28/11",
-          "data_inicio_iso": "2026-11-27",
-          "data_fim_iso": "2026-11-28",
-          "carga_horaria": 16,
-          "vagas": 10,
-          "local": "ASSENTAMENTO SAO JOAQUIM",
-          "status": "CONFIRMADO",
-          "municipio_slug": "selviria",
-          "link": "https://senarms.org.br/curso?curso=720",
-          "fonte": "https://senarms.org.br/municipios?municipio=SELV%C3%8DRIA"
-        },
         {
           "titulo": "TÉCNICAS DE RECUPERAÇÃO E RENOVAÇÃO DE PASTAGEM - MÓDULO 2",
           "periodo": "30/11 até 01/12",
