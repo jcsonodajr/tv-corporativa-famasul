@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "gerado_em": "2026-11-28T01:24:42.870781+00:00",
+  "gerado_em": "2026-11-28T10:10:14.133786+00:00",
   "fontes": {
     "famasul": "https://portal.sistemafamasul.com.br/",
     "noticias": "https://portal.sistemafamasul.com.br/noticias",
@@ -1683,36 +1683,6 @@
       "regiao_boi": "Região Norte",
       "cursos": [
         {
-          "titulo": "PROGRAMA SAÚDE DO HOMEM",
-          "periodo": "28/11 até 28/11",
-          "data_inicio": "28/11",
-          "data_fim": "28/11",
-          "data_inicio_iso": "2026-11-28",
-          "data_fim_iso": "2026-11-28",
-          "carga_horaria": 8,
-          "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "costa-rica",
-          "link": "https://senarms.org.br/curso?curso=441",
-          "fonte": "https://senarms.org.br/municipios?municipio=COSTA+RICA"
-        },
-        {
-          "titulo": "PROGRAMA SAÚDE DA MULHER",
-          "periodo": "28/11 até 28/11",
-          "data_inicio": "28/11",
-          "data_fim": "28/11",
-          "data_inicio_iso": "2026-11-28",
-          "data_fim_iso": "2026-11-28",
-          "carga_horaria": 8,
-          "vagas": 100,
-          "local": "EVENTOS DE SAÚDE",
-          "status": "CONFIRMADO",
-          "municipio_slug": "costa-rica",
-          "link": "https://senarms.org.br/curso?curso=442",
-          "fonte": "https://senarms.org.br/municipios?municipio=COSTA+RICA"
-        },
-        {
           "titulo": "DRONES COMO TECNOLOGIA DE PRECISÃO NO AGRONEGÓCIO - PROCESSAMENTO DE IMAGEM E DADOS - MÓDULO III",
           "periodo": "30/11 até 01/12",
           "data_inicio": "30/11",
@@ -1800,6 +1770,36 @@
           "status": "CONFIRMADO",
           "municipio_slug": "costa-rica",
           "link": "https://senarms.org.br/curso?curso=434",
+          "fonte": "https://senarms.org.br/municipios?municipio=COSTA+RICA"
+        },
+        {
+          "titulo": "OPERAÇÃO E MANUTENÇÃO DE MOTOSSERRA",
+          "periodo": "16/12 até 18/12",
+          "data_inicio": "16/12",
+          "data_fim": "18/12",
+          "data_inicio_iso": "2026-12-16",
+          "data_fim_iso": "2026-12-18",
+          "carga_horaria": 24,
+          "vagas": 10,
+          "local": "FAZ SÃO PAULO",
+          "status": "CONFIRMADO",
+          "municipio_slug": "costa-rica",
+          "link": "https://senarms.org.br/curso?curso=570",
+          "fonte": "https://senarms.org.br/municipios?municipio=COSTA+RICA"
+        },
+        {
+          "titulo": "ORATÓRIA - COMUNICAÇÃO ASSERTIVA",
+          "periodo": "17/12 até 18/12",
+          "data_inicio": "17/12",
+          "data_fim": "18/12",
+          "data_inicio_iso": "2026-12-17",
+          "data_fim_iso": "2026-12-18",
+          "carga_horaria": 16,
+          "vagas": 10,
+          "local": "SINDICATO RURAL",
+          "status": "CONFIRMADO",
+          "municipio_slug": "costa-rica",
+          "link": "https://senarms.org.br/curso?curso=731",
           "fonte": "https://senarms.org.br/municipios?municipio=COSTA+RICA"
         }
       ]
